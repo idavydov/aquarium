@@ -2,14 +2,14 @@
 # -*- coding: utf-8 -*-
 import os
 import sys
-from BeautifulSoup import BeautifulSoup, UnicodeDammit
+from BeautifulSoup import BeautifulSoup, UnicodeDammit, Tag
 
 surl = 'http://separationend.narod.ru/'
 baseurl = 'http://separationend.narod.ru/chords/html/'
 basepath = 'separationend/chords/html/'
 
 def correct_name(n):
-    return n.replace(' ', '_').replace('/', '_').replace('?', '').replace(u'№', 'N').encode('utf-8')
+    return n.replace(' ', '_').replace('/', '_').replace('?', '').replace(u'№', 'N').replace('`', "'").replace('"', "'").encode('utf-8')
 
 def fix_brackets(n):
     if '(' not in n:
@@ -20,19 +20,30 @@ def fix_brackets(n):
 def save_html(fn, name):
     try:
         with open(fn) as f:
-            content = f.read()
+            content = filter(lambda s: 'www.ucoz.ru' not in s, f.readlines())
+            content = ''.join(content)
+            content = content.replace('<body>', '<body><pre>')
+            content = content.replace('</body>', '</pre></body>')
     except:
         print >> sys.stderr, 'Error reading file: %s, %s' % (fn, name)
         return
 
-    dammit = UnicodeDammit(content, ["cp1251", "utf-8"])
+    dammit = UnicodeDammit(content, ["utf-8", "cp1251", "ISO-8859-1"])
 
     soup = BeautifulSoup(dammit.unicode, convertEntities=BeautifulSoup.ALL_ENTITIES)
+    title = soup.find('title')
+    title.string = name
+
+    head = soup.find('head')
+    meta = Tag(soup, "meta")
+    meta['http-equiv'] = "Content-type"
+    meta['content'] = "text/html; charset=utf-8"
+    head.insert(0, meta)
 
     ## remove ucoz
-    for div in soup.findAll('div', align=True):
-        if 'www.ucoz.ru' in str(div):
-            div.extract()
+    #for div in soup.findAll('div', align=True):
+    #    if 'www.ucoz.ru' in str(div):
+    #        div.extract()
 
     for a in soup.findAll('a', href=True):
         if a['href'] == surl:
@@ -50,14 +61,12 @@ def save_html(fn, name):
     else:
         for span in firstp.findAll('span', style=True):
             if 'color:red' in span['style']:
-                span['style'] = span['style'].replace('color:red', '')
-            elif 'color:blue' in span['style']:
-                span['style'] = span['style'].replace('color:blue', '')
+                span['style'] = span['style'].replace('color:red;', '').replace('color:blue;', '')
 
 
     outname = 'песни/' + correct_name(name)
     with open(outname, 'w') as f:
-        f.write(soup.prettify('utf-8'))
+        f.write(str(soup))
     return outname
 
 
