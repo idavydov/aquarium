@@ -1,6 +1,6 @@
 #!/bin/bash
 n=$(ls songs/*.htm | wc -l)
-n=$(expr $n / 2)
+n=$(expr $n + 1 / 2)
 i=0
 for fn in songs/*.htm
 do
