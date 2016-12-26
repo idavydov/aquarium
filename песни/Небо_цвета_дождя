@@ -1,14 +1,12 @@
 <html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40">
- <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="ProgId" content="Word.Document" />
-  <meta name="Generator" content="Microsoft Word 11" />
-  <meta name="Originator" content="Microsoft Word 11" />
-  <link rel="File-List" href="07.files/filelist.xml" />
-  <title>
-   НЕБО ЦВЕТА ДОЖДЯ
-  </title>
-  <!--[if gte mso 9]&gt;&lt;xml&gt;
+<head><meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="ProgId" content="Word.Document" />
+<meta name="Generator" content="Microsoft Word 11" />
+<meta name="Originator" content="Microsoft Word 11" />
+<link rel="File-List" href="07.files/filelist.xml" />
+<title>Небо цвета дождя</title>
+<!--[if gte mso 9]&gt;&lt;xml&gt;
  &lt;o:DocumentProperties&gt;
   &lt;o:Author&gt;ПАША&lt;/o:Author&gt;
   &lt;o:Template&gt;Normal&lt;/o:Template&gt;
@@ -26,8 +24,7 @@
   &lt;o:CharactersWithSpaces&gt;4054&lt;/o:CharactersWithSpaces&gt;
   &lt;o:Version&gt;11.9999&lt;/o:Version&gt;
  &lt;/o:DocumentProperties&gt;
-&lt;/xml&gt;&lt;![endif]-->
-  <!--[if gte mso 9]&gt;&lt;xml&gt;
+&lt;/xml&gt;&lt;![endif]--><!--[if gte mso 9]&gt;&lt;xml&gt;
  &lt;w:WordDocument&gt;
   &lt;w:PunctuationKerning /&gt;
   &lt;w:DrawingGridHorizontalSpacing&gt;6 пт&lt;/w:DrawingGridHorizontalSpacing&gt;
@@ -47,13 +44,12 @@
   &lt;/w:Compatibility&gt;
   &lt;w:BrowserLevel&gt;MicrosoftInternetExplorer4&lt;/w:BrowserLevel&gt;
  &lt;/w:WordDocument&gt;
-&lt;/xml&gt;&lt;![endif]-->
-  <!--[if gte mso 9]&gt;&lt;xml&gt;
+&lt;/xml&gt;&lt;![endif]--><!--[if gte mso 9]&gt;&lt;xml&gt;
  &lt;w:LatentStyles DefLockedState="false" LatentStyleCount="156"&gt;
  &lt;/w:LatentStyles&gt;
 &lt;/xml&gt;&lt;![endif]-->
-  <style>
-   <!--
+<style>
+<!--
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{mso-style-parent:"";
@@ -72,8 +68,8 @@
 div.Section1
 	{page:Section1;}
 -->
-  </style>
-  <!--[if gte mso 10]&gt;
+</style>
+<!--[if gte mso 10]&gt;
 &lt;style&gt;
  /* Style Definitions */
  table.MsoNormalTable
@@ -110,2787 +106,462 @@ table.MsoTableGrid
 	mso-bidi-language:#0400;}
 &lt;/style&gt;
 &lt;![endif]-->
- </head>
- <body lang="RU" style="tab-interval:35.4pt">
-  <div class="Section1">
-   <p class="MsoNormal">
-    <span style='font-size:10.0pt;font-family:"Courier New";
-color:red;text-transform:uppercase'>
-     небо цвета дождя
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal">
-    <i style="mso-bidi-font-style:normal">
-     <span style='font-size:10.0pt;font-family:"Courier New"'>
-      Б. Гребенщиков
-      <o:p>
-      </o:p>
-     </span>
-    </i>
-   </p>
-   <p class="MsoNormal">
-    <span style='font-size:10.0pt;font-family:"Courier New"'>
-     <o:p>
-       
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal">
-    <i style="mso-bidi-font-style:normal">
-     <span style='font-size:10.0pt;font-family:"Courier New"'>
-      Каподастр на 3-м ладу
-      <o:p>
-      </o:p>
-     </span>
-    </i>
-   </p>
-   <p class="MsoNormal">
-    <span style='font-size:10.0pt;font-family:"Courier New"'>
-     <o:p>
-       
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     Вступление:
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
-mso-ansi-language:EN-US'>
-     Dm
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;
-font-family:"Courier New";color:black'>
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;mso-ansi-language:
-EN-US'>
-     Dsus
-    </span>
-    <span style='font-size:10.0pt;font-family:"Courier New";
-color:black'>
-     2
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;font-family:
-"Courier New";color:black;mso-ansi-language:EN-US'>
-     Dsus
-    </span>
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     4 - 4
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
-mso-ansi-language:EN-US'>
-     p
-    </span>
-    <span style='font-size:10.0pt;font-family:
-"Courier New";color:black'>
-     .
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;
-font-family:"Courier New";color:black;mso-ansi-language:EN-US'>
-     Dsus
-    </span>
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     2
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
-mso-ansi-language:EN-US'>
-     Dm
-    </span>
-    <span style='font-size:10.0pt;font-family:
-"Courier New";color:black'>
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     <span style="mso-spacerun:yes">
-       
-     </span>
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
-mso-ansi-language:EN-US'>
-     Dsus
-    </span>
-    <span style='font-size:10.0pt;font-family:
-"Courier New";color:black'>
-     2
-     <span style="mso-spacerun:yes">
-                    
-     </span>
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";
-color:black;mso-ansi-language:EN-US'>
-     Dm
-    </span>
-    <span style='font-size:10.0pt;
-font-family:"Courier New";color:black'>
-     <span style="mso-spacerun:yes">
-                 
-     </span>
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;mso-ansi-language:
-EN-US'>
-     A
-    </span>
-    <span style='font-size:10.0pt;font-family:"Courier New";
-color:black'>
-     7
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";
-color:black;mso-ansi-language:EN-US'>
-     sus
-    </span>
-    <span style='font-size:10.0pt;
-font-family:"Courier New";color:black'>
-     4
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     Долго мы пели
-про Свет, а сами шли сумраком
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
-mso-ansi-language:EN-US'>
-     B
-    </span>
-    <span style='font-size:10.0pt;font-family:
-"Courier New";color:black'>
-     /5-
-     <span style="mso-spacerun:yes">
-                         
-     </span>
-     Dsus2 Dm
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     <span style="mso-spacerun:yes">
-         
-     </span>
-     Не замечая за болтовней
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     <span style="mso-spacerun:yes">
-          
-     </span>
-     Dsus2
-     <span style="mso-spacerun:yes">
-            
-     </span>
-     <span style="mso-spacerun:yes">
-         
-     </span>
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;mso-ansi-language:
-EN-US'>
-     Dm
-    </span>
-    <span style='font-size:10.0pt;font-family:"Courier New";
-color:black'>
-     <span style="mso-spacerun:yes">
-              
-     </span>
-     A7
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
-mso-ansi-language:EN-US'>
-     sus
-    </span>
-    <span style='font-size:10.0pt;font-family:
-"Courier New";color:black'>
-     4
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     Как ветер играл
-стеклянными струнами
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
-mso-ansi-language:EN-US'>
-     B
-    </span>
-    <span style='font-size:10.0pt;font-family:
-"Courier New";color:black'>
-     /5-
-     <span style="mso-spacerun:yes">
-              
-     </span>
-     B/5-/
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";
-color:black;mso-ansi-language:EN-US'>
-     g
-    </span>
-    <span style='font-size:10.0pt;
-font-family:"Courier New";color:black'>
-     <span style="mso-spacerun:yes">
-                
-     </span>
-     Dsus2 Dm
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     <span style="mso-spacerun:yes">
-        
-     </span>
-     Соединяющими наши души с землёй
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     <span style="mso-spacerun:yes">
-          
-     </span>
-     C
-     <span style="mso-spacerun:yes">
-                              
-     </span>
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
-mso-ansi-language:EN-US'>
-     B
-    </span>
-    <span style='font-size:10.0pt;font-family:
-"Courier New";color:black'>
-     /5-
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     Мы шли далеко,
-шли за высокими тайнами
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     <span style="mso-spacerun:yes">
-                                
-     </span>
-     A7
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     Шли, потому что
-иначе нельзя
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     Dsus2
-     <span style="mso-spacerun:yes">
-              
-     </span>
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;mso-ansi-language:
-EN-US'>
-     Dm
-    </span>
-    <span style='font-size:10.0pt;font-family:"Courier New";
-color:black'>
-     <span style="mso-spacerun:yes">
-             
-     </span>
-     Dsus2/5-
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     <span style="mso-spacerun:yes">
-       
-     </span>
-     А стерегущие дом замолкали и таяли
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     <span style="mso-spacerun:yes">
-       
-     </span>
-     4:0
-     <span style="mso-spacerun:yes">
-          
-     </span>
-     5:
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";
-color:black;mso-ansi-language:EN-US'>
-     III
-    </span>
-    <span style='font-size:10.0pt;
-font-family:"Courier New";color:black'>
-     5:
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;mso-ansi-language:
-EN-US'>
-     I
-    </span>
-    <span style='font-size:10.0pt;font-family:"Courier New";
-color:black'>
-     <span style="mso-spacerun:yes">
-         
-     </span>
-     5:0
-     <span style="mso-spacerun:yes">
-         
-     </span>
-     6:
-    </span>
-    <span lang="EN-US" style='font-size:
-10.0pt;font-family:"Courier New";color:black;mso-ansi-language:EN-US'>
-     III
-    </span>
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     6:
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
-mso-ansi-language:EN-US'>
-     I
-    </span>
-    <span style='font-size:10.0pt;font-family:
-"Courier New";color:black'>
-     <span style="mso-spacerun:yes">
-          
-     </span>
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     Один за другим
-таяли, таяли, таяли
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     <span style="mso-spacerun:yes">
-        
-     </span>
-    </span>
-    <span lang="EN-US" style='font-size:
-10.0pt;font-family:"Courier New";color:black;mso-ansi-language:EN-US'>
-     A
-    </span>
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     7
-     <span style="mso-spacerun:yes">
-                 
-     </span>
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;mso-ansi-language:
-EN-US'>
-     Dsus
-    </span>
-    <span style='font-size:10.0pt;font-family:"Courier New";
-color:black'>
-     2
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;font-family:
-"Courier New";color:black;mso-ansi-language:EN-US'>
-     Dm
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black'>
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
-mso-ansi-language:EN-US'>
-     Dsus
-    </span>
-    <span style='font-size:10.0pt;font-family:
-"Courier New";color:black'>
-     2
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;
-font-family:"Courier New";color:black;mso-ansi-language:EN-US'>
-     Dm
-    </span>
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     В небе цвета
-дождя
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     <o:p>
-       
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     Dsus2
-     <span style="mso-spacerun:yes">
-                 
-     </span>
-     <span style="mso-spacerun:yes">
-            
-     </span>
-    </span>
-    <span lang="EN-US" style='font-size:
-10.0pt;font-family:"Courier New";color:black;mso-ansi-language:EN-US'>
-     Dm
-    </span>
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     <span style="mso-spacerun:yes">
-                
-     </span>
-     <span style="mso-spacerun:yes">
-          
-     </span>
-     Dsus2/5-
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     <span style="mso-spacerun:yes">
-       
-     </span>
-     Пальцы октябрьских святых по-прежнему ласковы
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     B/5-
-     <span style="mso-spacerun:yes">
-                  
-     </span>
-     B/5-/
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;mso-ansi-language:
-EN-US'>
-     g
-    </span>
-    <span style='font-size:10.0pt;font-family:"Courier New";
-color:black'>
-     <span style="mso-spacerun:yes">
-                  
-     </span>
-     Dsus2 Dm
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     <span style="mso-spacerun:yes">
-       
-     </span>
-     Только их лиц становится не разглядеть
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     Dsus2
-     <span style="mso-spacerun:yes">
-             
-     </span>
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;mso-ansi-language:
-EN-US'>
-     Dm
-    </span>
-    <span style='font-size:10.0pt;font-family:"Courier New";
-color:black'>
-     <span style="mso-spacerun:yes">
-                         
-     </span>
-     Dsus2/5-
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     Это всё я -
-видно не справился с красками
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     <span style="mso-spacerun:yes">
-          
-     </span>
-     B/5-
-     <span style="mso-spacerun:yes">
-            
-     </span>
-     B/5-/
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";
-color:black;mso-ansi-language:EN-US'>
-     g
-    </span>
-    <span style='font-size:10.0pt;
-font-family:"Courier New";color:black'>
-     <span style="mso-spacerun:yes">
-       
-     </span>
-     <span style="mso-spacerun:yes">
-                 
-     </span>
-     A7
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     Или снова забыл
-слова, когда хотел петь
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     <span style="mso-spacerun:yes">
-       
-     </span>
-     <span style="mso-spacerun:yes">
-        
-     </span>
-     <span style="mso-spacerun:yes">
-       
-     </span>
-     C
-     <span style="mso-spacerun:yes">
-                                  
-     </span>
-     B/5-
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     Ничего, скоро
-январь затрещит за оградою
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     <span style="mso-spacerun:yes">
-                                        
-     </span>
-     A7
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     Своим ледяным
-питиём вороша и дразня
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     Dsus2
-     <span style="mso-spacerun:yes">
-               
-     </span>
-     <span style="mso-spacerun:yes">
-        
-     </span>
-    </span>
-    <span lang="EN-US" style='font-size:
-10.0pt;font-family:"Courier New";color:black;mso-ansi-language:EN-US'>
-     Dm
-    </span>
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     <span style="mso-spacerun:yes">
-              
-     </span>
-     Dsus2/5-
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     Только бы мне
-устоять. Но я вижу - я падаю
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     <span style="mso-spacerun:yes">
-       
-     </span>
-     4:0
-     <span style="mso-spacerun:yes">
-        
-     </span>
-     5:
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
-mso-ansi-language:EN-US'>
-     III
-    </span>
-    <span style='font-size:10.0pt;font-family:
-"Courier New";color:black'>
-     <span style="mso-spacerun:yes">
-       
-     </span>
-     5:
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
-mso-ansi-language:EN-US'>
-     I
-    </span>
-    <span style='font-size:10.0pt;font-family:
-"Courier New";color:black'>
-     <span style="mso-spacerun:yes">
-         
-     </span>
-     5:0
-     <span style="mso-spacerun:yes">
-         
-     </span>
-     6:
-    </span>
-    <span lang="EN-US" style='font-size:
-10.0pt;font-family:"Courier New";color:black;mso-ansi-language:EN-US'>
-     III
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black'>
-    </span>
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     6:
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
-mso-ansi-language:EN-US'>
-     I
-    </span>
-    <span style='font-size:10.0pt;font-family:
-"Courier New";color:black'>
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     Падаю, падаю,
-падаю, падаю в небо
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
-mso-ansi-language:EN-US'>
-     A7
-     <span style="mso-spacerun:yes">
-               
-     </span>
-     Dsus2 Dm Dsus2 Dm
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
-mso-ansi-language:EN-US'>
-     <span style="mso-spacerun:yes">
-       
-     </span>
-    </span>
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     Цвета
-    </span>
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black;mso-ansi-language:
-EN-US'>
-    </span>
-    <span style='font-size:10.0pt;font-family:"Courier New";
-color:black'>
-     дождя
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;font-family:
-"Courier New";color:black;mso-ansi-language:EN-US'>
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
-mso-ansi-language:EN-US'>
-     <o:p>
-       
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     C
-     <span style="mso-spacerun:yes">
-                                    
-     </span>
-     B/5-
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     <span style="mso-spacerun:yes">
-       
-     </span>
-     А ещё говорят, что они были с крыльями
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     B/5-
-     <span style="mso-spacerun:yes">
-                             
-     </span>
-     <span style="mso-spacerun:yes">
-        
-     </span>
-     Dsus2 Dm
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     <span style="mso-spacerun:yes">
-       
-     </span>
-     И глаза у них были живая вода
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     <span style="mso-spacerun:yes">
-          
-     </span>
-     C
-     <span style="mso-spacerun:yes">
-                              
-     </span>
-     B/5-
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     Но благостные
-слова опять пахнут пылью
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     <span style="mso-spacerun:yes">
-            
-     </span>
-     B/5-
-     <span style="mso-spacerun:yes">
-                               
-     </span>
-     <span style="mso-spacerun:yes">
-       
-     </span>
-     A7
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     И нас снова
-ведут и снова не скажут куда
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     <o:p>
-       
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     Проигрыш: Dsus2
-Dm Dsus2/5- B/5- B/5-/
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;
-font-family:"Courier New";color:black;mso-ansi-language:EN-US'>
-     g
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black'>
-    </span>
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     Dsus2 Dm - 2p.
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
-mso-ansi-language:EN-US'>
-     C B/5- A7 Dsus2 Dm Dsus2/5- 4:0 5:III 5:I 5:0 6:III
-6:I A7 Dsus2 Dm
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
-mso-ansi-language:EN-US'>
-     <o:p>
-       
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
-mso-ansi-language:EN-US'>
-     <span style="mso-spacerun:yes">
-         
-     </span>
-    </span>
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     Dsus2
-     <span style="mso-spacerun:yes">
-               
-     </span>
-     <span style="mso-spacerun:yes">
-       
-     </span>
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;
-font-family:"Courier New";color:black;mso-ansi-language:EN-US'>
-     Dm
-    </span>
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     <span style="mso-spacerun:yes">
-                 
-     </span>
-     Dsus2/5-
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     А в небе
-прозрачная тишь, и всё ясней ясного
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     B/5-
-     <span style="mso-spacerun:yes">
-           
-     </span>
-     B/5-/
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;mso-ansi-language:
-EN-US'>
-     g
-    </span>
-    <span style='font-size:10.0pt;font-family:"Courier New";
-color:black'>
-     <span style="mso-spacerun:yes">
-                     
-     </span>
-     <span style="mso-spacerun:yes">
-           
-     </span>
-     Dsus2 Dm
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     Времени нет, и
-значит, мы больше не ждём
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     Dsus2
-     <span style="mso-spacerun:yes">
-           
-     </span>
-    </span>
-    <span lang="EN-US" style='font-size:
-10.0pt;font-family:"Courier New";color:black;mso-ansi-language:EN-US'>
-     Dm
-    </span>
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     <span style="mso-spacerun:yes">
-                   
-     </span>
-     Dsus2/5-
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     И в синеву
-сердце возносится ястребом
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     <span style="mso-spacerun:yes">
-            
-     </span>
-     B/5-
-     <span style="mso-spacerun:yes">
-        
-     </span>
-     <span style="mso-spacerun:yes">
-       
-     </span>
-     B/5-/
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;mso-ansi-language:
-EN-US'>
-     g
-    </span>
-    <span style='font-size:10.0pt;font-family:"Courier New";
-color:black'>
-     <span style="mso-spacerun:yes">
-                 
-     </span>
-     <span style="mso-spacerun:yes">
-          
-     </span>
-     A7
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     Чтобы
-благословить горящую землю дождём
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     <span style="mso-spacerun:yes">
-        
-     </span>
-     C
-     <span style="mso-spacerun:yes">
-                                      
-     </span>
-     B/5-
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     Таких
-бесконечных цветов со мной ещё не было
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     <span style="mso-spacerun:yes">
-                         
-     </span>
-     <span style="mso-spacerun:yes">
-            
-     </span>
-     <span style="mso-spacerun:yes">
-                  
-     </span>
-     A7
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     И за горизонтом,
-вплотную к нему подойдя
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     Dsus2
-     <span style="mso-spacerun:yes">
-                  
-     </span>
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;mso-ansi-language:
-EN-US'>
-     Dm
-    </span>
-    <span style='font-size:10.0pt;font-family:"Courier New";
-color:black'>
-     <span style="mso-spacerun:yes">
-               
-     </span>
-     Dsus2/5-
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     <span style="mso-spacerun:yes">
-       
-     </span>
-     Видишь, что сети пусты, и ловить было некого
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     <span style="mso-spacerun:yes">
-       
-     </span>
-     4:0
-     <span style="mso-spacerun:yes">
-        
-     </span>
-     <span style="mso-spacerun:yes">
-         
-     </span>
-     5:
-    </span>
-    <span lang="EN-US" style='font-size:
-10.0pt;font-family:"Courier New";color:black;mso-ansi-language:EN-US'>
-     III
-    </span>
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     <span style="mso-spacerun:yes">
-        
-     </span>
-     5:
-    </span>
-    <span lang="EN-US" style='font-size:
-10.0pt;font-family:"Courier New";color:black;mso-ansi-language:EN-US'>
-     I
-    </span>
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     <span style="mso-spacerun:yes">
-         
-     </span>
-     <span style="mso-spacerun:yes">
-         
-     </span>
-     5:0
-     <span style="mso-spacerun:yes">
-         
-     </span>
-     6:
-    </span>
-    <span lang="EN-US" style='font-size:
-10.0pt;font-family:"Courier New";color:black;mso-ansi-language:EN-US'>
-     III
-    </span>
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     <span style="mso-spacerun:yes">
-       
-     </span>
-     6:
-    </span>
-    <span lang="EN-US" style='font-size:
-10.0pt;font-family:"Courier New";color:black;mso-ansi-language:EN-US'>
-     I
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black'>
-    </span>
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     И никогда не
-было, не было, не было, не было
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     A7
-     <span style="mso-spacerun:yes">
-                 
-     </span>
-     4:0 3:
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;mso-ansi-language:
-EN-US'>
-     II
-    </span>
-    <span style='font-size:10.0pt;font-family:"Courier New";
-color:black'>
-     2:
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;font-family:
-"Courier New";color:black;mso-ansi-language:EN-US'>
-     III
-    </span>
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     1:0 4:0 3:
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
-mso-ansi-language:EN-US'>
-     II
-    </span>
-    <span style='font-size:10.0pt;font-family:
-"Courier New";color:black'>
-     1:
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;
-font-family:"Courier New";color:black;mso-ansi-language:EN-US'>
-     I
-    </span>
-    <span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black'>
-    </span>
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     Неба цвета
-дождя.
-     <o:p>
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     <o:p>
-       
-     </o:p>
-    </span>
-   </p>
-   <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none">
-    <span style='font-size:10.0pt;font-family:"Courier New";color:black'>
-     <o:p>
-       
-     </o:p>
-    </span>
-   </p>
-   <table class="MsoTableGrid" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse;mso-yfti-tbllook:480;mso-padding-alt:0cm 5.4pt 0cm 5.4pt">
-    <tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes">
-     <td valign="top" style="padding:0cm 5.4pt 0cm 5.4pt">
-      <p class="MsoNormal">
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         <span style="mso-spacerun:yes">
-                    
-         </span>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:
-  normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>
-         Dm
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         <o:p>
-         </o:p>
-        </span>
-       </b>
-      </p>
-      <p class="MsoNormal">
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         <span style="mso-spacerun:yes">
-           
-         </span>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:
-  normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>
-         E
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         -■-|---|---|---|---|
-         <o:p>
-         </o:p>
-        </span>
-       </b>
-      </p>
-      <p class="MsoNormal">
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         <span style="mso-spacerun:yes">
-           
-         </span>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:
-  normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>
-         H
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|---|-■-|---|---|
-         <br />
-         <span style="mso-spacerun:yes">
-           
-         </span>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:
-  normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>
-         G
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|-■-|---|---|---|
-         <br />
-         о
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>
-         D
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:
-  "Courier New"'>
-         ---|---|---|---|---|
-         <br />
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>
-         x
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;
-  font-family:"Courier New"'>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
-  EN-US'>
-         A
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|---|---|---|---|
-         <br />
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>
-         x
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;
-  font-family:"Courier New"'>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
-  EN-US'>
-         E
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|---|---|---|---|
-         <o:p>
-         </o:p>
-        </span>
-       </b>
-      </p>
-      <p class="MsoNormal">
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         <o:p>
-           
-         </o:p>
-        </span>
-       </b>
-      </p>
-     </td>
-     <td valign="top" style="padding:0cm 5.4pt 0cm 5.4pt">
-      <p class="MsoNormal">
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         <span style="mso-spacerun:yes">
-                   
-         </span>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:
-  normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>
-         Dsus
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         2
-         <o:p>
-         </o:p>
-        </span>
-       </b>
-      </p>
-      <p class="MsoNormal">
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>
-         o
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;
-  font-family:"Courier New"'>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
-  EN-US'>
-         E
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|---|---|---|---|
-         <o:p>
-         </o:p>
-        </span>
-       </b>
-      </p>
-      <p class="MsoNormal">
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         <span style="mso-spacerun:yes">
-           
-         </span>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:
-  normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>
-         H
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|---|-■-|---|---|
-         <br />
-         <span style="mso-spacerun:yes">
-           
-         </span>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:
-  normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>
-         G
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|-■-|---|---|---|
-         <br />
-         о
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>
-         D
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:
-  "Courier New"'>
-         ---|---|---|---|---|
-         <br />
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>
-         x
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;
-  font-family:"Courier New"'>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
-  EN-US'>
-         A
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|---|---|---|---|
-         <br />
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>
-         x
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;
-  font-family:"Courier New"'>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
-  EN-US'>
-         E
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|---|---|---|---|
-         <o:p>
-         </o:p>
-        </span>
-       </b>
-      </p>
-      <p class="MsoNormal">
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         <o:p>
-           
-         </o:p>
-        </span>
-       </b>
-      </p>
-     </td>
-     <td valign="top" style="padding:0cm 5.4pt 0cm 5.4pt">
-      <p class="MsoNormal">
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         <span style="mso-spacerun:yes">
-                   
-         </span>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:
-  normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>
-         Dsus
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         4
-         <o:p>
-         </o:p>
-        </span>
-       </b>
-      </p>
-      <p class="MsoNormal">
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         <span style="mso-spacerun:yes">
-           
-         </span>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:
-  normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>
-         E
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|---|-■-|---|---|
-         <o:p>
-         </o:p>
-        </span>
-       </b>
-      </p>
-      <p class="MsoNormal">
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         <span style="mso-spacerun:yes">
-           
-         </span>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:
-  normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>
-         H
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|---|-■-|---|---|
-         <br />
-         <span style="mso-spacerun:yes">
-           
-         </span>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:
-  normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>
-         G
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|-■-|---|---|---|
-         <br />
-         о
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>
-         D
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:
-  "Courier New"'>
-         ---|---|---|---|---|
-         <br />
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>
-         x
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;
-  font-family:"Courier New"'>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
-  EN-US'>
-         A
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|---|---|---|---|
-         <br />
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>
-         x
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;
-  font-family:"Courier New"'>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
-  EN-US'>
-         E
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|---|---|---|---|
-         <o:p>
-         </o:p>
-        </span>
-       </b>
-      </p>
-      <p class="MsoNormal">
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         <o:p>
-           
-         </o:p>
-        </span>
-       </b>
-      </p>
-     </td>
-    </tr>
-    <tr style="mso-yfti-irow:1">
-     <td valign="top" style="padding:0cm 5.4pt 0cm 5.4pt">
-      <p class="MsoNormal">
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         <span style="mso-spacerun:yes">
-                  
-         </span>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:
-  normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>
-         A
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         7
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;
-  font-family:"Courier New";mso-ansi-language:EN-US'>
-         sus
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:
-  "Courier New"'>
-         4
-         <o:p>
-         </o:p>
-        </span>
-       </b>
-      </p>
-      <p class="MsoNormal">
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>
-         o
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;
-  font-family:"Courier New"'>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
-  EN-US'>
-         E
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|---|---|---|---|
-         <o:p>
-         </o:p>
-        </span>
-       </b>
-      </p>
-      <p class="MsoNormal">
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         <span style="mso-spacerun:yes">
-           
-         </span>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:
-  normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>
-         H
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|---|-■-|---|---|
-         <br />
-         о
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>
-         G
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:
-  "Courier New"'>
-         ---|---|---|---|---|
-         <br />
-         <span style="mso-spacerun:yes">
-           
-         </span>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:
-  normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>
-         D
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|-■-|---|---|---|
-         <br />
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>
-         o
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;
-  font-family:"Courier New"'>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
-  EN-US'>
-         A
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|---|---|---|---|
-         <br />
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>
-         x
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;
-  font-family:"Courier New"'>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
-  EN-US'>
-         E
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|---|---|---|---|
-         <o:p>
-         </o:p>
-        </span>
-       </b>
-      </p>
-      <p class="MsoNormal">
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         <o:p>
-           
-         </o:p>
-        </span>
-       </b>
-      </p>
-     </td>
-     <td valign="top" style="padding:0cm 5.4pt 0cm 5.4pt">
-      <p class="MsoNormal">
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         <span style="mso-spacerun:yes">
-                  
-         </span>
-         <span style="mso-spacerun:yes">
-           
-         </span>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:
-  normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>
-         B
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         /5-
-         <o:p>
-         </o:p>
-        </span>
-       </b>
-      </p>
-      <p class="MsoNormal">
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>
-         o
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;
-  font-family:"Courier New"'>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
-  EN-US'>
-         E
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|---|---|---|---|
-         <o:p>
-         </o:p>
-        </span>
-       </b>
-      </p>
-      <p class="MsoNormal">
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         <span style="mso-spacerun:yes">
-           
-         </span>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:
-  normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>
-         H
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|---|-■-|---|---|
-         <br />
-         <span style="mso-spacerun:yes">
-           
-         </span>
-         <span style="mso-spacerun:yes">
-           
-         </span>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:
-  normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>
-         G
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|---|-■-|---|---|
-         <br />
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>
-         o
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;
-  font-family:"Courier New"'>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
-  EN-US'>
-         D
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|---|---|---|---|
-         <br />
-         <span style="mso-spacerun:yes">
-           
-         </span>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:
-  normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>
-         A
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         -■-|---|---|---|---|
-         <br />
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>
-         x
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;
-  font-family:"Courier New"'>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
-  EN-US'>
-         E
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|---|---|---|---|
-         <o:p>
-         </o:p>
-        </span>
-       </b>
-      </p>
-      <p class="MsoNormal">
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         <o:p>
-           
-         </o:p>
-        </span>
-       </b>
-      </p>
-     </td>
-     <td valign="top" style="padding:0cm 5.4pt 0cm 5.4pt">
-      <p class="MsoNormal">
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         <span style="mso-spacerun:yes">
-                   
-         </span>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:
-  normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>
-         B
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         /5-/
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;
-  font-family:"Courier New";mso-ansi-language:EN-US'>
-         g
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:
-  "Courier New"'>
-         <o:p>
-         </o:p>
-        </span>
-       </b>
-      </p>
-      <p class="MsoNormal">
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>
-         o
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;
-  font-family:"Courier New"'>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
-  EN-US'>
-         E
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|---|---|---|---|
-         <o:p>
-         </o:p>
-        </span>
-       </b>
-      </p>
-      <p class="MsoNormal">
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         <span style="mso-spacerun:yes">
-           
-         </span>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:
-  normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>
-         H
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|---|-■-|---|---|
-         <br />
-         <span style="mso-spacerun:yes">
-           
-         </span>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:
-  normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>
-         G
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|---|-■-|---|---|
-         <br />
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>
-         o
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;
-  font-family:"Courier New"'>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
-  EN-US'>
-         D
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|---|---|---|---|
-         <br />
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>
-         o
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;
-  font-family:"Courier New"'>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
-  EN-US'>
-         A
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|---|---|---|---|
-         <br />
-         <span style="mso-spacerun:yes">
-           
-         </span>
-         <span style="mso-spacerun:yes">
-           
-         </span>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:
-  normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>
-         E
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|---|-■-|---|---|
-         <o:p>
-         </o:p>
-        </span>
-       </b>
-      </p>
-      <p class="MsoNormal">
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         <o:p>
-           
-         </o:p>
-        </span>
-       </b>
-      </p>
-     </td>
-    </tr>
-    <tr style="mso-yfti-irow:2">
-     <td valign="top" style="padding:0cm 5.4pt 0cm 5.4pt">
-      <p class="MsoNormal">
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         <span style="mso-spacerun:yes">
-                     
-         </span>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:
-  normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>
-         C
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         <o:p>
-         </o:p>
-        </span>
-       </b>
-      </p>
-      <p class="MsoNormal">
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>
-         o
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;
-  font-family:"Courier New"'>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
-  EN-US'>
-         E
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|---|---|---|---|
-         <o:p>
-         </o:p>
-        </span>
-       </b>
-      </p>
-      <p class="MsoNormal">
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         <span style="mso-spacerun:yes">
-           
-         </span>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:
-  normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>
-         H
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         -■-|---|---|---|---|
-         <br />
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>
-         o
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;
-  font-family:"Courier New"'>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
-  EN-US'>
-         G
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|---|---|---|---|
-         <br />
-         <span style="mso-spacerun:yes">
-           
-         </span>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:
-  normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>
-         D
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|-■-|---|---|---|
-         <br />
-         <span style="mso-spacerun:yes">
-           
-         </span>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:
-  normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>
-         A
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|---|-■-|---|---|
-         <br />
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>
-         x
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;
-  font-family:"Courier New"'>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
-  EN-US'>
-         E
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|---|---|---|---|
-         <o:p>
-         </o:p>
-        </span>
-       </b>
-      </p>
-      <p class="MsoNormal">
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         <o:p>
-           
-         </o:p>
-        </span>
-       </b>
-      </p>
-     </td>
-     <td valign="top" style="padding:0cm 5.4pt 0cm 5.4pt">
-      <p class="MsoNormal">
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         <span style="mso-spacerun:yes">
-                  
-         </span>
-         <span style="mso-spacerun:yes">
-            
-         </span>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:
-  normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>
-         A
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         7
-         <o:p>
-         </o:p>
-        </span>
-       </b>
-      </p>
-      <p class="MsoNormal">
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>
-         o
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;
-  font-family:"Courier New"'>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
-  EN-US'>
-         E
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|---|---|---|---|
-         <o:p>
-         </o:p>
-        </span>
-       </b>
-      </p>
-      <p class="MsoNormal">
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         <span style="mso-spacerun:yes">
-           
-         </span>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:
-  normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>
-         H
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|-■-|---|---|---|
-         <br />
-         о
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>
-         G
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:
-  "Courier New"'>
-         ---|---|---|---|---|
-         <br />
-         <span style="mso-spacerun:yes">
-           
-         </span>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:
-  normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>
-         D
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|-■-|---|---|---|
-         <br />
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>
-         o
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;
-  font-family:"Courier New"'>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
-  EN-US'>
-         A
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|---|---|---|---|
-         <br />
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>
-         x
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;
-  font-family:"Courier New"'>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
-  EN-US'>
-         E
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|---|---|---|---|
-         <o:p>
-         </o:p>
-        </span>
-       </b>
-      </p>
-      <p class="MsoNormal">
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         <o:p>
-           
-         </o:p>
-        </span>
-       </b>
-      </p>
-     </td>
-     <td valign="top" style="padding:0cm 5.4pt 0cm 5.4pt">
-      <p class="MsoNormal">
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         <span style="mso-spacerun:yes">
-                  
-         </span>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:
-  normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>
-         Dsus
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         2/5-
-         <o:p>
-         </o:p>
-        </span>
-       </b>
-      </p>
-      <p class="MsoNormal">
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>
-         o
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;
-  font-family:"Courier New"'>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
-  EN-US'>
-         E
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|---|---|---|---|
-         <o:p>
-         </o:p>
-        </span>
-       </b>
-      </p>
-      <p class="MsoNormal">
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         <span style="mso-spacerun:yes">
-           
-         </span>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:
-  normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>
-         H
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|---|-■-|---|---|
-         <br />
-         <span style="mso-spacerun:yes">
-           
-         </span>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:
-  normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>
-         G
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         -■-|---|---|---|---|
-         <br />
-         о
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>
-         D
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:
-  "Courier New"'>
-         ---|---|---|---|---|
-         <br />
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>
-         x
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;
-  font-family:"Courier New"'>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
-  EN-US'>
-         A
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|---|---|---|---|
-         <br />
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>
-         x
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;
-  font-family:"Courier New"'>
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
-  EN-US'>
-         E
-        </span>
-       </b>
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         ---|---|---|---|---|
-         <o:p>
-         </o:p>
-        </span>
-       </b>
-      </p>
-      <p class="MsoNormal">
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         <o:p>
-           
-         </o:p>
-        </span>
-       </b>
-      </p>
-     </td>
-    </tr>
-    <tr style="mso-yfti-irow:3">
-     <td valign="top" style="padding:0cm 5.4pt 0cm 5.4pt">
-      <p class="MsoNormal">
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         <o:p>
-           
-         </o:p>
-        </span>
-       </b>
-      </p>
-     </td>
-     <td valign="top" style="padding:0cm 5.4pt 0cm 5.4pt">
-      <p class="MsoNormal">
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         <o:p>
-           
-         </o:p>
-        </span>
-       </b>
-      </p>
-     </td>
-     <td valign="top" style="padding:0cm 5.4pt 0cm 5.4pt">
-      <p class="MsoNormal">
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         <o:p>
-           
-         </o:p>
-        </span>
-       </b>
-      </p>
-     </td>
-    </tr>
-    <tr style="mso-yfti-irow:4;mso-yfti-lastrow:yes">
-     <td valign="top" style="padding:0cm 5.4pt 0cm 5.4pt">
-      <p class="MsoNormal">
-       <b style="mso-bidi-font-weight:normal">
-        <span style='font-size:8.0pt;font-family:"Courier New"'>
-         <o:p>
-           
-         </o:p>
-        </span>
-       </b>
-      </p>
-     </td>
-     <td style="padding:0cm 5.4pt 0cm 5.4pt">
-      <p class="MsoNormal">
-       <span style='font-size:10.0pt;font-family:"Courier New"'>
-        <o:p>
-          
-        </o:p>
-       </span>
-      </p>
-     </td>
-     <td style="padding:0cm 5.4pt 0cm 5.4pt">
-      <p class="MsoNormal">
-       <span style='font-size:10.0pt;font-family:"Courier New"'>
-        <o:p>
-          
-        </o:p>
-       </span>
-      </p>
-     </td>
-    </tr>
-   </table>
-   <p class="MsoNormal">
-    <span style='font-size:10.0pt;font-family:"Courier New"'>
-     <o:p>
-       
-     </o:p>
-    </span>
-   </p>
-  </div>
- </body>
+</head>
+<body lang="RU" style="tab-interval:35.4pt">
+<div class="Section1">
+<p class="MsoNormal"><span style='font-size:10.0pt;font-family:"Courier New";
+color:red;text-transform:uppercase'>небо цвета дождя<o:p></o:p></span></p>
+<p class="MsoNormal"><i style="mso-bidi-font-style:normal"><span style='font-size:10.0pt;font-family:"Courier New"'>Б. Гребенщиков<o:p></o:p></span></i></p>
+<p class="MsoNormal"><span style='font-size:10.0pt;font-family:"Courier New"'><o:p> </o:p></span></p>
+<p class="MsoNormal"><i style="mso-bidi-font-style:normal"><span style='font-size:10.0pt;font-family:"Courier New"'>Каподастр на 3-м ладу<o:p></o:p></span></i></p>
+<p class="MsoNormal"><span style='font-size:10.0pt;font-family:"Courier New"'><o:p> </o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Вступление: </span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
+mso-ansi-language:EN-US'>Dm</span><span lang="EN-US" style='font-size:10.0pt;
+font-family:"Courier New";color:black'> </span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;mso-ansi-language:
+EN-US'>Dsus</span><span style='font-size:10.0pt;font-family:"Courier New";
+color:black'>2 </span><span lang="EN-US" style='font-size:10.0pt;font-family:
+"Courier New";color:black;mso-ansi-language:EN-US'>Dsus</span><span style='font-size:10.0pt;font-family:"Courier New";color:black'>4 - 4</span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
+mso-ansi-language:EN-US'>p</span><span style='font-size:10.0pt;font-family:
+"Courier New";color:black'>. </span><span lang="EN-US" style='font-size:10.0pt;
+font-family:"Courier New";color:black;mso-ansi-language:EN-US'>Dsus</span><span style='font-size:10.0pt;font-family:"Courier New";color:black'>2 </span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
+mso-ansi-language:EN-US'>Dm</span><span style='font-size:10.0pt;font-family:
+"Courier New";color:black'><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes"> </span><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
+mso-ansi-language:EN-US'>Dsus</span><span style='font-size:10.0pt;font-family:
+"Courier New";color:black'>2<span style="mso-spacerun:yes">              
+</span></span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";
+color:black;mso-ansi-language:EN-US'>Dm</span><span style='font-size:10.0pt;
+font-family:"Courier New";color:black'><span style="mso-spacerun:yes">            </span></span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;mso-ansi-language:
+EN-US'>A</span><span style='font-size:10.0pt;font-family:"Courier New";
+color:black'>7</span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";
+color:black;mso-ansi-language:EN-US'>sus</span><span style='font-size:10.0pt;
+font-family:"Courier New";color:black'>4<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Долго мы пели
+про Свет, а сами шли сумраком<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
+mso-ansi-language:EN-US'>B</span><span style='font-size:10.0pt;font-family:
+"Courier New";color:black'>/5-<span style="mso-spacerun:yes">                    </span>Dsus2 Dm<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes">    </span>Не замечая за болтовней<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes">     </span>Dsus2<span style="mso-spacerun:yes">      
+</span><span style="mso-spacerun:yes">   </span></span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;mso-ansi-language:
+EN-US'>Dm</span><span style='font-size:10.0pt;font-family:"Courier New";
+color:black'><span style="mso-spacerun:yes">         </span>A7</span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
+mso-ansi-language:EN-US'>sus</span><span style='font-size:10.0pt;font-family:
+"Courier New";color:black'>4<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Как ветер играл
+стеклянными струнами<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
+mso-ansi-language:EN-US'>B</span><span style='font-size:10.0pt;font-family:
+"Courier New";color:black'>/5-<span style="mso-spacerun:yes">        
+</span>B/5-/</span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";
+color:black;mso-ansi-language:EN-US'>g</span><span style='font-size:10.0pt;
+font-family:"Courier New";color:black'><span style="mso-spacerun:yes">           </span>Dsus2 Dm<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes">   </span>Соединяющими наши души с землёй<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes">     </span>C<span style="mso-spacerun:yes">                         </span></span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
+mso-ansi-language:EN-US'>B</span><span style='font-size:10.0pt;font-family:
+"Courier New";color:black'>/5-<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Мы шли далеко,
+шли за высокими тайнами<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes">                           </span>A7<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Шли, потому что
+иначе нельзя<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Dsus2<span style="mso-spacerun:yes">         </span></span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;mso-ansi-language:
+EN-US'>Dm</span><span style='font-size:10.0pt;font-family:"Courier New";
+color:black'><span style="mso-spacerun:yes">        </span>Dsus2/5-<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes"> </span>А стерегущие дом замолкали и таяли<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes"> </span>4:0<span style="mso-spacerun:yes">    
+</span>5:</span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";
+color:black;mso-ansi-language:EN-US'>III</span><span style='font-size:10.0pt;
+font-family:"Courier New";color:black'> 5:</span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;mso-ansi-language:
+EN-US'>I</span><span style='font-size:10.0pt;font-family:"Courier New";
+color:black'><span style="mso-spacerun:yes">    </span>5:0<span style="mso-spacerun:yes">    </span>6:</span><span lang="EN-US" style='font-size:
+10.0pt;font-family:"Courier New";color:black;mso-ansi-language:EN-US'>III</span><span style='font-size:10.0pt;font-family:"Courier New";color:black'> 6:</span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
+mso-ansi-language:EN-US'>I</span><span style='font-size:10.0pt;font-family:
+"Courier New";color:black'><span style="mso-spacerun:yes">     </span><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Один за другим
+таяли, таяли, таяли<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes">   </span></span><span lang="EN-US" style='font-size:
+10.0pt;font-family:"Courier New";color:black;mso-ansi-language:EN-US'>A</span><span style='font-size:10.0pt;font-family:"Courier New";color:black'>7<span style="mso-spacerun:yes">            </span></span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;mso-ansi-language:
+EN-US'>Dsus</span><span style='font-size:10.0pt;font-family:"Courier New";
+color:black'>2 </span><span lang="EN-US" style='font-size:10.0pt;font-family:
+"Courier New";color:black;mso-ansi-language:EN-US'>Dm</span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black'> </span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
+mso-ansi-language:EN-US'>Dsus</span><span style='font-size:10.0pt;font-family:
+"Courier New";color:black'>2 </span><span lang="EN-US" style='font-size:10.0pt;
+font-family:"Courier New";color:black;mso-ansi-language:EN-US'>Dm</span><span style='font-size:10.0pt;font-family:"Courier New";color:black'><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>В небе цвета
+дождя<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><o:p> </o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Dsus2<span style="mso-spacerun:yes">            </span><span style="mso-spacerun:yes">      </span></span><span lang="EN-US" style='font-size:
+10.0pt;font-family:"Courier New";color:black;mso-ansi-language:EN-US'>Dm</span><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes">           </span><span style="mso-spacerun:yes">    </span>Dsus2/5-<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes"> </span>Пальцы октябрьских святых по-прежнему ласковы<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>B/5-<span style="mso-spacerun:yes">             </span>B/5-/</span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;mso-ansi-language:
+EN-US'>g</span><span style='font-size:10.0pt;font-family:"Courier New";
+color:black'><span style="mso-spacerun:yes">             </span>Dsus2 Dm<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes">  </span>Только их лиц становится не разглядеть<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Dsus2<span style="mso-spacerun:yes">        </span></span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;mso-ansi-language:
+EN-US'>Dm</span><span style='font-size:10.0pt;font-family:"Courier New";
+color:black'><span style="mso-spacerun:yes">                    </span>Dsus2/5-<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Это всё я -
+видно не справился с красками<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes">     </span>B/5-<span style="mso-spacerun:yes">      
+</span>B/5-/</span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";
+color:black;mso-ansi-language:EN-US'>g</span><span style='font-size:10.0pt;
+font-family:"Courier New";color:black'><span style="mso-spacerun:yes">  </span><span style="mso-spacerun:yes">           </span>A7<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Или снова забыл
+слова, когда хотел петь<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes"> </span><span style="mso-spacerun:yes">   </span><span style="mso-spacerun:yes"> </span>C<span style="mso-spacerun:yes">                             </span>B/5-<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Ничего, скоро
+январь затрещит за оградою<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes">                                   </span>A7<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Своим ледяным
+питиём вороша и дразня<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Dsus2<span style="mso-spacerun:yes">          </span><span style="mso-spacerun:yes">  </span></span><span lang="EN-US" style='font-size:
+10.0pt;font-family:"Courier New";color:black;mso-ansi-language:EN-US'>Dm</span><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes">         </span>Dsus2/5-<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Только бы мне
+устоять. Но я вижу - я падаю<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes"> </span>4:0<span style="mso-spacerun:yes">   </span>5:</span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
+mso-ansi-language:EN-US'>III</span><span style='font-size:10.0pt;font-family:
+"Courier New";color:black'><span style="mso-spacerun:yes">  </span>5:</span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
+mso-ansi-language:EN-US'>I</span><span style='font-size:10.0pt;font-family:
+"Courier New";color:black'><span style="mso-spacerun:yes">    </span>5:0<span style="mso-spacerun:yes">    </span>6:</span><span lang="EN-US" style='font-size:
+10.0pt;font-family:"Courier New";color:black;mso-ansi-language:EN-US'>III</span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black'> </span><span style='font-size:10.0pt;font-family:"Courier New";color:black'>6:</span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
+mso-ansi-language:EN-US'>I</span><span style='font-size:10.0pt;font-family:
+"Courier New";color:black'><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Падаю, падаю,
+падаю, падаю в небо<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
+mso-ansi-language:EN-US'>A7<span style="mso-spacerun:yes">         
+</span>Dsus2 Dm Dsus2 Dm<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
+mso-ansi-language:EN-US'><span style="mso-spacerun:yes">  </span></span><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Цвета</span><span style='font-size:10.0pt;font-family:"Courier New";color:black;mso-ansi-language:
+EN-US'> </span><span style='font-size:10.0pt;font-family:"Courier New";
+color:black'>дождя</span><span lang="EN-US" style='font-size:10.0pt;font-family:
+"Courier New";color:black;mso-ansi-language:EN-US'><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
+mso-ansi-language:EN-US'><o:p> </o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>C<span style="mso-spacerun:yes">                               </span>B/5-<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes"> </span>А ещё говорят, что они были с крыльями<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>B/5-<span style="mso-spacerun:yes">                        </span><span style="mso-spacerun:yes">  </span>Dsus2 Dm<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes">  </span>И глаза у них были живая вода<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes">     </span>C<span style="mso-spacerun:yes">                         </span>B/5-<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Но благостные
+слова опять пахнут пылью<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes">       </span>B/5-<span style="mso-spacerun:yes">                          </span><span style="mso-spacerun:yes"> </span>A7<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>И нас снова
+ведут и снова не скажут куда<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><o:p> </o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Проигрыш: Dsus2
+Dm Dsus2/5- B/5- B/5-/</span><span lang="EN-US" style='font-size:10.0pt;
+font-family:"Courier New";color:black;mso-ansi-language:EN-US'>g</span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black'> </span><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Dsus2 Dm - 2p. <o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
+mso-ansi-language:EN-US'>C B/5- A7 Dsus2 Dm Dsus2/5- 4:0 5:III 5:I 5:0 6:III
+6:I A7 Dsus2 Dm<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
+mso-ansi-language:EN-US'><o:p> </o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
+mso-ansi-language:EN-US'><span style="mso-spacerun:yes">    </span></span><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Dsus2<span style="mso-spacerun:yes">          </span><span style="mso-spacerun:yes"> </span></span><span lang="EN-US" style='font-size:10.0pt;
+font-family:"Courier New";color:black;mso-ansi-language:EN-US'>Dm</span><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes">            </span>Dsus2/5-<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>А в небе
+прозрачная тишь, и всё ясней ясного<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>B/5-<span style="mso-spacerun:yes">      </span>B/5-/</span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;mso-ansi-language:
+EN-US'>g</span><span style='font-size:10.0pt;font-family:"Courier New";
+color:black'><span style="mso-spacerun:yes">                </span><span style="mso-spacerun:yes">     </span>Dsus2 Dm<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Времени нет, и
+значит, мы больше не ждём<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Dsus2<span style="mso-spacerun:yes">      </span></span><span lang="EN-US" style='font-size:
+10.0pt;font-family:"Courier New";color:black;mso-ansi-language:EN-US'>Dm</span><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes">              </span>Dsus2/5-<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>И в синеву
+сердце возносится ястребом<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes">       </span>B/5-<span style="mso-spacerun:yes">  
+</span><span style="mso-spacerun:yes"> </span>B/5-/</span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;mso-ansi-language:
+EN-US'>g</span><span style='font-size:10.0pt;font-family:"Courier New";
+color:black'><span style="mso-spacerun:yes">            </span><span style="mso-spacerun:yes">    </span>A7<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Чтобы
+благословить горящую землю дождём<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes">   </span>C<span style="mso-spacerun:yes">                                 </span>B/5-<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Таких
+бесконечных цветов со мной ещё не было<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes">                    </span><span style="mso-spacerun:yes">      </span><span style="mso-spacerun:yes">            </span>A7<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>И за горизонтом,
+вплотную к нему подойдя<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Dsus2<span style="mso-spacerun:yes">             </span></span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;mso-ansi-language:
+EN-US'>Dm</span><span style='font-size:10.0pt;font-family:"Courier New";
+color:black'><span style="mso-spacerun:yes">          </span>Dsus2/5-<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes"> </span>Видишь, что сети пусты, и ловить было некого<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes">  </span>4:0<span style="mso-spacerun:yes">   </span><span style="mso-spacerun:yes">   </span>5:</span><span lang="EN-US" style='font-size:
+10.0pt;font-family:"Courier New";color:black;mso-ansi-language:EN-US'>III</span><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes">   </span>5:</span><span lang="EN-US" style='font-size:
+10.0pt;font-family:"Courier New";color:black;mso-ansi-language:EN-US'>I</span><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes">    </span><span style="mso-spacerun:yes">   </span>5:0<span style="mso-spacerun:yes">    </span>6:</span><span lang="EN-US" style='font-size:
+10.0pt;font-family:"Courier New";color:black;mso-ansi-language:EN-US'>III</span><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes">  </span>6:</span><span lang="EN-US" style='font-size:
+10.0pt;font-family:"Courier New";color:black;mso-ansi-language:EN-US'>I</span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black'> </span><span style='font-size:10.0pt;font-family:"Courier New";color:black'><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>И никогда не
+было, не было, не было, не было<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>A7<span style="mso-spacerun:yes">            </span>4:0 3:</span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;mso-ansi-language:
+EN-US'>II</span><span style='font-size:10.0pt;font-family:"Courier New";
+color:black'> 2:</span><span lang="EN-US" style='font-size:10.0pt;font-family:
+"Courier New";color:black;mso-ansi-language:EN-US'>III</span><span style='font-size:10.0pt;font-family:"Courier New";color:black'> 1:0 4:0 3:</span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
+mso-ansi-language:EN-US'>II</span><span style='font-size:10.0pt;font-family:
+"Courier New";color:black'> 1:</span><span lang="EN-US" style='font-size:10.0pt;
+font-family:"Courier New";color:black;mso-ansi-language:EN-US'>I</span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black'> </span><span style='font-size:10.0pt;font-family:"Courier New";color:black'><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Неба цвета
+дождя.<o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><o:p> </o:p></span></p>
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><o:p> </o:p></span></p>
+<table class="MsoTableGrid" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse;mso-yfti-tbllook:480;mso-padding-alt:0cm 5.4pt 0cm 5.4pt">
+<tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes">
+<td valign="top" style="padding:0cm 5.4pt 0cm 5.4pt">
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'><span style="mso-spacerun:yes">           </span></span></b><b style="mso-bidi-font-weight:
+  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
+  mso-ansi-language:EN-US'>Dm</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'><o:p></o:p></span></b></p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'><span style="mso-spacerun:yes">  </span></span></b><b style="mso-bidi-font-weight:
+  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
+  mso-ansi-language:EN-US'>E</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>-■-|---|---|---|---|<o:p></o:p></span></b></p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'><span style="mso-spacerun:yes">  </span></span></b><b style="mso-bidi-font-weight:
+  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
+  mso-ansi-language:EN-US'>H</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|---|-■-|---|---|<br />
+<span style="mso-spacerun:yes">  </span></span></b><b style="mso-bidi-font-weight:
+  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
+  mso-ansi-language:EN-US'>G</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|-■-|---|---|---|<br />
+  о </span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>D</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:
+  "Courier New"'>---|---|---|---|---|<br />
+</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>x</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;
+  font-family:"Courier New"'> </span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
+  EN-US'>A</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|---|---|---|---|<br />
+</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>x</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;
+  font-family:"Courier New"'> </span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
+  EN-US'>E</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|---|---|---|---|<o:p></o:p></span></b></p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'><o:p> </o:p></span></b></p>
+</td>
+<td valign="top" style="padding:0cm 5.4pt 0cm 5.4pt">
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'><span style="mso-spacerun:yes">          </span></span></b><b style="mso-bidi-font-weight:
+  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
+  mso-ansi-language:EN-US'>Dsus</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>2<o:p></o:p></span></b></p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>o</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;
+  font-family:"Courier New"'> </span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
+  EN-US'>E</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|---|---|---|---|<o:p></o:p></span></b></p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'><span style="mso-spacerun:yes">  </span></span></b><b style="mso-bidi-font-weight:
+  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
+  mso-ansi-language:EN-US'>H</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|---|-■-|---|---|<br />
+<span style="mso-spacerun:yes">  </span></span></b><b style="mso-bidi-font-weight:
+  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
+  mso-ansi-language:EN-US'>G</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|-■-|---|---|---|<br />
+  о </span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>D</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:
+  "Courier New"'>---|---|---|---|---|<br />
+</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>x</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;
+  font-family:"Courier New"'> </span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
+  EN-US'>A</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|---|---|---|---|<br />
+</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>x</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;
+  font-family:"Courier New"'> </span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
+  EN-US'>E</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|---|---|---|---|<o:p></o:p></span></b></p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'><o:p> </o:p></span></b></p>
+</td>
+<td valign="top" style="padding:0cm 5.4pt 0cm 5.4pt">
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'><span style="mso-spacerun:yes">          </span></span></b><b style="mso-bidi-font-weight:
+  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
+  mso-ansi-language:EN-US'>Dsus</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>4<o:p></o:p></span></b></p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'><span style="mso-spacerun:yes">  </span></span></b><b style="mso-bidi-font-weight:
+  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
+  mso-ansi-language:EN-US'>E</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|---|-■-|---|---|<o:p></o:p></span></b></p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'><span style="mso-spacerun:yes">  </span></span></b><b style="mso-bidi-font-weight:
+  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
+  mso-ansi-language:EN-US'>H</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|---|-■-|---|---|<br />
+<span style="mso-spacerun:yes">  </span></span></b><b style="mso-bidi-font-weight:
+  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
+  mso-ansi-language:EN-US'>G</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|-■-|---|---|---|<br />
+  о </span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>D</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:
+  "Courier New"'>---|---|---|---|---|<br />
+</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>x</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;
+  font-family:"Courier New"'> </span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
+  EN-US'>A</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|---|---|---|---|<br />
+</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>x</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;
+  font-family:"Courier New"'> </span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
+  EN-US'>E</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|---|---|---|---|<o:p></o:p></span></b></p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'><o:p> </o:p></span></b></p>
+</td>
+</tr>
+<tr style="mso-yfti-irow:1">
+<td valign="top" style="padding:0cm 5.4pt 0cm 5.4pt">
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'><span style="mso-spacerun:yes">         </span></span></b><b style="mso-bidi-font-weight:
+  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
+  mso-ansi-language:EN-US'>A</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>7</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;
+  font-family:"Courier New";mso-ansi-language:EN-US'>sus</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:
+  "Courier New"'>4<o:p></o:p></span></b></p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>o</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;
+  font-family:"Courier New"'> </span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
+  EN-US'>E</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|---|---|---|---|<o:p></o:p></span></b></p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'><span style="mso-spacerun:yes">  </span></span></b><b style="mso-bidi-font-weight:
+  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
+  mso-ansi-language:EN-US'>H</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|---|-■-|---|---|<br />
+  о </span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>G</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:
+  "Courier New"'>---|---|---|---|---|<br />
+<span style="mso-spacerun:yes">  </span></span></b><b style="mso-bidi-font-weight:
+  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
+  mso-ansi-language:EN-US'>D</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|-■-|---|---|---|<br />
+</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>o</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;
+  font-family:"Courier New"'> </span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
+  EN-US'>A</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|---|---|---|---|<br />
+</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>x</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;
+  font-family:"Courier New"'> </span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
+  EN-US'>E</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|---|---|---|---|<o:p></o:p></span></b></p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'><o:p> </o:p></span></b></p>
+</td>
+<td valign="top" style="padding:0cm 5.4pt 0cm 5.4pt">
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'><span style="mso-spacerun:yes">         </span><span style="mso-spacerun:yes"> </span></span></b><b style="mso-bidi-font-weight:
+  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
+  mso-ansi-language:EN-US'>B</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>/5-<o:p></o:p></span></b></p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>o</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;
+  font-family:"Courier New"'> </span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
+  EN-US'>E</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|---|---|---|---|<o:p></o:p></span></b></p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'><span style="mso-spacerun:yes">  </span></span></b><b style="mso-bidi-font-weight:
+  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
+  mso-ansi-language:EN-US'>H</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|---|-■-|---|---|<br />
+<span style="mso-spacerun:yes"> </span><span style="mso-spacerun:yes"> </span></span></b><b style="mso-bidi-font-weight:
+  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
+  mso-ansi-language:EN-US'>G</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|---|-■-|---|---|<br />
+</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>o</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;
+  font-family:"Courier New"'> </span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
+  EN-US'>D</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|---|---|---|---|<br />
+<span style="mso-spacerun:yes">  </span></span></b><b style="mso-bidi-font-weight:
+  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
+  mso-ansi-language:EN-US'>A</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>-■-|---|---|---|---|<br />
+</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>x</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;
+  font-family:"Courier New"'> </span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
+  EN-US'>E</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|---|---|---|---|<o:p></o:p></span></b></p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'><o:p> </o:p></span></b></p>
+</td>
+<td valign="top" style="padding:0cm 5.4pt 0cm 5.4pt">
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'><span style="mso-spacerun:yes">          </span></span></b><b style="mso-bidi-font-weight:
+  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
+  mso-ansi-language:EN-US'>B</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>/5-/</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;
+  font-family:"Courier New";mso-ansi-language:EN-US'>g</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:
+  "Courier New"'><o:p></o:p></span></b></p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>o</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;
+  font-family:"Courier New"'> </span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
+  EN-US'>E</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|---|---|---|---|<o:p></o:p></span></b></p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'><span style="mso-spacerun:yes">  </span></span></b><b style="mso-bidi-font-weight:
+  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
+  mso-ansi-language:EN-US'>H</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|---|-■-|---|---|<br />
+<span style="mso-spacerun:yes">  </span></span></b><b style="mso-bidi-font-weight:
+  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
+  mso-ansi-language:EN-US'>G</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|---|-■-|---|---|<br />
+</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>o</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;
+  font-family:"Courier New"'> </span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
+  EN-US'>D</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|---|---|---|---|<br />
+</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>o</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;
+  font-family:"Courier New"'> </span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
+  EN-US'>A</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|---|---|---|---|<br />
+<span style="mso-spacerun:yes"> </span><span style="mso-spacerun:yes"> </span></span></b><b style="mso-bidi-font-weight:
+  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
+  mso-ansi-language:EN-US'>E</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|---|-■-|---|---|<o:p></o:p></span></b></p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'><o:p> </o:p></span></b></p>
+</td>
+</tr>
+<tr style="mso-yfti-irow:2">
+<td valign="top" style="padding:0cm 5.4pt 0cm 5.4pt">
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'><span style="mso-spacerun:yes">            </span></span></b><b style="mso-bidi-font-weight:
+  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
+  mso-ansi-language:EN-US'>C</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'><o:p></o:p></span></b></p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>o</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;
+  font-family:"Courier New"'> </span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
+  EN-US'>E</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|---|---|---|---|<o:p></o:p></span></b></p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'><span style="mso-spacerun:yes">  </span></span></b><b style="mso-bidi-font-weight:
+  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
+  mso-ansi-language:EN-US'>H</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>-■-|---|---|---|---|<br />
+</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>o</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;
+  font-family:"Courier New"'> </span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
+  EN-US'>G</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|---|---|---|---|<br />
+<span style="mso-spacerun:yes">  </span></span></b><b style="mso-bidi-font-weight:
+  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
+  mso-ansi-language:EN-US'>D</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|-■-|---|---|---|<br />
+<span style="mso-spacerun:yes">  </span></span></b><b style="mso-bidi-font-weight:
+  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
+  mso-ansi-language:EN-US'>A</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|---|-■-|---|---|<br />
+</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>x</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;
+  font-family:"Courier New"'> </span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
+  EN-US'>E</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|---|---|---|---|<o:p></o:p></span></b></p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'><o:p> </o:p></span></b></p>
+</td>
+<td valign="top" style="padding:0cm 5.4pt 0cm 5.4pt">
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'><span style="mso-spacerun:yes">         </span><span style="mso-spacerun:yes">  </span></span></b><b style="mso-bidi-font-weight:
+  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
+  mso-ansi-language:EN-US'>A</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>7<o:p></o:p></span></b></p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>o</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;
+  font-family:"Courier New"'> </span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
+  EN-US'>E</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|---|---|---|---|<o:p></o:p></span></b></p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'><span style="mso-spacerun:yes">  </span></span></b><b style="mso-bidi-font-weight:
+  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
+  mso-ansi-language:EN-US'>H</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|-■-|---|---|---|<br />
+  о </span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>G</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:
+  "Courier New"'>---|---|---|---|---|<br />
+<span style="mso-spacerun:yes">  </span></span></b><b style="mso-bidi-font-weight:
+  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
+  mso-ansi-language:EN-US'>D</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|-■-|---|---|---|<br />
+</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>o</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;
+  font-family:"Courier New"'> </span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
+  EN-US'>A</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|---|---|---|---|<br />
+</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>x</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;
+  font-family:"Courier New"'> </span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
+  EN-US'>E</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|---|---|---|---|<o:p></o:p></span></b></p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'><o:p> </o:p></span></b></p>
+</td>
+<td valign="top" style="padding:0cm 5.4pt 0cm 5.4pt">
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'><span style="mso-spacerun:yes">         </span></span></b><b style="mso-bidi-font-weight:
+  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
+  mso-ansi-language:EN-US'>Dsus</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>2/5-<o:p></o:p></span></b></p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>o</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;
+  font-family:"Courier New"'> </span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
+  EN-US'>E</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|---|---|---|---|<o:p></o:p></span></b></p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'><span style="mso-spacerun:yes">  </span></span></b><b style="mso-bidi-font-weight:
+  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
+  mso-ansi-language:EN-US'>H</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|---|-■-|---|---|<br />
+<span style="mso-spacerun:yes">  </span></span></b><b style="mso-bidi-font-weight:
+  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
+  mso-ansi-language:EN-US'>G</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>-■-|---|---|---|---|<br />
+  о </span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>D</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:
+  "Courier New"'>---|---|---|---|---|<br />
+</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>x</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;
+  font-family:"Courier New"'> </span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
+  EN-US'>A</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|---|---|---|---|<br />
+</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>x</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;
+  font-family:"Courier New"'> </span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
+  EN-US'>E</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|---|---|---|---|<o:p></o:p></span></b></p>
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'><o:p> </o:p></span></b></p>
+</td>
+</tr>
+<tr style="mso-yfti-irow:3">
+<td valign="top" style="padding:0cm 5.4pt 0cm 5.4pt">
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'><o:p> </o:p></span></b></p>
+</td>
+<td valign="top" style="padding:0cm 5.4pt 0cm 5.4pt">
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'><o:p> </o:p></span></b></p>
+</td>
+<td valign="top" style="padding:0cm 5.4pt 0cm 5.4pt">
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'><o:p> </o:p></span></b></p>
+</td>
+</tr>
+<tr style="mso-yfti-irow:4;mso-yfti-lastrow:yes">
+<td valign="top" style="padding:0cm 5.4pt 0cm 5.4pt">
+<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'><o:p> </o:p></span></b></p>
+</td>
+<td style="padding:0cm 5.4pt 0cm 5.4pt">
+<p class="MsoNormal"><span style='font-size:10.0pt;font-family:"Courier New"'><o:p> </o:p></span></p>
+</td>
+<td style="padding:0cm 5.4pt 0cm 5.4pt">
+<p class="MsoNormal"><span style='font-size:10.0pt;font-family:"Courier New"'><o:p> </o:p></span></p>
+</td>
+</tr>
+</table>
+<p class="MsoNormal"><span style='font-size:10.0pt;font-family:"Courier New"'><o:p> </o:p></span></p>
+</div>
+</body>
 </html>
+
+
+
 <style>
- #bn {display:block;}
+#bn {display:block;}
 #bt {display:block;}
 </style>
-<div style="background:url(http://www.tns-counter.ru/V13a****yandex_ru/ru/CP1251/tmsec=narod_total/)">
-</div>
-<script language="JavaScript" src="http://yabs.yandex.ru/show/163">
-</script>
+<div style="background:url(http://www.tns-counter.ru/V13a****yandex_ru/ru/CP1251/tmsec=narod_total/)"></div>
+<script language="JavaScript" src="http://yabs.yandex.ru/show/163"></script>
 <!-- mailto:spm111@yandex.ru -->
