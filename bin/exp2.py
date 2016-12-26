@@ -11,11 +11,12 @@ basepath = 'separationend/chords/html/'
 def correct_name(n):
     return n.replace(' ', '_').replace('/', '_').replace('?', '').replace(u'№', 'N').replace('`', "'").replace('"', "'").encode('utf-8')
 
-def fix_brackets(n):
-    if '(' not in n:
-        return n
-    a, b = n.split('(', 1)
-    return a.rstrip() + ' (' + b
+def fix_spaces(n):
+    if '(' in n:
+        a, b = n.split('(', 1)
+        n = a.rstrip() + ' (' + b
+    e = [s.strip() for s in n.split(',')]
+    return ', '.join(e)
 
 def save_html(fn, name):
     try:
@@ -71,6 +72,13 @@ def save_html(fn, name):
             if 'color:red' in span['style']:
                 span['style'] = span['style'].replace('color:red;', '').replace('color:blue;', '')
 
+    for img in soup.findAll('img', src=True):
+        if img['src'].endswith('/parizany.bmp'):
+            img['src'] = u'/img/партизаны.png'
+        else:
+            ## u_imperatora_nerona.bmp is lost :(
+            img.extract()
+
 
     outname = 'аккорды/' + correct_name(name)
     with open(outname, 'w') as f:
@@ -83,14 +91,18 @@ for div in soup.findAll('div', style=True):
     if 'display: none' not in div['style']:
         continue
     for a in div.findAll('a', href=True):
-        name = fix_brackets(a.text)
+        name = fix_spaces(a.text)
         sib = a.nextSibling.strip()
         if sib:
             fullname = '%s %s' % (name, sib)
+            sib = ' ' + sib
+        if name == u'Новогоднее поздравление':
+            name = fullname
+            sib = ''
         url = a['href']
         assert url.startswith(baseurl)
         fn = url[len(baseurl):]
         n = save_html(basepath + fn, name)
         if n:
             n = n.decode('utf8')
-            print (u'<p><a href="%s">%s</a> %s</p>' % (n, name, sib)).encode('utf8')
+            print (u'<p><a href="%s">%s</a>%s</p>' % (n, name, sib)).encode('utf8')
