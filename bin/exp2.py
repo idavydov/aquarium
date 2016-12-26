@@ -32,7 +32,15 @@ def save_html(fn, name):
 
     soup = BeautifulSoup(dammit.unicode, convertEntities=BeautifulSoup.ALL_ENTITIES)
     title = soup.find('title')
-    title.string = name
+    title.string = u'%s - аккорды, Аквариум и Борис Гребенщиков (БГ)' % name
+
+    # remove all scripts
+    [s.extract() for s in soup('script')]
+
+    # remove tns counter
+    for div in soup.findAll('div', style=True):
+        if 'www.tns-counter.ru' in div['style']:
+            div.extract()
 
     head = soup.find('head')
     meta = Tag(soup, "meta")
