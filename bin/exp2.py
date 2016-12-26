@@ -64,7 +64,7 @@ def save_html(fn, name):
                 span['style'] = span['style'].replace('color:red;', '').replace('color:blue;', '')
 
 
-    outname = 'песни/' + correct_name(name)
+    outname = 'аккорды/' + correct_name(name)
     with open(outname, 'w') as f:
         f.write(str(soup))
     return outname
