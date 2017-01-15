@@ -73,7 +73,7 @@ def save_html(fn, name):
                 span['style'] = span['style'].replace('color:red;', '').replace('color:blue;', '')
 
     for img in soup.findAll('img', src=True):
-        if img['src'].endswith('/parizany.bmp'):
+        if img['src'].endswith('/partizany.bmp'):
             img['src'] = u'/img/партизаны.png'
         else:
             ## u_imperatora_nerona.bmp is lost :(
