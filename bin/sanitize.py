@@ -22,7 +22,8 @@ except:
     print >> sys.stderr, 'err finding html in %s' % sys.argv[1]
 
 for meta in soup.findAll('meta'):
-    meta.extract()
+    if 'http-equiv' not in meta.attrs:
+        meta.extract()
 
 for link in soup.findAll('link'):
     link.extract()
@@ -39,7 +40,9 @@ badstyles = set(('font-family:"Courier New"', 'color:black',
                  'mso-tab-count:1', 'mso-tab-count:2',
                  'mso-tab-count:3', 'mso-bidi-font-weight:normal',
                  'mso-ansi-language:DE', 'text-justify-trim',
-                 'font-size:10.0pt', 'tab-stops', 'tab-interval'))
+                 'font-size:10.0pt', 'tab-stops', 'tab-interval',
+                 'font-family:Arial', 'font-family:"Arial Unicode MS"',
+                 'font-family:"Courier New CYR"', 'font-family:"Wide Latin"'))
 
 try:
     soup.find("style").extract()
@@ -84,8 +87,12 @@ for element in soup(lang=True):
     del element['lang']
 
 for span in soup('span'):
-    if not span.attrs:
+    if not span.attrs or not span.text:
         span.replaceWithChildren()
+
+for b in soup('b'):
+    if not b.text:
+        b.replaceWithChildren()
 
 for div in soup('div'):
     if not div.attrs:
