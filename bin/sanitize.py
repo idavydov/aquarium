@@ -64,6 +64,10 @@ for element in soup.findAll():
 # for element in soup.findAll('span', class_='GramE'):
 #     del element['class']
 
+# replace h1 with i
+for element in soup.findAll('h1'):
+    element.name = 'i'
+
 for element in soup.findAll('o:p'):
     element.replaceWithChildren()
 for element in soup(style=True):
@@ -105,7 +109,10 @@ for pre in soup('pre'):
 #    print element['style']
 
 body = soup.find('body')
-body['style'] = body.get('style', '') + ';font-family:"Courier New",monospace'
+body['style'] = body.get('style', '')
+if body['style'] != '':
+    body['style'] += ';'
+body['style'] += 'font-family:"Courier New",monospace'
 body['style'] += ';font-size:10.0pt'
 
 print str(soup)
