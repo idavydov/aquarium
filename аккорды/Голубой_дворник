@@ -1,650 +1,360 @@
-<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40">
-<head><meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-<meta name="ProgId" content="Word.Document" />
-<meta name="Generator" content="Microsoft Word 11" />
-<meta name="Originator" content="Microsoft Word 11" />
-<link rel="File-List" href="goluboy_dvornik.files/filelist.xml" />
+<html>
+<head><meta content="text/html; charset=utf-8" http-equiv="Content-type"/>
 <title>Голубой дворник - аккорды, Аквариум и Борис Гребенщиков (БГ)</title>
-<!--[if gte mso 9]&gt;&lt;xml&gt;
- &lt;o:DocumentProperties&gt;
-  &lt;o:Author&gt;&#1055;&#1072;&#1096;&#1072;&lt;/o:Author&gt;
-  &lt;o:Template&gt;Normal&lt;/o:Template&gt;
-  &lt;o:LastAuthor&gt;&#1055;&#1040;&#1064;&#1040;&lt;/o:LastAuthor&gt;
-  &lt;o:Revision&gt;7&lt;/o:Revision&gt;
-  &lt;o:TotalTime&gt;1818&lt;/o:TotalTime&gt;
-  &lt;o:Created&gt;2012-05-31T13:09:00Z&lt;/o:Created&gt;
-  &lt;o:LastSaved&gt;2013-02-14T09:16:00Z&lt;/o:LastSaved&gt;
-  &lt;o:Pages&gt;1&lt;/o:Pages&gt;
-  &lt;o:Words&gt;617&lt;/o:Words&gt;
-  &lt;o:Characters&gt;3523&lt;/o:Characters&gt;
-  &lt;o:Company&gt;&#1042;&#1086;&#1083;&#1103;&lt;/o:Company&gt;
-  &lt;o:Lines&gt;29&lt;/o:Lines&gt;
-  &lt;o:Paragraphs&gt;8&lt;/o:Paragraphs&gt;
-  &lt;o:CharactersWithSpaces&gt;4132&lt;/o:CharactersWithSpaces&gt;
-  &lt;o:Version&gt;11.9999&lt;/o:Version&gt;
- &lt;/o:DocumentProperties&gt;
-&lt;/xml&gt;&lt;![endif]--><!--[if gte mso 9]&gt;&lt;xml&gt;
- &lt;w:WordDocument&gt;
-  &lt;w:SpellingState&gt;Clean&lt;/w:SpellingState&gt;
-  &lt;w:GrammarState&gt;Clean&lt;/w:GrammarState&gt;
-  &lt;w:DoNotHyphenateCaps /&gt;
-  &lt;w:PunctuationKerning /&gt;
-  &lt;w:DrawingGridHorizontalSpacing&gt;2,85 &#1087;&#1090;&lt;/w:DrawingGridHorizontalSpacing&gt;
-  &lt;w:DisplayVerticalDrawingGridEvery&gt;2&lt;/w:DisplayVerticalDrawingGridEvery&gt;
-  &lt;w:ValidateAgainstSchemas&gt;false&lt;/w:ValidateAgainstSchemas&gt;
-  &lt;w:SaveIfXMLInvalid&gt;false&lt;/w:SaveIfXMLInvalid&gt;
-  &lt;w:IgnoreMixedContent&gt;false&lt;/w:IgnoreMixedContent&gt;
-  &lt;w:AlwaysShowPlaceholderText&gt;false&lt;/w:AlwaysShowPlaceholderText&gt;
-  &lt;w:DoNotUnderlineInvalidXML /&gt;
-  &lt;w:Compatibility&gt;
-   &lt;w:BreakWrappedTables /&gt;
-   &lt;w:SnapToGridInCell /&gt;
-   &lt;w:WrapTextWithPunct /&gt;
-   &lt;w:UseAsianBreakRules /&gt;
-   &lt;w:DontGrowAutofit /&gt;
-  &lt;/w:Compatibility&gt;
-  &lt;w:BrowserLevel&gt;MicrosoftInternetExplorer4&lt;/w:BrowserLevel&gt;
- &lt;/w:WordDocument&gt;
-&lt;/xml&gt;&lt;![endif]--><!--[if gte mso 9]&gt;&lt;xml&gt;
- &lt;w:LatentStyles DefLockedState="false" LatentStyleCount="156"&gt;
- &lt;/w:LatentStyles&gt;
-&lt;/xml&gt;&lt;![endif]-->
-<style>
-<!--
- /* Font Definitions */
- @font-face
-	{font-family:Tahoma;
-	panose-1:2 11 6 4 3 5 4 4 2 4;
-	mso-font-charset:204;
-	mso-generic-font-family:swiss;
-	mso-font-pitch:variable;
-	mso-font-signature:1627421319 -2147483648 8 0 66047 0;}
- /* Style Definitions */
- p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{mso-style-parent:"";
-	margin:0cm;
-	margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
-	font-size:12.0pt;
-	font-family:"Times New Roman";
-	mso-fareast-font-family:"Times New Roman";}
-p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
-	{mso-style-noshow:yes;
-	margin:0cm;
-	margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
-	font-size:10.0pt;
-	font-family:"Times New Roman";
-	mso-fareast-font-family:"Times New Roman";}
-span.MsoCommentReference
-	{mso-style-noshow:yes;
-	mso-ansi-font-size:8.0pt;
-	mso-bidi-font-size:8.0pt;}
-a:link, span.MsoHyperlink
-	{color:blue;
-	text-decoration:underline;
-	text-underline:single;}
-a:visited, span.MsoHyperlinkFollowed
-	{color:purple;
-	text-decoration:underline;
-	text-underline:single;}
-p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
-	{mso-style-noshow:yes;
-	margin:0cm;
-	margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
-	background:navy;
-	text-autospace:none;
-	font-size:10.0pt;
-	font-family:Tahoma;
-	mso-fareast-font-family:"Times New Roman";}
-p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
-	{mso-style-noshow:yes;
-	mso-style-parent:"\0422\0435\043A\0441\0442 \043F\0440\0438\043C\0435\0447\0430\043D\0438\044F";
-	mso-style-next:"\0422\0435\043A\0441\0442 \043F\0440\0438\043C\0435\0447\0430\043D\0438\044F";
-	margin:0cm;
-	margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
-	font-size:10.0pt;
-	font-family:"Times New Roman";
-	mso-fareast-font-family:"Times New Roman";
-	font-weight:bold;}
-p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
-	{mso-style-noshow:yes;
-	margin:0cm;
-	margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
-	font-size:8.0pt;
-	font-family:Tahoma;
-	mso-fareast-font-family:"Times New Roman";}
-span.SpellE
-	{mso-style-name:"";
-	mso-spl-e:yes;}
-span.GramE
-	{mso-style-name:"";
-	mso-gram-e:yes;}
-@page Section1
-	{size:612.0pt 792.0pt;
-	margin:2.0cm 42.5pt 2.0cm 3.0cm;
-	mso-header-margin:36.0pt;
-	mso-footer-margin:36.0pt;
-	mso-paper-source:0;}
-div.Section1
-	{page:Section1;}
--->
-</style>
-<!--[if gte mso 10]&gt;
-&lt;style&gt;
- /* Style Definitions */
- table.MsoNormalTable
-	{mso-style-name:"\041E\0431\044B\0447\043D\0430\044F \0442\0430\0431\043B\0438\0446\0430";
-	mso-tstyle-rowband-size:0;
-	mso-tstyle-colband-size:0;
-	mso-style-noshow:yes;
-	mso-style-parent:"";
-	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
-	mso-para-margin:0cm;
-	mso-para-margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
-	font-size:10.0pt;
-	font-family:"Times New Roman";
-	mso-ansi-language:#0400;
-	mso-fareast-language:#0400;
-	mso-bidi-language:#0400;}
-table.MsoTableGrid
-	{mso-style-name:"\0421\0435\0442\043A\0430 \0442\0430\0431\043B\0438\0446\044B";
-	mso-tstyle-rowband-size:0;
-	mso-tstyle-colband-size:0;
-	border:solid windowtext 1.0pt;
-	mso-border-alt:solid windowtext .5pt;
-	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
-	mso-border-insideh:.5pt solid windowtext;
-	mso-border-insidev:.5pt solid windowtext;
-	mso-para-margin:0cm;
-	mso-para-margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
-	font-size:10.0pt;
-	font-family:"Times New Roman";
-	mso-ansi-language:#0400;
-	mso-fareast-language:#0400;
-	mso-bidi-language:#0400;}
-&lt;/style&gt;
-&lt;![endif]--><!--[if gte mso 9]&gt;&lt;xml&gt;
- &lt;o:shapedefaults v:ext="edit" spidmax="79874" /&gt;
-&lt;/xml&gt;&lt;![endif]--><!--[if gte mso 9]&gt;&lt;xml&gt;
- &lt;o:shapelayout v:ext="edit"&gt;
-  &lt;o:idmap v:ext="edit" data="1" /&gt;
- &lt;/o:shapelayout&gt;&lt;/xml&gt;&lt;![endif]-->
 </head>
-<body lang="RU" link="blue" vlink="purple" style="tab-interval:35.4pt">
-<div class="Section1">
-<p class="MsoNormal"><span style='font-size:8.0pt;font-family:"Courier New";
-text-transform:uppercase'><a href="/">Главная</a>
+<body link="blue" style='font-family:"Courier New",monospace;font-size:10.0pt' vlink="purple">
+<span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ПЕСНИ
 ИЗ АНТОЛОГИЙ
 И СБОРНИКОВ - БИБЛИОТЕКА
 ВАВИЛОНА. ТОМ
-IV - </span><span style='font-size:8.0pt;font-family:"Courier New";
-text-transform:uppercase'>голубой
-дворник<o:p></o:p></span></p>
-<p class="MsoNormal"><span style='font-size:10.0pt;font-family:"Courier New";
-color:red;text-transform:uppercase'><o:p> </o:p></span></p>
-<p class="MsoNormal"><span style='font-size:10.0pt;font-family:"Courier New";
-color:red;text-transform:uppercase'>голубой
-дворник <o:p></o:p></span></p>
-<p class="MsoNormal"><i><span style='font-size:10.0pt;font-family:"Courier New"'>Б.Гребенщиков
-<o:p></o:p></span></i></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><o:p> </o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><i style="mso-bidi-font-style:normal"><span style='font-size:10.0pt;font-family:
-"Courier New";color:black'>Каподастр
-на 5-м ладу<o:p></o:p></span></i></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><o:p> </o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Вступление</span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
-mso-ansi-language:EN-US'>: C <span class="SpellE">C</span> Am <span class="SpellE">Am</span>
-D <span class="SpellE">D</span> G <span class="SpellE">G</span> 6<span class="GramE">:III</span>
-5:0 5:II <o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
-mso-ansi-language:EN-US'><span style="mso-spacerun:yes">  </span><o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
-mso-ansi-language:EN-US'><span style="mso-spacerun:yes">  </span><span style="mso-spacerun:yes">  </span>C<span style="mso-spacerun:yes">    </span>G7<span style="mso-spacerun:yes">   </span>C<span style="mso-spacerun:yes">       </span>F<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>В
+IV - голубой
+дворник<br/>
+</span><span style="color:red;text-transform:uppercase"> <br/>
+голубой
+дворник <br/>
+</span><i>Б.Гребенщиков
+<br/></i>
+ <br/>
+<i>Каподастр
+на 5-м ладу<br/></i>
+ <br/>
+Вступление: C C Am Am
+D D G G 6:III
+5:0 5:II <br/>
+  <br/>
+    C    G7   C       F<br/>
+В
 моем окне
-стоит свеча;<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes">   </span><span class="SpellE">Am</span><span style="mso-spacerun:yes">    </span>Em<span style="mso-spacerun:yes">      </span></span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
-mso-ansi-language:EN-US'>D</span><span style='font-size:10.0pt;font-family:
-"Courier New";color:black'>#<span style="mso-spacerun:yes">      </span></span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
-mso-ansi-language:EN-US'>Dm</span><span style='font-size:10.0pt;font-family:
-"Courier New";color:black'><span style="mso-spacerun:yes">       </span>G<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Свеча
+стоит свеча;<br/>
+   Am    Em      D#      Dm       G<br/>
+Свеча
 любви, свеча
 безнадежной
-страсти.<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes"> </span>C<span style="mso-spacerun:yes">      </span>G7<span style="mso-spacerun:yes">  </span><span class="SpellE">Am</span><span style="mso-spacerun:yes">     </span><span style="mso-spacerun:yes">  </span><span style="mso-spacerun:yes"> </span>D<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Ночь
+страсти.<br/>
+ C      G7  Am        D<br/>
+Ночь
 нежна, ночь
-горяча,<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes">     </span>C<span style="mso-spacerun:yes">       </span><span class="SpellE">Am</span><span style="mso-spacerun:yes">            
-</span>Dm<span style="mso-spacerun:yes">        
-</span>G<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Но
+горяча,<br/>
+     C       Am            
+Dm        
+G<br/>
+Но
 мне не найти
 в ней ни
 тепла, ни
-привета;<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><o:p> </o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Проигрыш</span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
-mso-ansi-language:EN-US'>: C <span class="SpellE">C</span> Am <span class="SpellE">Am</span>
-D <span class="SpellE">D</span> G <span class="SpellE">G</span> 6<span class="GramE">:III</span>
-5:0 5:II<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
-mso-ansi-language:EN-US'><o:p> </o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Во
+привета;<br/>
+ <br/>
+Проигрыш: C C Am Am
+D D G G 6:III
+5:0 5:II<br/>
+ <br/>
+Во
 всех лесах
-поют дрозды,<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Дрозды
+поют дрозды,<br/>
+Дрозды
 любви, дрозды
 безнадежной
-страсти.<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Нам
+страсти.<br/>
+Нам
 вчера дали
-мечту,<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Но
+мечту,<br/>
+Но
 мы не нашли в
 ней ни тепла,
-ни привета;<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><o:p> </o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes">                
-</span>C<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Который
-день подряд<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes">                    
-</span>Em<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>В
+ни привета;<br/>
+ <br/>
+                
+C<br/>
+Который
+день подряд<br/>
+                    
+Em<br/>
+В
 моем дворе
 стоит
-вторник, <o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes">       </span><span class="SpellE">Am</span><span style="mso-spacerun:yes">             
-</span>D<span style="mso-spacerun:yes">               
-</span><span style="mso-spacerun:yes">   </span>F G<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>И
+вторник, <br/>
+       Am             
+D               
+   F G<br/>
+И
 мы плачем и
 пьем, и верим,
 что будет
-среда;<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes">           
-</span><span style="mso-spacerun:yes">  </span>C<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>И
+среда;<br/>
+           
+  C<br/>
+И
 все бы
-ничего,<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes">                    
-</span>G<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span class="GramE"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Когда
-б не</span></span><span style='font-size:10.0pt;font-family:
-"Courier New";color:black'> <span class="SpellE">голубой</span>
-дворник,<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes">        </span><span class="SpellE">Am</span><span style="mso-spacerun:yes">                     
-</span>D<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Который
+ничего,<br/>
+                    
+G<br/>
+Когда
+б не голубой
+дворник,<br/>
+        Am                     
+D<br/>
+Который
 все подметет,
 который все
-объяснит,<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes">    </span>F<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Войдет
+объяснит,<br/>
+    F<br/>
+Войдет
 ко мне в
-дверь,<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes">   </span><span style="mso-spacerun:yes"> </span>G<span style="mso-spacerun:yes">                   
-</span>Em<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>И,
+дверь,<br/>
+    G                   
+Em<br/>
+И,
 выйдя, не
 оставит
-следа;<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes">    </span>F<span style="mso-spacerun:yes">          
-</span>G<span style="mso-spacerun:yes">        </span>C <span class="SpellE">C</span><o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>И,
+следа;<br/>
+    F          
+G        C C<br/>
+И,
 выйдя, не
 оставит
-следа;<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><o:p> </o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Проигрыш</span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
-mso-ansi-language:EN-US'>: <o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span class="GramE"><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";
-color:black;mso-ansi-language:EN-US'>Am</span></span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;mso-ansi-language:
-EN-US'> Am/g# Am/g D7/f#, B D# C E <o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span class="GramE"><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";
-color:black;mso-ansi-language:EN-US'>Am</span></span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;mso-ansi-language:
-EN-US'> Am/g# Am/g D7/f# F E Am G<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
-mso-ansi-language:EN-US'><o:p> </o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>По
+следа;<br/>
+ <br/>
+Проигрыш: <br/>
+Am Am/g# Am/g D7/f#, B D# C E <br/>
+Am Am/g# Am/g D7/f# F E Am G<br/>
+ <br/>
+По
 всей земле
-лежат снега;<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Снега
+лежат снега;<br/>
+Снега
 любви, снега
 без конца и
-края.<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Ночь
+края.<br/>
+Ночь
 нежна, ночь
-коротка,<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>И я
+коротка,<br/>
+И я
 не устану
 ждать тепла и
-привета.<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><o:p> </o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Который
-год подряд<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>По
+привета.<br/>
+ <br/>
+Который
+год подряд<br/>
+По
 всей земле
 стоит
-вторник,<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>И
+вторник,<br/>
+И
 мы плачем и
 пьем, и верим,
 что будет
-среда;<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>И
+среда;<br/>
+И
 все бы
-ничего,<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span class="GramE"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Когда
-б не</span></span><span style='font-size:10.0pt;font-family:
-"Courier New";color:black'> <span class="SpellE">голубой</span>
-дворник,<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Который
+ничего,<br/>
+Когда
+б не голубой
+дворник,<br/>
+Который
 все подметет,
 который все
-объяснит,<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Войдет
+объяснит,<br/>
+Войдет
 ко мне в
-дверь,<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>И,
+дверь,<br/>
+И,
 выйдя, не
 оставит
-следа;<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><span style="mso-spacerun:yes">    </span>F<span style="mso-spacerun:yes">           
-</span>G<span style="mso-spacerun:yes">         
-</span>C<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Я
+следа;<br/>
+    F           
+G         
+C<br/>
+Я
 жду, что он
 ответит мне
-"да";<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Em<span style="mso-spacerun:yes">   </span>F<span style="mso-spacerun:yes">   </span>G<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Да,
-да, да<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'><o:p> </o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style='font-size:10.0pt;font-family:"Courier New";color:black'>Заключение:
-</span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";
-color:black;mso-ansi-language:EN-US'>C</span><span lang="EN-US" style='font-size:
-10.0pt;font-family:"Courier New";color:black'> </span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;mso-ansi-language:
-EN-US'>G</span><span style='font-size:10.0pt;font-family:"Courier New";
-color:black'>7 </span><span lang="EN-US" style='font-size:10.0pt;font-family:
-"Courier New";color:black;mso-ansi-language:EN-US'>C</span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black'> </span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
-mso-ansi-language:EN-US'>F</span><span style='font-size:10.0pt;font-family:
-"Courier New";color:black'>, </span><span lang="EN-US" style='font-size:10.0pt;
-font-family:"Courier New";color:black;mso-ansi-language:EN-US'>Am</span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black'> </span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
-mso-ansi-language:EN-US'>Em</span><span lang="EN-US" style='font-size:10.0pt;
-font-family:"Courier New";color:black'> </span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;mso-ansi-language:
-EN-US'>D</span><span style='font-size:10.0pt;font-family:"Courier New";
-color:black'># </span><span lang="EN-US" style='font-size:10.0pt;font-family:
-"Courier New";color:black;mso-ansi-language:EN-US'>Dm</span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black'> </span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
-mso-ansi-language:EN-US'>G</span><span style='font-size:10.0pt;font-family:
-"Courier New";color:black'>, </span><span lang="EN-US" style='font-size:10.0pt;
-font-family:"Courier New";color:black;mso-ansi-language:EN-US'>C</span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black'> </span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
-mso-ansi-language:EN-US'>G</span><span style='font-size:10.0pt;font-family:
-"Courier New";color:black'>7 </span><span lang="EN-US" style='font-size:10.0pt;
-font-family:"Courier New";color:black;mso-ansi-language:EN-US'>Am</span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black'> </span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
-mso-ansi-language:EN-US'>D</span><span style='font-size:10.0pt;font-family:
-"Courier New";color:black'>, </span><span lang="EN-US" style='font-size:10.0pt;
-font-family:"Courier New";color:black;mso-ansi-language:EN-US'>C</span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black'> </span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
-mso-ansi-language:EN-US'>Am</span><span lang="EN-US" style='font-size:10.0pt;
-font-family:"Courier New";color:black'> </span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;mso-ansi-language:
-EN-US'>Dm</span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";
-color:black'> </span><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";
-color:black;mso-ansi-language:EN-US'>G</span><span style='font-size:10.0pt;
-font-family:"Courier New";color:black'><o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
-mso-ansi-language:EN-US'>C <span class="SpellE">C</span> Am <span class="SpellE">Am</span>
-D <span class="SpellE">D</span> G <span class="SpellE">G</span> 6<span class="GramE">:III</span>
-5:0 5:II - 4p. C<o:p></o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
-mso-ansi-language:EN-US'><o:p> </o:p></span></p>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span lang="EN-US" style='font-size:10.0pt;font-family:"Courier New";color:black;
-mso-ansi-language:EN-US'><o:p> </o:p></span></p>
-<table class="MsoTableGrid" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse;mso-yfti-tbllook:480;mso-padding-alt:0cm 5.4pt 0cm 5.4pt">
-<tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes">
-<td valign="top" style="padding:0cm 5.4pt 0cm 5.4pt">
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'><span style="mso-spacerun:yes">           
-  </span>C<o:p></o:p></span></b></p>
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>o
-  E---|---|---|---|---|<o:p></o:p></span></b></p>
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'><span style="mso-spacerun:yes">  </span>H-■-|---|---|---|---|<br />
-  o G---|---|---|---|---|<br />
-<span style="mso-spacerun:yes">  </span>D---|-■-|---|---|---|<br />
-<span style="mso-spacerun:yes">  </span>A---|---|-■-|---|---|<br />
-  x E---|---|---|---|---|<o:p></o:p></span></b></p>
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'><o:p> </o:p></span></b></p>
-</td>
-<td valign="top" style="padding:0cm 5.4pt 0cm 5.4pt">
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'><span style="mso-spacerun:yes">          
-  </span>Am<o:p></o:p></span></b></p>
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>o
-  E---|---|---|---|---|<o:p></o:p></span></b></p>
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'><span style="mso-spacerun:yes">  </span>H-■-|---|---|---|---|<br />
-<span style="mso-spacerun:yes">  </span>G---|-■-|---|---|---|<br />
-<span style="mso-spacerun:yes">  </span>D---|-■-|---|---|---|<br />
-  o A---|---|---|---|---|<br />
-  x E---|---|---|---|---|<o:p></o:p></span></b></p>
-<p class="MsoNormal" style="text-autospace:none"><b style="mso-bidi-font-weight:
-  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'><o:p> </o:p></span></b></p>
-</td>
-<td valign="top" style="padding:0cm 5.4pt 0cm 5.4pt">
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'><span style="mso-spacerun:yes">           
-  </span>D<o:p></o:p></span></b></p>
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'><span style="mso-spacerun:yes">  </span>E---|-■-|---|---|---|<o:p></o:p></span></b></p>
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'><span style="mso-spacerun:yes">  </span>H---|---|-■-|---|---|<br />
-<span style="mso-spacerun:yes">  </span>G---|-■-|---|---|---|<br />
-  o D---|---|---|---|---|<br />
-  x A---|---|---|---|---|<br />
-  x E---|---|---|---|---|<o:p></o:p></span></b></p>
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'><o:p> </o:p></span></b></p>
-</td>
+"да";<br/>
+Em   F   G<br/>
+Да,
+да, да<br/>
+ <br/>
+Заключение:
+C G7 C F, Am Em D# Dm G, C G7 Am D, C Am Dm G<br/>
+C C Am Am
+D D G G 6:III
+5:0 5:II - 4p. C<br/>
+ <br/>
+ <br/>
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse">
+<tr>
+<td style="padding:0cm 5.4pt 0cm 5.4pt" valign="top">
+<b><span style="font-size:8.0pt">           
+C<br/>
+o
+E---|---|---|---|---|<br/>
+  H-■-|---|---|---|---|<br/>
+o G---|---|---|---|---|<br/>
+  D---|-■-|---|---|---|<br/>
+  A---|---|-■-|---|---|<br/>
+x E---|---|---|---|---|<br/>
+ <br/>
+</span></b></td>
+<td style="padding:0cm 5.4pt 0cm 5.4pt" valign="top">
+<b><span style="font-size:8.0pt">          
+Am<br/>
+o
+E---|---|---|---|---|<br/>
+  H-■-|---|---|---|---|<br/>
+  G---|-■-|---|---|---|<br/>
+  D---|-■-|---|---|---|<br/>
+o A---|---|---|---|---|<br/>
+x E---|---|---|---|---|<br/>
+ <br/>
+</span></b></td>
+<td style="padding:0cm 5.4pt 0cm 5.4pt" valign="top">
+<b><span style="font-size:8.0pt">           
+D<br/>
+  E---|-■-|---|---|---|<br/>
+  H---|---|-■-|---|---|<br/>
+  G---|-■-|---|---|---|<br/>
+o D---|---|---|---|---|<br/>
+x A---|---|---|---|---|<br/>
+x E---|---|---|---|---|<br/>
+ <br/>
+</span></b></td>
 </tr>
-<tr style="mso-yfti-irow:1">
-<td valign="top" style="padding:0cm 5.4pt 0cm 5.4pt">
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'><span style="mso-spacerun:yes">  </span><span style="mso-spacerun:yes">          </span>G<o:p></o:p></span></b></p>
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'><span style="mso-spacerun:yes">  </span>E---|---|-■-|---|---|<o:p></o:p></span></b></p>
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>o
-  H---|---|---|---|---|<br />
-  o G---|---|---|---|---|<br />
-  o D---|---|---|---|---|<br />
-<span style="mso-spacerun:yes">  </span>A---|-■-|---|---|---|<br />
-<span style="mso-spacerun:yes">  </span>E---|---|-■-|---|---|<o:p></o:p></span></b></p>
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'><o:p> </o:p></span></b></p>
-</td>
-<td valign="top" style="padding:0cm 5.4pt 0cm 5.4pt">
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'><span style="mso-spacerun:yes">           
-  </span>G7<o:p></o:p></span></b></p>
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'><span style="mso-spacerun:yes">  </span>E-■-|---|---|---|---|<o:p></o:p></span></b></p>
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>o
-  H---|---|---|---|---|<br />
-  o G---|---|---|---|---|<br />
-  o D---|---|---|---|---|<br />
-<span style="mso-spacerun:yes">  </span>A---|-■-|---|---|---|<br />
-<span style="mso-spacerun:yes">  </span>E---|---|-■-|---|---|<o:p></o:p></span></b></p>
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'><o:p> </o:p></span></b></p>
-</td>
-<td valign="top" style="padding:0cm 5.4pt 0cm 5.4pt">
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'><span style="mso-spacerun:yes">           
-  </span>F</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'><o:p></o:p></span></b></p>
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'><span style="mso-spacerun:yes">  </span></span></b><b style="mso-bidi-font-weight:
-  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>E</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>-■-|---|---|---|---|<o:p></o:p></span></b></p>
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'><span style="mso-spacerun:yes">  </span></span></b><b style="mso-bidi-font-weight:
-  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>H</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>-■-|---|---|---|---|<br />
-<span style="mso-spacerun:yes">  </span></span></b><b style="mso-bidi-font-weight:
-  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>G</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>-■-|-■-|---|---|---|<br />
-<span style="mso-spacerun:yes">  </span></span></b><b style="mso-bidi-font-weight:
-  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>D</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>-■-|---|-■-|---|---|<br />
-<span style="mso-spacerun:yes">  </span></span></b><b style="mso-bidi-font-weight:
-  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>A</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>-■-|---|-■-|---|---|<br />
-</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:
-  8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'><span style="mso-spacerun:yes"> </span></span></b><b style="mso-bidi-font-weight:
-  normal"><span style='font-size:8.0pt;font-family:"Courier New"'><span style="mso-spacerun:yes"> </span></span></b><b style="mso-bidi-font-weight:
-  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>E</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>-■-|---|---|---|---|<o:p></o:p></span></b></p>
-<p class="MsoNormal" style="text-autospace:none"><b style="mso-bidi-font-weight:
-  normal"><span style='font-size:8.0pt;font-family:"Courier New"'><o:p> </o:p></span></b></p>
-</td>
+<tr>
+<td style="padding:0cm 5.4pt 0cm 5.4pt" valign="top">
+<b><span style="font-size:8.0pt">            G<br/>
+  E---|---|-■-|---|---|<br/>
+o
+H---|---|---|---|---|<br/>
+o G---|---|---|---|---|<br/>
+o D---|---|---|---|---|<br/>
+  A---|-■-|---|---|---|<br/>
+  E---|---|-■-|---|---|<br/>
+ <br/>
+</span></b></td>
+<td style="padding:0cm 5.4pt 0cm 5.4pt" valign="top">
+<b><span style="font-size:8.0pt">           
+G7<br/>
+  E-■-|---|---|---|---|<br/>
+o
+H---|---|---|---|---|<br/>
+o G---|---|---|---|---|<br/>
+o D---|---|---|---|---|<br/>
+  A---|-■-|---|---|---|<br/>
+  E---|---|-■-|---|---|<br/>
+ <br/>
+</span></b></td>
+<td style="padding:0cm 5.4pt 0cm 5.4pt" valign="top">
+<b><span style="font-size:8.0pt">           
+F<br/>
+  E-■-|---|---|---|---|<br/>
+  H-■-|---|---|---|---|<br/>
+  G-■-|-■-|---|---|---|<br/>
+  D-■-|---|-■-|---|---|<br/>
+  A-■-|---|-■-|---|---|<br/>
+  E-■-|---|---|---|---|<br/>
+ <br/>
+</span></b></td>
 </tr>
-<tr style="mso-yfti-irow:2">
-<td valign="top" style="padding:0cm 5.4pt 0cm 5.4pt">
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="DE" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:DE'><span style="mso-spacerun:yes">          
-  </span>Em<o:p></o:p></span></b></p>
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="DE" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:DE'>o E---|---|---|---|---|<o:p></o:p></span></b></p>
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="DE" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:DE'>o
-  H---|---|---|---|---|<br />
-  o G---|---|---|---|---|<br />
-<span style="mso-spacerun:yes">  </span>D---|-■-|---|---|---|<br />
-<span style="mso-spacerun:yes">  </span>A---|-■-|---|---|---|<br />
-  o E---|---|---|---|---|<o:p></o:p></span></b></p>
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="DE" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:DE'><o:p> </o:p></span></b></p>
-</td>
-<td valign="top" style="padding:0cm 5.4pt 0cm 5.4pt">
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="DE" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:DE'><span style="mso-spacerun:yes">   </span>III<span style="mso-spacerun:yes">       </span>D#<o:p></o:p></span></b></p>
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="DE" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:DE'><span style="mso-spacerun:yes">  </span>E-■-|---|---|---|---|<o:p></o:p></span></b></p>
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="DE" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:DE'><span style="mso-spacerun:yes">  </span>H-■-|-■-|---|---|---|<br />
-<span style="mso-spacerun:yes">  </span>G-■-|---|---|---|---|<br />
-<span style="mso-spacerun:yes">  </span>D-■-|---|-■-|---|---|<br />
-<span style="mso-spacerun:yes">  </span>A-■-|---|---|-■-|---|<br />
-  x E---|---|---|---|---|<o:p></o:p></span></b></p>
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="DE" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:DE'><o:p> </o:p></span></b></p>
-</td>
-<td valign="top" style="padding:0cm 5.4pt 0cm 5.4pt">
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="DE" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:DE'><span style="mso-spacerun:yes">          
-  </span>Dm<o:p></o:p></span></b></p>
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="DE" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:DE'><span style="mso-spacerun:yes">  </span>E-■-|---|---|---|---|<o:p></o:p></span></b></p>
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="DE" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:DE'><span style="mso-spacerun:yes">  </span>H---|---|-■-|---|---|<br />
-<span style="mso-spacerun:yes">  </span>G---|-■-|---|---|---|<br />
-  o D---|---|---|---|---|<br />
-  x A---|---|---|---|---|<br />
-  x E---|---|---|---|---|<o:p></o:p></span></b></p>
-<p class="MsoNormal" style="text-autospace:none"><b style="mso-bidi-font-weight:
-  normal"><span lang="DE" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:DE'><o:p> </o:p></span></b></p>
-</td>
+<tr>
+<td style="padding:0cm 5.4pt 0cm 5.4pt" valign="top">
+<b><span style="font-size:8.0pt">          
+Em<br/>
+o E---|---|---|---|---|<br/>
+o
+H---|---|---|---|---|<br/>
+o G---|---|---|---|---|<br/>
+  D---|-■-|---|---|---|<br/>
+  A---|-■-|---|---|---|<br/>
+o E---|---|---|---|---|<br/>
+ <br/>
+</span></b></td>
+<td style="padding:0cm 5.4pt 0cm 5.4pt" valign="top">
+<b><span style="font-size:8.0pt">   III       D#<br/>
+  E-■-|---|---|---|---|<br/>
+  H-■-|-■-|---|---|---|<br/>
+  G-■-|---|---|---|---|<br/>
+  D-■-|---|-■-|---|---|<br/>
+  A-■-|---|---|-■-|---|<br/>
+x E---|---|---|---|---|<br/>
+ <br/>
+</span></b></td>
+<td style="padding:0cm 5.4pt 0cm 5.4pt" valign="top">
+<b><span style="font-size:8.0pt">          
+Dm<br/>
+  E-■-|---|---|---|---|<br/>
+  H---|---|-■-|---|---|<br/>
+  G---|-■-|---|---|---|<br/>
+o D---|---|---|---|---|<br/>
+x A---|---|---|---|---|<br/>
+x E---|---|---|---|---|<br/>
+ <br/>
+</span></b></td>
 </tr>
-<tr style="mso-yfti-irow:3">
-<td valign="top" style="padding:0cm 5.4pt 0cm 5.4pt">
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="DE" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:DE'><span style="mso-spacerun:yes">         
-  </span>Am/g<o:p></o:p></span></b></p>
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="DE" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:DE'>o
-  E---|---|---|---|---|<o:p></o:p></span></b></p>
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="DE" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:DE'><span style="mso-spacerun:yes">  </span>H-■-|---|---|---|---|<br />
-<span style="mso-spacerun:yes">  </span>G---|-■-|---|---|---|<br />
-<span style="mso-spacerun:yes">  </span>D---|-■-|---|---|---|<br />
-  o A---|---|---|---|---|<br />
-<span style="mso-spacerun:yes">  </span>E---|---|---|-■-|---|<o:p></o:p></span></b></p>
-<p class="MsoNormal" style="text-autospace:none"><b style="mso-bidi-font-weight:
-  normal"><span lang="DE" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:DE'><o:p> </o:p></span></b></p>
-</td>
-<td valign="top" style="padding:0cm 5.4pt 0cm 5.4pt">
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="DE" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:DE'><span style="mso-spacerun:yes">         
-  </span>Am/g<o:p></o:p></span></b></p>
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="DE" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:DE'>o
-  E---|---|---|---|---|<o:p></o:p></span></b></p>
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="DE" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:DE'><span style="mso-spacerun:yes">  </span>H-■-|---|---|---|---|<br />
-<span style="mso-spacerun:yes">  </span>G---|-■-|---|---|---|<br />
-<span style="mso-spacerun:yes">  </span>D---|-■-|---|---|---|<br />
-  o A---|---|---|---|---|<br />
-<span style="mso-spacerun:yes"> </span><span style="mso-spacerun:yes"> </span>E---|---|-■-|---|---|<o:p></o:p></span></b></p>
-<p class="MsoNormal" style="text-autospace:none"><b style="mso-bidi-font-weight:
-  normal"><span lang="DE" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:DE'><o:p> </o:p></span></b></p>
-</td>
-<td valign="top" style="padding:0cm 5.4pt 0cm 5.4pt">
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="DE" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:DE'><span style="mso-spacerun:yes">         
-  </span>D7/f#<o:p></o:p></span></b></p>
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="DE" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:DE'><span style="mso-spacerun:yes">  </span>E---|-■-|---|---|---|<o:p></o:p></span></b></p>
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="DE" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:DE'><span style="mso-spacerun:yes">  </span>H-■-|---|---|---|---|<br />
-<span style="mso-spacerun:yes">  </span>G---|-■-|---|---|---|<br />
-  o D---|---|---|---|---|<br />
-  o A---|---|---|---|---|<br />
-<span style="mso-spacerun:yes">  </span>E---|-■-|---|---|---|<o:p></o:p></span></b></p>
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="DE" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:DE'><o:p> </o:p></span></b></p>
-</td>
+<tr>
+<td style="padding:0cm 5.4pt 0cm 5.4pt" valign="top">
+<b><span style="font-size:8.0pt">         
+Am/g<br/>
+o
+E---|---|---|---|---|<br/>
+  H-■-|---|---|---|---|<br/>
+  G---|-■-|---|---|---|<br/>
+  D---|-■-|---|---|---|<br/>
+o A---|---|---|---|---|<br/>
+  E---|---|---|-■-|---|<br/>
+ <br/>
+</span></b></td>
+<td style="padding:0cm 5.4pt 0cm 5.4pt" valign="top">
+<b><span style="font-size:8.0pt">         
+Am/g<br/>
+o
+E---|---|---|---|---|<br/>
+  H-■-|---|---|---|---|<br/>
+  G---|-■-|---|---|---|<br/>
+  D---|-■-|---|---|---|<br/>
+o A---|---|---|---|---|<br/>
+  E---|---|-■-|---|---|<br/>
+ <br/>
+</span></b></td>
+<td style="padding:0cm 5.4pt 0cm 5.4pt" valign="top">
+<b><span style="font-size:8.0pt">         
+D7/f#<br/>
+  E---|-■-|---|---|---|<br/>
+  H-■-|---|---|---|---|<br/>
+  G---|-■-|---|---|---|<br/>
+o D---|---|---|---|---|<br/>
+o A---|---|---|---|---|<br/>
+  E---|-■-|---|---|---|<br/>
+ <br/>
+</span></b></td>
 </tr>
-<tr style="mso-yfti-irow:4;mso-yfti-lastrow:yes">
-<td valign="top" style="padding:0cm 5.4pt 0cm 5.4pt">
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="DE" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:DE'><span style="mso-spacerun:yes">           
-  </span></span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>B</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:
-  "Courier New"'><o:p></o:p></span></b></p>
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'><span style="mso-spacerun:yes">  </span></span></b><b style="mso-bidi-font-weight:
-  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>E</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>-■-|---|---|---|---|<o:p></o:p></span></b></p>
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'><span style="mso-spacerun:yes">  </span></span></b><b style="mso-bidi-font-weight:
-  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>H</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>-■-|---|-■-|---|---|<br />
-<span style="mso-spacerun:yes">  </span></span></b><b style="mso-bidi-font-weight:
-  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>G</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>-■-|-</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;
-  font-family:"Courier New";mso-ansi-language:EN-US'>-</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:
-  "Courier New"'>-|-■-|---|---|<br />
-<span style="mso-spacerun:yes">  </span></span></b><b style="mso-bidi-font-weight:
-  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>D</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>-■-|---|-■-|---|---|<br />
-<span style="mso-spacerun:yes">  </span></span></b><b style="mso-bidi-font-weight:
-  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>A</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>-■-|---|-</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;
-  font-family:"Courier New";mso-ansi-language:EN-US'>-</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:
-  "Courier New"'>-|---|---|<br />
-</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>x E</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:
-  "Courier New"'>-</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
-  EN-US'>-</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>-|---|---|---|---|<o:p></o:p></span></b></p>
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'><o:p> </o:p></span></b></p>
-</td>
-<td valign="top" style="padding:0cm 5.4pt 0cm 5.4pt">
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'><span style="mso-spacerun:yes">           
-  </span></span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>E</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:
-  "Courier New"'><o:p></o:p></span></b></p>
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>o</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;
-  font-family:"Courier New"'> </span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
-  EN-US'>E</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|---|---|---|---|<o:p></o:p></span></b></p>
-<p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>o</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;
-  font-family:"Courier New"'> </span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
-  EN-US'>H</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|---|---|---|---|<br />
-<span style="mso-spacerun:yes">  </span></span></b><b style="mso-bidi-font-weight:
-  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>G</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>-■-|---|---|---|---|<br />
-<span style="mso-spacerun:yes">  </span></span></b><b style="mso-bidi-font-weight:
-  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>D</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|-■-|---|---|---|<br />
-<span style="mso-spacerun:yes">  </span></span></b><b style="mso-bidi-font-weight:
-  normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";
-  mso-ansi-language:EN-US'>A</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|-■-|---|---|---|<br />
-</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:EN-US'>o</span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;
-  font-family:"Courier New"'> </span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style='font-size:8.0pt;font-family:"Courier New";mso-ansi-language:
-  EN-US'>E</span></b><b style="mso-bidi-font-weight:normal"><span style='font-size:8.0pt;font-family:"Courier New"'>---|---|---|---|---|<o:p></o:p></span></b></p>
-<p class="MsoNormal" style="text-autospace:none"><b style="mso-bidi-font-weight:
-  normal"><span style='font-size:8.0pt;font-family:"Courier New"'><o:p> </o:p></span></b></p>
-</td>
+<tr>
+<td style="padding:0cm 5.4pt 0cm 5.4pt" valign="top">
+<b><span style="font-size:8.0pt">           
+B<br/>
+  E-■-|---|---|---|---|<br/>
+  H-■-|---|-■-|---|---|<br/>
+  G-■-|---|-■-|---|---|<br/>
+  D-■-|---|-■-|---|---|<br/>
+  A-■-|---|---|---|---|<br/>
+x E---|---|---|---|---|<br/>
+ <br/>
+</span></b></td>
+<td style="padding:0cm 5.4pt 0cm 5.4pt" valign="top">
+<b><span style="font-size:8.0pt">           
+E<br/>
+o E---|---|---|---|---|<br/>
+o H---|---|---|---|---|<br/>
+  G-■-|---|---|---|---|<br/>
+  D---|-■-|---|---|---|<br/>
+  A---|-■-|---|---|---|<br/>
+o E---|---|---|---|---|<br/>
+ <br/>
+</span></b></td>
 <td style="padding:0cm 5.4pt 0cm 5.4pt">
-<p class="MsoNormal"><span style="font-size:10.0pt"><o:p> </o:p></span></p>
+ <br/>
 </td>
 </tr>
 </table>
-<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span lang="DE" style='font-size:10.0pt;font-family:"Courier New";color:black;
-mso-ansi-language:DE'><o:p> </o:p></span></p>
-</div>
+ <br/>
 </body>
 </html>
-<div>
-<!--Openstat-->
-<span id="openstat2323431"></span>
 
-<!--/Openstat-->
-
-</div>
