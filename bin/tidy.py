@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 import sys
+import bs4
+import re
 from bs4 import BeautifulSoup, Comment
 
 def fxst(s):
@@ -12,7 +14,12 @@ def fxst(s):
         return s
     return ':'.join((a.strip(), b.strip()))
 
-soup = BeautifulSoup(open(sys.argv[1]), 'lxml')
+with  open(sys.argv[1]) as f:
+    content = f.read().replace('\r', '')
+
+
+content = re.sub('\n *', '\n', content)
+soup = BeautifulSoup(content, 'lxml')
 
 ## remove extra attributes from html
 html = soup.find("html")
@@ -57,7 +64,7 @@ for element in soup(text=lambda text: isinstance(text, Comment)):
 
 for element in soup.findAll():
     del element['class']
-    
+
 # for element in soup.findAll('p', class_='MsoNormal'):
 #     del element['class']
 
@@ -114,6 +121,41 @@ for pre in soup('pre'):
 
 #for element in soup(style=True):
 #    print element['style']
+
+def collapse(soup, tag):
+    changed = False
+    #print tag
+    for e in soup(tag):
+        if not hasattr(e.next_sibling, 'name'):
+            continue
+        elif e.next_sibling.name == tag:
+            for attr in e.attrs:
+                if attr not in e.next_sibling.attrs or e.attrs[attr] != e.next_sibling.attrs[attr]:
+                    #print e, e.nextSibling
+                    break
+            else:
+                e.contents.extend(e.next_sibling.extract().contents)
+                changed = True
+        elif e.next_sibling.name == 'br':
+            e.contents.append(e.next_sibling.extract())
+            changed = True
+        elif e.next_sibling == '\n':
+            e.contents.append(e.next_sibling.extract())
+            changed = True
+
+    return changed
+
+changed = True
+while changed:
+    soup = BeautifulSoup(str(soup), 'lxml')
+    changed = False
+    changed = collapse(soup, 'b') or changed
+    changed = collapse(soup, 'i') or changed
+    changed = collapse(soup, 'span') or changed
+
+#for span in soup.findAll('span'):
+#    print 'a', span
+#    print 'b', span.next_sibling
 
 body = soup.find('body')
 body['style'] = body.get('style', '')
