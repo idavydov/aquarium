@@ -3,7 +3,7 @@
   {{ .Content }}
   {{ if .Params.handbook_unid }}
     <br/>
-    <a href="http://handbook.severov.net/handbook.nsf/1/{{ .Params.handbook_unid }}">Песня в справочнике</a><br/>
+    <a href="http://handbook.severov.net/handbook.nsf/1/{{ .Params.handbook_unid }}">{{ .Title }} в справочнике</a><br/>
   {{ end }}
 </body>
 {{ partial "footer.html" . }}
