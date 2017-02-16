@@ -1,5 +1,9 @@
 {{ partial "header.html" . }}
 <body link="blue" style='font-family:"Courier New",monospace;font-size:10.0pt' vlink="purple">
-    {{ .Content }}
+  {{ .Content }}
+  {{ if .Params.handbook_unid }}
+    <br/>
+    <a href="http://handbook.severov.net/handbook.nsf/1/{{ .Params.handbook_unid }}">Песня в справочнике</a><br/>
+  {{ end }}
 </body>
 {{ partial "footer.html" . }}
