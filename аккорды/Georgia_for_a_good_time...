@@ -14,35 +14,22 @@
 </head>
 <body link="blue" style='font-family:"Courier New",monospace;font-size:10.0pt' vlink="purple">
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
-- Неизданные
-англоязычные
-песни - Georgia for a good time...<br/></span>
+- Неизданные англоязычные песни - Georgia for a good time...<br/></span>
  <br/>
 <span style="color:red;text-transform:uppercase">Georgia for a good time...<br/>
 </span><i> <br/></i>
-Am(V)           
-F(V)            
-Em(VII)     F(V)<br/>
-    Georgia for a good time... Or a
-life time<br/>
-Am(V)           
-F(V)            
-Em(VII)     F(V)<br/>
-    Georgia for a good time... Or a
-life time<br/>
-Am(V)           
-F(V)            
-Em(VII)     F
-G(III) Am(V)<br/>
-    Georgia for a good time... Or a
-life time<br/>
+Am(V)            F(V)             Em(VII)     F(V)<br/>
+    Georgia for a good time... Or a life time<br/>
+Am(V)            F(V)             Em(VII)     F(V)<br/>
+    Georgia for a good time... Or a life time<br/>
+Am(V)            F(V)             Em(VII)     F G(III) Am(V)<br/>
+    Georgia for a good time... Or a life time<br/>
  <br/>
  <br/>
 <table border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse">
 <tr>
 <td style="padding:0cm 5.4pt 0cm 5.4pt" valign="top">
-<b><span style="font-size:8.0pt">   
-V     Am(V)<br/>
+<b><span style="font-size:8.0pt">    V     Am(V)<br/>
   E-■-|---|---|---|---|<br/>
   H-■-|---|---|---|---|<br/>
   G-■-|---|---|---|---|<br/>
@@ -52,8 +39,7 @@ V     Am(V)<br/>
  <br/>
 </span></b></td>
 <td style="padding:0cm 5.4pt 0cm 5.4pt" valign="top">
-<b><span style="font-size:8.0pt">   
-V     F(V)<br/>
+<b><span style="font-size:8.0pt">    V     F(V)<br/>
   E-■-|---|---|---|---|<br/>
   H-■-|-■-|---|---|---|<br/>
   G-■-|---|---|---|---|<br/>
@@ -63,8 +49,7 @@ x E---|---|---|---|---|<br/>
  <br/>
 </span></b></td>
 <td style="padding:0cm 5.4pt 0cm 5.4pt" valign="top">
-<b><span style="font-size:8.0pt">  
-VII   Em(VII)<br/>
+<b><span style="font-size:8.0pt">   VII   Em(VII)<br/>
   E-■-|---|---|---|---|<br/>
   H-■-|-■-|---|---|---|<br/>
   G-■-|---|-■-|---|---|<br/>
@@ -78,8 +63,7 @@ o E---|---|---|---|---|<br/>
 <table border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse">
 <tr>
 <td style="padding:0cm 5.4pt 0cm 5.4pt" valign="top">
-<b><span style="font-size:8.0pt">           
-F<br/>
+<b><span style="font-size:8.0pt">            F<br/>
   E-■-|---|---|---|---|<br/>
   H-■-|---|---|---|---|<br/>
   G-■-|-■-|---|---|---|<br/>
@@ -89,8 +73,7 @@ F<br/>
  <br/>
 </span></b></td>
 <td style="padding:0cm 5.4pt 0cm 5.4pt" valign="top">
-<b><span style="font-size:8.0pt">        
-G(III)<br/>
+<b><span style="font-size:8.0pt">         G(III)<br/>
   E---|---|-■-|---|---|<br/>
   H---|---|-■-|---|---|<br/>
   G---|---|-■-|-■-|---|<br/>
@@ -104,4 +87,3 @@ G(III)<br/>
  <br/>
 </body>
 </html>
-
