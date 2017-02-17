@@ -32,7 +32,6 @@ chords_template = codecs.open('templates/chords.html', 'r', 'utf8').read()
 chords_template = set_tracking(chords_template)
 index_template = codecs.open('templates/index.html', 'r', 'utf8').read()
 index_template = set_tracking(index_template)
-footer = codecs.open('layouts/partials/footer.html', 'r', 'utf8').read()
 outdir = 'public/'
 
 links = []
