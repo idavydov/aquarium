@@ -3,8 +3,8 @@
 import glob
 import re
 
-spbr = re.compile('^\s*<br/>\n?', re.UNICODE)
-spbr_strict = re.compile('^ +<br/>\n?', re.UNICODE)
+spbr = re.compile('^\s*<br/>\n?$', re.UNICODE)
+spbr_strict = re.compile('^ +<br/>\n?$', re.UNICODE)
 
 for fn in glob.iglob('content/аккорды/*.html'):
     lines = open(fn).readlines()
