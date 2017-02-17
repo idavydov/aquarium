@@ -26,7 +26,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    {{tracking}}
+    {% include 'tracking.html' %}
   </head>
   <body>
     <div class="container">
@@ -36,10 +36,14 @@
 
       <div class="row marketing">
         <div class="col-lg-6">
-	  %s
+	  {% for item in chords1 %}
+	    <p><a href="{{ item.url }}">{{ item.title }}</a> {{ item.extra_title }}</p>
+	  {% endfor %}
         </div>
         <div class="col-lg-6">
-	  %s
+	  {% for item in chords2 %}
+	    <p><a href="{{ item.url }}">{{ item.title }}</a> {{ item.extra_title }}</p>
+	  {% endfor %}
         </div>
       </div>
 

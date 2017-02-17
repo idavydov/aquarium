@@ -2,14 +2,17 @@
 <html>
   <head>
     <meta content="text/html; charset=utf-8" http-equiv="Content-type"/>
-    <title>{{Title}} - аккорды, Аквариум и Борис Гребенщиков (БГ)</title>
+    <title>{{ title }} - аккорды, Аквариум и Борис Гребенщиков (БГ)</title>
     <meta name="description" content="Аккорды к песне {{Title}}, Аквариум и Борис Гребенщиков">
     <link rel="icon" href="/favicon.ico">
 
-    {{tracking}} 
+    {% include 'tracking.html' %} 
   </head>
   <body link="blue" style='font-family:"Courier New",monospace;font-size:10.0pt' vlink="purple">
-    %s
-    %s
+    {% block content %}{% endblock %}
+    {% if handbook_unid %}
+      <br/>
+      <a href="http://handbook.severov.net/handbook.nsf/1/{{ handbook_unid }}">{{ title }} в справочнике</a><br/>
+    {% endif %}
   </body>
 </html>
