@@ -1,9 +1,10 @@
-+++
-title = "Змея"
-handbook_unid = "57a4de616a6a41b2c325679d006af231"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Змея" %}
+{% set handbook_unid = "57a4de616a6a41b2c325679d006af231" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - РАДИО АФРИКА - змея<br/>
 </span><span style="color:red"> <br/>
@@ -42,3 +43,5 @@ H – 4p.<br/>
   D---|-■-|---|-■-|---|<br/>
   A---|-■-|---|---|---|<br/>
 x E---|---|---|---|---|<br/></span></b>
+{% endraw %}
+{% endblock %}

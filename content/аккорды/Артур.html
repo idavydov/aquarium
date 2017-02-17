@@ -1,9 +1,10 @@
-+++
-title = "Артур"
-handbook_unid = "4c3e7e41b2d55dc2c325679d006aed57"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Артур" %}
+{% set handbook_unid = "4c3e7e41b2d55dc2c325679d006aed57" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ЭЛЕКТРИЧЕСТВО - артур<br/>
 </span><span style="color:red"> <br/>
 АРТУР<br/>
@@ -110,3 +111,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

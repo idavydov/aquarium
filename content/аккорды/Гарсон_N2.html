@@ -1,9 +1,10 @@
-+++
-title = "Гарсон №2"
-handbook_unid = "567050ddda7f283ec325679d006aee83"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Гарсон №2" %}
+{% set handbook_unid = "567050ddda7f283ec325679d006aee83" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - НАВИГАТОР - гарсон №2<br/>
 </span><span style="color:red"> <br/>
@@ -122,3 +123,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

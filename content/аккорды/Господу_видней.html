@@ -1,9 +1,10 @@
-+++
-title = "Господу видней"
-handbook_unid = "c0711c03ec743608c325753c005374d6"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Господу видней" %}
+{% set handbook_unid = "c0711c03ec743608c325753c005374d6" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ЛОШАДЬ БЕЛАЯ - господу видней<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -240,3 +241,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

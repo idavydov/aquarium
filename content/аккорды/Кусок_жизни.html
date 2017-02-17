@@ -1,9 +1,10 @@
-+++
-title = "Кусок жизни"
-handbook_unid = "c26243d00172a92dc325679d006af300"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Кусок жизни" %}
+{% set handbook_unid = "c26243d00172a92dc325679d006af300" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ЭЛЕКТРИЧЕСТВО - кусок жизни<br/>
 </span><span style="color:red"> <br/>
 КУСОК ЖИЗНИ<br/>
@@ -171,3 +172,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

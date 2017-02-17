@@ -1,9 +1,10 @@
-+++
-title = "Black is the color you wear today..."
-handbook_unid = "26aa3d671c53245fc325679d006aece5"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Black is the color you wear today..." %}
+{% set handbook_unid = "26aa3d671c53245fc325679d006aece5" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - Неизданные англоязычные песни - black is the color you wear today…<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 black is the color you wear today…<br/>
@@ -145,3 +146,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

@@ -1,9 +1,10 @@
-+++
-title = "Ткачиха"
-handbook_unid = "d499648a57e6fb7bc325714f0043ccc4"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Ткачиха" %}
+{% set handbook_unid = "d499648a57e6fb7bc325714f0043ccc4" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - БЕСПЕЧНЫЙ РУССКИЙ БРОДЯГА - ткачиха<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -148,3 +149,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

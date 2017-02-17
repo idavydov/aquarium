@@ -1,9 +1,10 @@
-+++
-title = "О лебеде исчезнувшем"
-handbook_unid = "89e717ac780e2ab7c325679d006af0ba"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "О лебеде исчезнувшем" %}
+{% set handbook_unid = "89e717ac780e2ab7c325679d006af0ba" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ФЕОДАЛИЗМ - о лебеде исчезнувшем<br/>
 </span><span style="color:red"> <br/>
 </span><span style="color:red;text-transform:uppercase">О ЛЕБЕДЕ ИСЧЕЗНУВШЕМ<br/>
@@ -125,3 +126,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

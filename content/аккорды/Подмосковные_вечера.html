@@ -1,9 +1,10 @@
-+++
-title = "Подмосковные вечера"
-handbook_unid = "4341ff231098f12ac325679d006af09c"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Подмосковные вечера" %}
+{% set handbook_unid = "4341ff231098f12ac325679d006af09c" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - КОНЦЕРТНЫЕ ЗАПИСИ - подмосковные вечера<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 подмосковные вечера <br/>
@@ -115,3 +116,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

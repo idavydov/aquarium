@@ -1,9 +1,10 @@
-+++
-title = "Мир, как мы его знали"
-handbook_unid = "7a68b885a5963f83c325679d006af01e"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Мир, как мы его знали" %}
+{% set handbook_unid = "7a68b885a5963f83c325679d006af01e" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - НАША ЖИЗНЬ С ТОЧКИ ЗРЕНИЯ ДЕРЕВЬЕВ - мир, как мы его знали<br/>
 </span><span style="color:red"> <br/>
@@ -89,3 +90,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

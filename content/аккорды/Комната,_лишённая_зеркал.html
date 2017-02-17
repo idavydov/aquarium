@@ -1,9 +1,10 @@
-+++
-title = "Комната, лишённая зеркал"
-handbook_unid = "37c121563dbb17f4c325679d006af1c5"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Комната, лишённая зеркал" %}
+{% set handbook_unid = "37c121563dbb17f4c325679d006af1c5" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ИХТИОЛОГИЯ - комната, лишённая зеркал<br/>
 </span><span style="color:red"> <br/>
@@ -256,3 +257,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

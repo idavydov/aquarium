@@ -1,9 +1,10 @@
-+++
-title = "Десять стрел"
-handbook_unid = "4b638fba70c0fef7c325679d006aeecb"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Десять стрел" %}
+{% set handbook_unid = "4b638fba70c0fef7c325679d006aeecb" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - АКУСТИКА - десять стрел<br/>
 </span><span style="color:red"> <br/>
@@ -100,3 +101,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

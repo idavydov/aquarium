@@ -1,9 +1,10 @@
-+++
-title = "Дело за мной"
-handbook_unid = "79840f171cc454f5c325714f0048e311"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Дело за мной" %}
+{% set handbook_unid = "79840f171cc454f5c325714f0048e311" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - БЕСПЕЧНЫЙ РУССКИЙ БРОДЯГА - дело за мной<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -213,3 +214,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

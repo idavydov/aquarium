@@ -1,9 +1,10 @@
-+++
-title = "Апокриф"
-handbook_unid = "389cc80c79ac0de3c325679d006aee14"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Апокриф" %}
+{% set handbook_unid = "389cc80c79ac0de3c325679d006aee14" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ГИПЕРБОРЕЯ - апокриф<br/>
 </span><span style="color:red"> <br/>
@@ -137,3 +138,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

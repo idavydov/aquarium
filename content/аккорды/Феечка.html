@@ -1,9 +1,10 @@
-+++
-title = "Феечка"
-handbook_unid = "b86b29858daaf3acc3256cd4001fb3bd"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Феечка" %}
+{% set handbook_unid = "b86b29858daaf3acc3256cd4001fb3bd" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ПЕСНИ РЫБАКА - феечка<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 Феечка<br/>
@@ -112,3 +113,5 @@ o D---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

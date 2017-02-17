@@ -1,9 +1,10 @@
-+++
-title = "Best years of our lives"
-handbook_unid = "f6624fb29eb6534cc325679d006aed96"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Best years of our lives" %}
+{% set handbook_unid = "f6624fb29eb6534cc325679d006aed96" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - АНГЛОЯЗЫЧНЫЕ ПЕСНИ - RADIO LONDON - best years of our lives<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 best years of our lives <br/>
@@ -143,3 +144,5 @@ x E---|---|---|---|---|<br/>
 <td colspan="2" style="border:none;padding:0cm 0cm 0cm 0cm" width="374"> <br/></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

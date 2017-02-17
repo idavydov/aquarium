@@ -1,9 +1,10 @@
-+++
-title = "В подобную ночь"
-handbook_unid = "985d793eb21c93f0c325679d006aee11"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "В подобную ночь" %}
+{% set handbook_unid = "985d793eb21c93f0c325679d006aee11" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - СИНИЙ АЛЬБОМ - <span style="color:windowtext">в подобную ночь<br/>
 </span></span><span style="color:red"> <br/>
 В ПОДОБНУЮ НОЧЬ<br/>
@@ -161,3 +162,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

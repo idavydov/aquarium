@@ -1,9 +1,10 @@
-+++
-title = "Без названия"
-handbook_unid = "b2afd3d14fa2aa33c325679d006aefa9"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Без названия" %}
+{% set handbook_unid = "b2afd3d14fa2aa33c325679d006aefa9" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ДЕТИ ДЕКАБРЯ - без названия<br/>
 </span><span style="color:red"> <br/>
 БЕЗ НАЗВАНИЯ<br/>
@@ -147,3 +148,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

@@ -1,9 +1,10 @@
-+++
-title = "Wild horses"
-handbook_unid = "b8783b154453bb5ac3256a7c00379dba"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Wild horses" %}
+{% set handbook_unid = "b8783b154453bb5ac3256a7c00379dba" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - Неизданные англоязычные песни - wild horses<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -133,3 +134,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

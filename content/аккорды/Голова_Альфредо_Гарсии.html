@@ -1,9 +1,10 @@
-+++
-title = "Голова Альфредо Гарсии"
-handbook_unid = "af447afb13940b07c32570b7003345b8"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Голова Альфредо Гарсии" %}
+{% set handbook_unid = "af447afb13940b07c32570b7003345b8" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - БЕСПЕЧНЫЙ РУССКИЙ БРОДЯГА - голова альфреда гарсии<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -289,3 +290,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

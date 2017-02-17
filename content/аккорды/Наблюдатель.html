@@ -1,9 +1,10 @@
-+++
-title = "Наблюдатель"
-handbook_unid = "75f9144de53012d9c325679d006aef04"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Наблюдатель" %}
+{% set handbook_unid = "75f9144de53012d9c325679d006aef04" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - РАВНОДЕНСТВИЕ - наблюдатель<br/>
 </span><span style="color:red"> <br/>
@@ -224,3 +225,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

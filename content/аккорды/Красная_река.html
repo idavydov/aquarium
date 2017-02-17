@@ -1,9 +1,10 @@
-+++
-title = "Красная река"
-handbook_unid = "5e1d800c4951698ac32577a10071b67d"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Красная река" %}
+{% set handbook_unid = "5e1d800c4951698ac32577a10071b67d" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - АРХАНГЕЛЬСК - красная река<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -174,3 +175,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

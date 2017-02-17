@@ -1,9 +1,10 @@
-+++
-title = "Древняя кровь"
-handbook_unid = "dbdf93524edecfe3c325679d006af23d"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Древняя кровь" %}
+{% set handbook_unid = "dbdf93524edecfe3c325679d006af23d" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - КОНЦЕРТНЫЕ ЗАПИСИ - древняя кровь<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -188,3 +189,5 @@ o D---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

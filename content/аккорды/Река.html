@@ -1,9 +1,10 @@
-+++
-title = "Река"
-handbook_unid = "54555e0a48c9d520c325679d006af08d"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Река" %}
+{% set handbook_unid = "54555e0a48c9d520c325679d006af08d" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - СИНИЙ АЛЬБОМ - река<br/>
 </span><span style="color:red"> <br/>
@@ -94,3 +95,5 @@ o D---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

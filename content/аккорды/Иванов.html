@@ -1,9 +1,10 @@
-+++
-title = "Иванов"
-handbook_unid = "151a0bc3c5beeb99c325679d006aef22"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Иванов" %}
+{% set handbook_unid = "151a0bc3c5beeb99c325679d006aef22" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - АКУСТИКА - иванов<br/>
 </span><span style="color:red"> <br/>
@@ -142,3 +143,5 @@ o E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

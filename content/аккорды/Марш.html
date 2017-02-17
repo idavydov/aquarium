@@ -1,9 +1,10 @@
-+++
-title = "Марш"
-handbook_unid = "906fa85ebc4238ffc325679d006af270"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Марш" %}
+{% set handbook_unid = "906fa85ebc4238ffc325679d006af270" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ▼ - марш<br/>
 </span><span style="color:red"> <br/>
@@ -129,3 +130,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

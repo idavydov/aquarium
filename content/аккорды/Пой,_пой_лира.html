@@ -1,9 +1,10 @@
-+++
-title = "Пой, пой лира"
-handbook_unid = "cff55ddf29254d5dc325679d006af126"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Пой, пой лира" %}
+{% set handbook_unid = "cff55ddf29254d5dc325679d006af126" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - КОСТРОМА MON AMOUR - пой, пой лира<br/>
 </span><span style="color:red"> <br/>
@@ -140,3 +141,5 @@ o D---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

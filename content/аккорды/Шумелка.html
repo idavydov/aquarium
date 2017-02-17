@@ -1,9 +1,10 @@
-+++
-title = "Шумелка"
-handbook_unid = "cf433e97636f1f59c3256a230032b4be"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Шумелка" %}
+{% set handbook_unid = "cf433e97636f1f59c3256a230032b4be" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - БЕСПЕЧНЫЙ РУССКИЙ БРОДЯГА - шумелка<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -147,3 +148,5 @@ o A---|---|---|---|---|<br/>
 <td colspan="2" style="border:none;padding:0cm 0cm 0cm 0cm" width="374"> <br/></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

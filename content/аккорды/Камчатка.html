@@ -1,9 +1,10 @@
-+++
-title = "Камчатка"
-handbook_unid = "9005ff8b94ce8eb1c325696c0046180c"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Камчатка" %}
+{% set handbook_unid = "9005ff8b94ce8eb1c325696c0046180c" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - НЕИЗДАННЫЕ ПЕСНИ - РУСКОЯЗЫЧНЫЕ ПЕСНИ - камчатка<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -142,3 +143,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

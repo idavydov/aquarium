@@ -1,9 +1,10 @@
-+++
-title = "Болота Невы"
-handbook_unid = "880f774d6df17145c325679d006af03c"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Болота Невы" %}
+{% set handbook_unid = "880f774d6df17145c325679d006af03c" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ЛИЛИТ - болота невы<br/>
 </span><span style="color:red"> <br/>
 БОЛОТА НЕВЫ<br/>
@@ -111,3 +112,5 @@ o D---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

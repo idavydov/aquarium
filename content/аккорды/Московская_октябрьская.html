@@ -1,9 +1,10 @@
-+++
-title = "Московская октябрьская"
-handbook_unid = "0a471c56ee2559a1c325679d006aee5c"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Московская октябрьская" %}
+{% set handbook_unid = "0a471c56ee2559a1c325679d006aee5c" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - КОСТРОМА MON AMOUR - московская октябрьская<br/>
 </span><span style="color:red"> <br/>
@@ -200,3 +201,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

@@ -1,9 +1,10 @@
-+++
-title = "Цветы на огороде"
-handbook_unid = "a9ccf651a2d17e04c325687c00717096"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Цветы на огороде" %}
+{% set handbook_unid = "a9ccf651a2d17e04c325687c00717096" %}
+
+{% block content %}
+{% raw %}
 <span style="color:red;text-transform:uppercase">цветы на огороде <br/>
 </span><i>П.Мамонов <br/></i>
  <br/>
@@ -307,3 +308,5 @@ o D---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

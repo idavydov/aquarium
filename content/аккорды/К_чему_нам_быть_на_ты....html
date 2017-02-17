@@ -1,9 +1,10 @@
-+++
-title = "К чему нам быть на ты..."
-handbook_unid = "35a02196dd233fc9c325685f00747715"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "К чему нам быть на ты..." %}
+{% set handbook_unid = "35a02196dd233fc9c325685f00747715" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ПЕСНИ БУЛАТА ОКУДЖАВЫ - к чему нам быть на ты...<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -112,3 +113,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

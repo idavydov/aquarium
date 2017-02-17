@@ -1,9 +1,10 @@
-+++
-title = "Троллейбус"
-handbook_unid = "f5dc7a7c9fb1bedac325679d006af036"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Троллейбус" %}
+{% set handbook_unid = "f5dc7a7c9fb1bedac325679d006af036" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - НЕИЗДАННЫЕ ПЕСНИ - РУСКОЯЗЫЧНЫЕ ПЕСНИ - троллейбус<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 Троллейбус<br/>
@@ -164,3 +165,5 @@ o D---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

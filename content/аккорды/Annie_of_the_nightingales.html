@@ -1,9 +1,10 @@
-+++
-title = "Annie of the nightingales"
-handbook_unid = "8bc37b103a79b29ac325679d006aed87"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Annie of the nightingales" %}
+{% set handbook_unid = "8bc37b103a79b29ac325679d006aed87" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - АНГЛОЯЗЫЧНЫЕ ПЕСНИ - RADIO LONDON - annie of the nightingales<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 annie of the nightingales <br/>
@@ -158,3 +159,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

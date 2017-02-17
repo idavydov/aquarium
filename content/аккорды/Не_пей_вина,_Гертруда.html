@@ -1,9 +1,10 @@
-+++
-title = "Не пей вина, Гертруда"
-handbook_unid = "929b54ce80259ee4c325679d006aedf6"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Не пей вина, Гертруда" %}
+{% set handbook_unid = "929b54ce80259ee4c325679d006aedf6" %}
+
+{% block content %}
+{% raw %}
 <span style="color:red">НЕ ПЕЙ ВИНА, ГЕРТРУДА<br/>
 </span><i>Б. Гребенщиков<br/></i>
  <br/>
@@ -295,3 +296,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

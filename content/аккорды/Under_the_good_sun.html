@@ -1,9 +1,10 @@
-+++
-title = "Under the good sun"
-handbook_unid = "d989c84d59c06886c325679d006aed99"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Under the good sun" %}
+{% set handbook_unid = "d989c84d59c06886c325679d006aed99" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - АНГЛОЯЗЫЧНЫЕ ПЕСНИ - RADIO LONDON - under the good sun<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 under the good sun <br/>
@@ -181,3 +182,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

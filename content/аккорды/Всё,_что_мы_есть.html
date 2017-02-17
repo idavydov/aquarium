@@ -1,9 +1,10 @@
-+++
-title = "Всё, что мы есть"
-handbook_unid = "dff7788cbde9aba9c325679d006af1b9"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Всё, что мы есть" %}
+{% set handbook_unid = "dff7788cbde9aba9c325679d006af1b9" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - НЕИЗДАННЫЕ ПЕСНИ - РУСКОЯЗЫЧНЫЕ ПЕСНИ - всё, что мы есть<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -160,3 +161,5 @@ o D---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

@@ -1,9 +1,10 @@
-+++
-title = "Быстрый светлый"
-handbook_unid = "90e843fb6ea180a4c325679d006aede7"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Быстрый светлый" %}
+{% set handbook_unid = "90e843fb6ea180a4c325679d006aede7" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ГИПЕРБОРЕЯ - быстрый светлый<br/>
 </span><span style="color:red"> <br/>
 БЫСТРЫЙ СВЕТЛЫЙ<br/>
@@ -325,3 +326,5 @@ o E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

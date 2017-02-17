@@ -1,9 +1,10 @@
-+++
-title = "Магистраль"
-handbook_unid = "b6fde48241d530a3c325679d006aeff7"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Магистраль" %}
+{% set handbook_unid = "b6fde48241d530a3c325679d006aeff7" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ГИПЕРБОРЕЯ - магистраль<br/>
 </span><span style="color:red"> <br/>
@@ -1167,3 +1168,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

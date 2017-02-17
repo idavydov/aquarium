@@ -1,9 +1,10 @@
-+++
-title = "Кладбище"
-handbook_unid = "7553d346676797e1c325679d006af180"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Кладбище" %}
+{% set handbook_unid = "7553d346676797e1c325679d006af180" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - НАВИГАТОР - кладбище<br/>
 </span><span style="color:red"> <br/>
@@ -157,3 +158,5 @@ o E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

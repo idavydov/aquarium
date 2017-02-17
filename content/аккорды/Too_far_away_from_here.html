@@ -1,9 +1,10 @@
-+++
-title = "Too far away from here"
-handbook_unid = "c4b7744e59f8dae543257ae400441239"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Too far away from here" %}
+{% set handbook_unid = "c4b7744e59f8dae543257ae400441239" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ИНТЕРНЕТ-СИНГЛЫ- to far away from here<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 to far away from here</span><i><br/>
@@ -227,3 +228,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

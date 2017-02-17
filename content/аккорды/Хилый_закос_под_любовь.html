@@ -1,9 +1,10 @@
-+++
-title = "Хилый закос под любовь"
-handbook_unid = "0691fcb21e71cfaec325679d006af17a"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Хилый закос под любовь" %}
+{% set handbook_unid = "0691fcb21e71cfaec325679d006af17a" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ЛИЛИТ - хилый закос под любовь<br/>
 </span><span style="color:red"> <br/>
@@ -343,3 +344,5 @@ x E---|---|---|---|---|<br/>
 <td colspan="2" style="border:none;padding:0cm 0cm 0cm 0cm" width="374"> <br/></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

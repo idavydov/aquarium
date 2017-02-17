@@ -1,9 +1,10 @@
-+++
-title = "Из дельты гнезда"
-handbook_unid = "c3e529321290580cc3256a48006a83cf"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Из дельты гнезда" %}
+{% set handbook_unid = "c3e529321290580cc3256a48006a83cf" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - Ψ - из дельты гнезда<br/>
 </span><span style="color:red"> <br/>
 </span><span style="color:red;text-transform:uppercase">Из дельты гнезда<br/>
@@ -320,3 +321,5 @@ o A---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

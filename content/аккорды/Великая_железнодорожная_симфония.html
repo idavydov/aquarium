@@ -1,9 +1,10 @@
-+++
-title = "Великая железнодорожная симфония"
-handbook_unid = "e1a7f2c0b746cf39c325679d006af32a"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Великая железнодорожная симфония" %}
+{% set handbook_unid = "e1a7f2c0b746cf39c325679d006af32a" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - СНЕЖНЫЙ ЛЕВ - великая железнодорожная симфония<br/>
 </span><span style="color:red"> <br/>
@@ -365,3 +366,5 @@ o E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

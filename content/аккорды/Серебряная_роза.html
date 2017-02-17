@@ -1,10 +1,11 @@
-+++
-title = "Серебряная роза"
-extra_title = "(инструментал)"
-handbook_unid = "1428725d9c492353c325679d006af3a2"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Серебряная роза" %}
+{% set extra_title = "(инструментал)" %}
+{% set handbook_unid = "1428725d9c492353c325679d006af3a2" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - СНЕЖНЫЙ ЛЕВ - серебряная роза<br/>
 </span><span style="color:red"> <br/>
@@ -120,3 +121,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

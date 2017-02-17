@@ -1,9 +1,10 @@
-+++
-title = "Ребята ловят кайф"
-handbook_unid = "5ad0fc94de44114dc325679d006aee80"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Ребята ловят кайф" %}
+{% set handbook_unid = "5ad0fc94de44114dc325679d006aee80" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ЭЛЕКТРИЧЕСТВО - ребята ловят кайф<br/>
 </span><span style="color:red"> <br/>
 </span><span style="color:red;text-transform:uppercase">Ребята ловят кайф<br/>
@@ -150,3 +151,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

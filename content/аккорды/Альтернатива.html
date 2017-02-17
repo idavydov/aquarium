@@ -1,9 +1,10 @@
-+++
-title = "Альтернатива"
-handbook_unid = "8da5b4c7a5c57ae3c325679d006aedff"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Альтернатива" %}
+{% set handbook_unid = "8da5b4c7a5c57ae3c325679d006aedff" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - РАДИО АФРИКА - альтернатива<br/>
 </span><span style="color:red"> <br/>
@@ -158,3 +159,5 @@ o D---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

@@ -1,9 +1,10 @@
-+++
-title = "Лучший город земли"
-handbook_unid = "ecb57c6aa18c0489c32567fb006ebb01"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Лучший город земли" %}
+{% set handbook_unid = "ecb57c6aa18c0489c32567fb006ebb01" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - НЕИЗДАННЫЕ ПЕСНИ - РУСКОЯЗЫЧНЫЕ ПЕСНИ - лучший город земли<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 лучший город земли<br/>
@@ -86,3 +87,5 @@ o D---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

@@ -1,9 +1,10 @@
-+++
-title = "Катя-Катерина"
-handbook_unid = "64467ca386b686c4c325679d006af29a"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Катя-Катерина" %}
+{% set handbook_unid = "64467ca386b686c4c325679d006af29a" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - НАВИГАТОР - катя-катерина<br/>
 </span><span style="color:red"> <br/>
@@ -156,3 +157,5 @@ o D---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

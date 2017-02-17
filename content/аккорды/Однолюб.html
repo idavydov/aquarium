@@ -1,9 +1,10 @@
-+++
-title = "Однолюб"
-handbook_unid = "33063274277ea0dec325679d006af315"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Однолюб" %}
+{% set handbook_unid = "33063274277ea0dec325679d006af315" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ГИПЕРБОРЕЯ - МАГИСТРАЛЬ - однолюб<br/>
 </span><span style="color:red"> <br/>
@@ -145,3 +146,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

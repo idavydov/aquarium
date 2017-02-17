@@ -1,9 +1,10 @@
-+++
-title = "Original Mixed-Up kids"
-handbook_unid = "a1af734b0135dc51c325679d006aed8d"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Original Mixed-Up kids" %}
+{% set handbook_unid = "a1af734b0135dc51c325679d006aed8d" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - Неизданные англоязычные песни - Original Mixed-Up Kid<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -148,3 +149,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

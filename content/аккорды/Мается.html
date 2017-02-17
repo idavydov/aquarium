@@ -1,9 +1,10 @@
-+++
-title = "Мается"
-handbook_unid = "6de7e08cd611f9dcc325679d006aeffa"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Мается" %}
+{% set handbook_unid = "6de7e08cd611f9dcc325679d006aeffa" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - НАВИГАТОР - мается<br/>
 </span><span style="color:red"> <br/>
@@ -203,3 +204,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

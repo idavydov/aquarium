@@ -1,9 +1,10 @@
-+++
-title = "Назад в Архангельск"
-handbook_unid = "faa6eb762d2cf987c3257870003f7b91"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Назад в Архангельск" %}
+{% set handbook_unid = "faa6eb762d2cf987c3257870003f7b91" %}
+
+{% block content %}
+{% raw %}
 <span style="color:red;text-transform:uppercase">Назад в Архангельск<br/>
 </span><i>Б. Гребенщиков<br/></i>
  <br/>
@@ -161,3 +162,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

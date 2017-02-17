@@ -1,9 +1,10 @@
-+++
-title = "Новые книги для счастливых людей"
-handbook_unid = "fce919044a94b7d5c325679d006aefe2"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Новые книги для счастливых людей" %}
+{% set handbook_unid = "fce919044a94b7d5c325679d006aefe2" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - НЕИЗДАННЫЕ ПЕСНИ - РУСКОЯЗЫЧНЫЕ ПЕСНИ - новые книги для счастливых людей<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -139,3 +140,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

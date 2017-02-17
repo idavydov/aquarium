@@ -1,9 +1,10 @@
-+++
-title = "Второе стеклянное чудо"
-handbook_unid = "cae8026270eeb709c325679d006aefa0"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Второе стеклянное чудо" %}
+{% set handbook_unid = "cae8026270eeb709c325679d006aefa0" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - АКУСТИКА - второе стеклянное чудо<br/>
 </span><span style="color:red"> <br/>
@@ -153,3 +154,5 @@ o D---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

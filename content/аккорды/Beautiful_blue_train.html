@@ -1,9 +1,10 @@
-+++
-title = "Beautiful blue train"
-handbook_unid = "0c24515de45bd894c325679d006aed36"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Beautiful blue train" %}
+{% set handbook_unid = "0c24515de45bd894c325679d006aed36" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - АНГЛОЯЗЫЧНЫЕ ПЕСНИ - RADIO LONDON - beautiful blue train<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 beautiful blue train <br/>
@@ -109,3 +110,5 @@ o E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

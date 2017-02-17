@@ -1,9 +1,10 @@
-+++
-title = "Ключи от моих дверей"
-handbook_unid = "4fed8e53a5dc1043c325679d006af015"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Ключи от моих дверей" %}
+{% set handbook_unid = "4fed8e53a5dc1043c325679d006af015" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ИХТИОЛОГИЯ - ключи от моих дверей<br/>
 </span><span style="color:red"> <br/>
@@ -163,3 +164,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

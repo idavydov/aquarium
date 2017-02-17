@@ -1,9 +1,10 @@
-+++
-title = "Пришел пить воду"
-handbook_unid = "5c253fc80855504443257cad00117f9d"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Пришел пить воду" %}
+{% set handbook_unid = "5c253fc80855504443257cad00117f9d" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ИНТЕРНЕТ-СИНГЛЫ - пришел пить воду<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 пришёл пить воду <br/>
@@ -197,3 +198,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

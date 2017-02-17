@@ -1,9 +1,10 @@
-+++
-title = "Песни вычерпывающих людей"
-handbook_unid = "d47dec3d58780d37c325679d006aef82"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Песни вычерпывающих людей" %}
+{% set handbook_unid = "d47dec3d58780d37c325679d006aef82" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - РАДИО АФРИКА - песни вычерпывающих людей<br/>
 </span><span style="color:red"> <br/>
@@ -291,3 +292,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

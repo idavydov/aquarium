@@ -1,9 +1,10 @@
-+++
-title = "Единственный дом (Джа даст нас всё)"
-handbook_unid = "6f5a7155008c66b4c325679d006aee50"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Единственный дом (Джа даст нас всё)" %}
+{% set handbook_unid = "6f5a7155008c66b4c325679d006aee50" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - СИНИЙ АЛЬБОМ - единственный дом (джа даст нам всё)<br/>
 </span><span style="color:red"> <br/>
@@ -170,3 +171,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

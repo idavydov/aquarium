@@ -1,9 +1,10 @@
-+++
-title = "Географическая"
-handbook_unid = "a404dba61fe86873c325679d006aef97"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Географическая" %}
+{% set handbook_unid = "a404dba61fe86873c325679d006aef97" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ▼ - географическая<br/>
 </span><span style="color:red"> <br/>
@@ -173,3 +174,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

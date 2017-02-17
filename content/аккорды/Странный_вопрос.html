@@ -1,9 +1,10 @@
-+++
-title = "Странный вопрос"
-handbook_unid = "cdacf85b3cc2b5cec325679d006aeefe"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Странный вопрос" %}
+{% set handbook_unid = "cdacf85b3cc2b5cec325679d006aeefe" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ИХТИОЛОГИЯ - странный вопрос<br/>
 </span><span style="color:red"> <br/>
@@ -125,3 +126,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

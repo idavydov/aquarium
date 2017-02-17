@@ -1,10 +1,11 @@
-+++
-title = "День радости"
-extra_title = "(Пушкинская, 10)"
-handbook_unid = "3930be2be847be72c325679d006aef9d"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "День радости" %}
+{% set extra_title = "(Пушкинская, 10)" %}
+{% set handbook_unid = "3930be2be847be72c325679d006aef9d" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ПУШКИНСКАЯ, 10 - день радости<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -149,3 +150,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

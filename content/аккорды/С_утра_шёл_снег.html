@@ -1,9 +1,10 @@
-+++
-title = "С утра шёл снег"
-handbook_unid = "3e598076be4c5b0bc325679d006aee7a"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "С утра шёл снег" %}
+{% set handbook_unid = "3e598076be4c5b0bc325679d006aee7a" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - РАДИО АФРИКА - с утра шёл снег<br/>
 </span><span style="color:red"> <br/>
@@ -110,3 +111,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

@@ -1,9 +1,10 @@
-+++
-title = "Пригородный блюз"
-handbook_unid = "046420d77ea6b848c325679d006af31b"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Пригородный блюз" %}
+{% set handbook_unid = "046420d77ea6b848c325679d006af31b" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЧУЖИЕ ПЕСНИ - пригородный блюз<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 пригороднй блюз<br/>
@@ -123,3 +124,5 @@ o D---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

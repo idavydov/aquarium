@@ -1,9 +1,10 @@
-+++
-title = "География"
-handbook_unid = "5d55197b49d5dbeac325692300409210"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "География" %}
+{% set handbook_unid = "5d55197b49d5dbeac325692300409210" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - СПЕЦИАЛЬНЫЕ ПРОЕКТЫ - ТЕРРАРИУМ - ПЯТИУГОЛЬНЫЙ ГРЕХ - география<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -193,3 +194,5 @@ x E---|---|---|---|---|<br/>
 <td colspan="2" style="border:none;padding:0cm 0cm 0cm 0cm" width="351"> <br/></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

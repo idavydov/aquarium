@@ -1,9 +1,10 @@
-+++
-title = "Среди миров"
-handbook_unid = "dec98ba2f1dee9acc325679d006af1b0"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Среди миров" %}
+{% set handbook_unid = "dec98ba2f1dee9acc325679d006af1b0" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ПЕСНИ АЛЕКСАНДРА ВЕРТИНСКОГО - среди миров<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -117,3 +118,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

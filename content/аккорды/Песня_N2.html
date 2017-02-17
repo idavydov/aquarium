@@ -1,9 +1,10 @@
-+++
-title = "Песня №2"
-handbook_unid = "26ec1342ed97311bc325679d006aef01"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Песня №2" %}
+{% set handbook_unid = "26ec1342ed97311bc325679d006aef01" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ИХТИОЛОГИЯ - песня №2<br/>
 </span><span style="color:red"> <br/>
@@ -155,3 +156,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

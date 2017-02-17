@@ -1,9 +1,10 @@
-+++
-title = "Забадай"
-handbook_unid = "3ec0a1c6fd78c04ec3256f54004ec097"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Забадай" %}
+{% set handbook_unid = "3ec0a1c6fd78c04ec3256f54004ec097" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;color:blue;text-transform:uppercase"><a href="/"><span style="color:blue">Главная</span></a>
 - <span style="color:blue">ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ</span> - <span style="color:blue">ZOOM ZOOM ZOOM</span>
 - </span><span style="font-size:8.0pt;text-transform:uppercase">забадай<br/>
@@ -298,3 +299,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

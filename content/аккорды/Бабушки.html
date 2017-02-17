@@ -1,9 +1,10 @@
-+++
-title = "Бабушки"
-handbook_unid = "168a9be294968ea3c325679d006af333"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Бабушки" %}
+{% set handbook_unid = "168a9be294968ea3c325679d006af333" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ФЕОДАЛИЗМ - бабушки<br/>
 </span><span style="color:red"> <br/>
 БАБУШКИ<br/>
@@ -142,3 +143,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

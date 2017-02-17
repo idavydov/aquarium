@@ -1,9 +1,10 @@
-+++
-title = "Там, где взойдёт луна"
-handbook_unid = "f5ca7bb8164bc4e5c325679d006aeeec"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Там, где взойдёт луна" %}
+{% set handbook_unid = "f5ca7bb8164bc4e5c325679d006aeeec" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ЛИЛИТ - там, где взойдёт луна<br/>
 </span><span style="color:red"> <br/>
@@ -181,3 +182,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

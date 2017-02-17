@@ -1,9 +1,10 @@
-+++
-title = "Вана Хойя"
-handbook_unid = "ae3a4dec1518ca5bc325679d006aee29"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Вана Хойя" %}
+{% set handbook_unid = "ae3a4dec1518ca5bc325679d006aee29" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - РАДИО АФРИКА - вана хойя<br/>
 </span><span style="color:red"> <br/>
@@ -107,3 +108,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

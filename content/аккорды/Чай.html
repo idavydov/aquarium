@@ -1,9 +1,10 @@
-+++
-title = "Чай"
-handbook_unid = "96cd10947e25627bc325679d006af1d4"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Чай" %}
+{% set handbook_unid = "96cd10947e25627bc325679d006af1d4" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - СИНИЙ АЛЬБОМ - чай<br/>
 </span><span style="color:red"> <br/>
 ЧАЙ<br/>
@@ -204,3 +205,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

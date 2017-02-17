@@ -1,9 +1,10 @@
-+++
-title = "Мой друг доктор"
-handbook_unid = "9bee6c316503f0c0c325679d006af03f"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Мой друг доктор" %}
+{% set handbook_unid = "9bee6c316503f0c0c325679d006af03f" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ЛИЛИТ - мой друг доктор<br/>
 </span><span style="color:red"> <br/>
@@ -243,3 +244,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

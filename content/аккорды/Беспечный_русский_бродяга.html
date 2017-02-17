@@ -1,9 +1,10 @@
-+++
-title = "Беспечный русский бродяга"
-handbook_unid = "e2f2b03cfee25091c3256b990060ebd0"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Беспечный русский бродяга" %}
+{% set handbook_unid = "e2f2b03cfee25091c3256b990060ebd0" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - БЕСПЕЧНЫЙ РУССКИЙ БРОДЯГА - беспечный русский бродяга<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -126,3 +127,5 @@ o D---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

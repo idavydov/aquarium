@@ -1,9 +1,10 @@
-+++
-title = "Не было такой и не будет"
-handbook_unid = "6d7f201954f630a543257c29001fc19e"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Не было такой и не будет" %}
+{% set handbook_unid = "6d7f201954f630a543257c29001fc19e" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - Аквариум + - ПРАЗДНИК УРОЖАЯ ВО ДВОРЦЕ ТРУДА - не было такой и не будет<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -192,3 +193,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

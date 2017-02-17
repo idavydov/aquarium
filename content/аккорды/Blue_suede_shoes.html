@@ -1,9 +1,10 @@
-+++
-title = "Blue suede shoes"
-handbook_unid = "df2c66d6e4b20aa7c325679d006aece8"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Blue suede shoes" %}
+{% set handbook_unid = "df2c66d6e4b20aa7c325679d006aece8" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - Неизданные англоязычные песни - blue suede shoes<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -126,3 +127,5 @@ o D---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

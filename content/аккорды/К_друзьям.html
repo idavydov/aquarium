@@ -1,9 +1,10 @@
-+++
-title = "К друзьям"
-handbook_unid = "265733e539026c2dc325679d006aeedd"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "К друзьям" %}
+{% set handbook_unid = "265733e539026c2dc325679d006aeedd" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - АКУСТИКА - к друзьям<br/>
 </span><span style="color:red"> <br/>
@@ -80,3 +81,5 @@ o D---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

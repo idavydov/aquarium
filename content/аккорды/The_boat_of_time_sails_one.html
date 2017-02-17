@@ -1,9 +1,10 @@
-+++
-title = "The boat of time sails one"
-handbook_unid = "b9288850d00222a843257a6800543b9d"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "The boat of time sails one" %}
+{% set handbook_unid = "b9288850d00222a843257a6800543b9d" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - Неизданные англоязычные песни - The Boat Of Time Sails On<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 The Boat Of Time Sails On<br/>
@@ -190,3 +191,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

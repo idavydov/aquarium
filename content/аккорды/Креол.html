@@ -1,9 +1,10 @@
-+++
-title = "Креол"
-handbook_unid = "a9b2867fefc71082c32569230041099d"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Креол" %}
+{% set handbook_unid = "a9b2867fefc71082c32569230041099d" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - СПЕЦИАЛЬНЫЕ ПРОЕКТЫ - ТЕРРАРИУМ - ПЯТИУГОЛЬНЫЙ ГРЕХ - креол<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -214,3 +215,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

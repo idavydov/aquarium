@@ -1,9 +1,10 @@
-+++
-title = "Вверх"
-handbook_unid = "afff882f09356032c32577df00365ca1"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Вверх" %}
+{% set handbook_unid = "afff882f09356032c32577df00365ca1" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЧУЖИЕ ПЕСНИ - вверх<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -188,3 +189,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

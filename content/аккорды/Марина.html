@@ -1,9 +1,10 @@
-+++
-title = "Марина"
-handbook_unid = "0df420924cc5a28bc325679d006af00c"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Марина" %}
+{% set handbook_unid = "0df420924cc5a28bc325679d006af00c" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ЭЛЕКТРИЧЕСТВО - марина<br/>
 </span><span style="color:red"> <br/>
@@ -199,3 +200,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

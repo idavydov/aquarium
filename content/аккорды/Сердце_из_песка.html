@@ -1,9 +1,10 @@
-+++
-title = "Сердце из песка"
-handbook_unid = "57a996a5d5f5bd2f43257c2c0023c515"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Сердце из песка" %}
+{% set handbook_unid = "57a996a5d5f5bd2f43257c2c0023c515" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - Аквариум + - сердце из песка<br/>
 </span><span style="color:red"> <br/>
@@ -427,3 +428,5 @@ o A---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

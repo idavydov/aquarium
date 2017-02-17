@@ -1,9 +1,10 @@
-+++
-title = "Песня про перкуссиониста Шара"
-handbook_unid = "b8fc6e6087dfeaf4c3256b23005ff2bf"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Песня про перкуссиониста Шара" %}
+{% set handbook_unid = "b8fc6e6087dfeaf4c3256b23005ff2bf" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - НЕИЗДАННЫЕ ПЕСНИ - РУСКОЯЗЫЧНЫЕ ПЕСНИ - песня про перкуссиониста шара<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -148,3 +149,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

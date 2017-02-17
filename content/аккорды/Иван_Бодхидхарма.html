@@ -1,9 +1,10 @@
-+++
-title = "Иван Бодхидхарма"
-handbook_unid = "c27638ec378c3375c325679d006aef1c"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Иван Бодхидхарма" %}
+{% set handbook_unid = "c27638ec378c3375c325679d006aef1c" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ДЕНЬ СЕРЕБРА - иван бодхидхарма<br/>
 </span><span style="color:red"> <br/>
 ИВАН БОДХИДХАРМА<br/>
@@ -226,3 +227,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

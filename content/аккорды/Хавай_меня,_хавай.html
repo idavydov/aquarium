@@ -1,9 +1,10 @@
-+++
-title = "Хавай меня, хавай"
-handbook_unid = "7512bf160172281fc325679d006aecd0"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Хавай меня, хавай" %}
+{% set handbook_unid = "7512bf160172281fc325679d006aecd0" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ИНТЕРНЕТ-СИНГЛЫ - хавай меня, хавай<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 хавай меня, хавай <br/>
@@ -154,3 +155,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

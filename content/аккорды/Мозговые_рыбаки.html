@@ -1,9 +1,10 @@
-+++
-title = "Мозговые рыбаки"
-handbook_unid = "81413047dba995d3c325679d006aeed4"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Мозговые рыбаки" %}
+{% set handbook_unid = "81413047dba995d3c325679d006aeed4" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ДОИСТОРИЧЕСКИЕ ПЕСНИ - ПРИТЧИ ГРАФА ДИФФУЗОРА - мозговые рыбаки<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -125,3 +126,5 @@ o D---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

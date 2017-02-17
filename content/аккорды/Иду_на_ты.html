@@ -1,9 +1,10 @@
-+++
-title = "Иду на ты"
-handbook_unid = "992b5b9041d2a96ec325679d006aee05"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Иду на ты" %}
+{% set handbook_unid = "992b5b9041d2a96ec325679d006aee05" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ПЕСНИ ИЗ САУНДТРЕКОВ - иду на ты<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -81,3 +82,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

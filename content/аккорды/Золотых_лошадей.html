@@ -1,9 +1,10 @@
-+++
-title = "Золотых лошадей"
-handbook_unid = "d4af10a2142439bec325679d006af267"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Золотых лошадей" %}
+{% set handbook_unid = "d4af10a2142439bec325679d006af267" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - АКУСТИКА - золотых лошадей<br/>
 </span><span style="color:red"> <br/>
@@ -39,3 +40,5 @@ date = "2017-02-16"
   A-■-|---|---|---|---|<br/>
 x E---|---|---|---|---|<br/>
 </span></b>
+{% endraw %}
+{% endblock %}

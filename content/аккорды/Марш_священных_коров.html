@@ -1,9 +1,10 @@
-+++
-title = "Марш священных коров"
-handbook_unid = "cf6333e1aff4944ec32578ec008020a9"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Марш священных коров" %}
+{% set handbook_unid = "cf6333e1aff4944ec32578ec008020a9" %}
+
+{% block content %}
+{% raw %}
 <span style="color:red;text-transform:uppercase">Марш священных коров<br/>
 </span><i>Б. Гребенщиков<br/></i>
  <br/>
@@ -147,3 +148,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

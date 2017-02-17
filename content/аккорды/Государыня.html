@@ -1,9 +1,10 @@
-+++
-title = "Государыня"
-handbook_unid = "8cef5db40d14f634c325679d006aeea4"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Государыня" %}
+{% set handbook_unid = "8cef5db40d14f634c325679d006aeea4" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - РУССКИЙ АЛЬБОМ - государыня<br/>
 </span><span style="color:red"> <br/>
@@ -164,3 +165,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

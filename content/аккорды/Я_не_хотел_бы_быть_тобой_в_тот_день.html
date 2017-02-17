@@ -1,9 +1,10 @@
-+++
-title = "Я не хотел бы быть тобой в тот день"
-handbook_unid = "a4d6de9cb4c66d09c325679d006af210"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Я не хотел бы быть тобой в тот день" %}
+{% set handbook_unid = "a4d6de9cb4c66d09c325679d006af210" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ПЕСКИ ПЕТЕРБУРГА - я не хотел бы быть тобой в тот день<br/>
 </span><span style="color:red"> <br/>
@@ -141,3 +142,5 @@ o E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

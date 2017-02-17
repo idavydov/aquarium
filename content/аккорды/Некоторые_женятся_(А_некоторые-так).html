@@ -1,9 +1,10 @@
-+++
-title = "Некоторые женятся (А некоторые-так)"
-handbook_unid = "50447338c262525cc325679d006af0f9"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Некоторые женятся (А некоторые-так)" %}
+{% set handbook_unid = "50447338c262525cc325679d006af0f9" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ЛИЛИТ - некоторые женятся (а некоторые - так)<br/>
 </span><span style="color:red"> <br/>
@@ -132,3 +133,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

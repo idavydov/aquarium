@@ -1,9 +1,10 @@
-+++
-title = "Танец"
-handbook_unid = "01f8c5341a882c0bc325679d006af1d7"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Танец" %}
+{% set handbook_unid = "01f8c5341a882c0bc325679d006af1d7" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ДОИСТОРИЧЕСКИЕ ПЕСНИ - С ТОЙ СТОРОНЫ ЗЕРКАЛЬНОГО СТЕКЛА - танец<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 танец <br/>
@@ -122,3 +123,5 @@ x E---|---|---|---|---|<br/>
 <td colspan="2" style="border:none;padding:0cm 0cm 0cm 0cm" width="374"> <br/></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

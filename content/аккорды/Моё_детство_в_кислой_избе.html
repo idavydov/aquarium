@@ -1,9 +1,10 @@
-+++
-title = "Моё детство в кислой избе"
-handbook_unid = "7957d5e79e688155c325679d006af37b"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Моё детство в кислой избе" %}
+{% set handbook_unid = "7957d5e79e688155c325679d006af37b" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - СПЕЦИАЛЬНЫЕ ПРОЕКТЫ - моё детство в кислой избе<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -115,3 +116,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

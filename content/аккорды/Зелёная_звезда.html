@@ -1,9 +1,10 @@
-+++
-title = "Зелёная звезда"
-handbook_unid = "d2c1e1618957efb8c32570bd004bd8dd"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Зелёная звезда" %}
+{% set handbook_unid = "d2c1e1618957efb8c32570bd004bd8dd" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - НЕИЗДАННЫЕ ПЕСНИ - РУСКОЯЗЫЧНЫЕ ПЕСНИ - зелёная звезда<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -166,3 +167,5 @@ o D---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

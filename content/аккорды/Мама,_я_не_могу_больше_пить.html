@@ -1,9 +1,10 @@
-+++
-title = "Мама, я не могу больше пить"
-handbook_unid = "6414508f7dc1aafcc3256eb3002c0af4"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Мама, я не могу больше пить" %}
+{% set handbook_unid = "6414508f7dc1aafcc3256eb3002c0af4" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - БЕСПЕЧНЫЙ РУССКИЙ БРОДЯГА - мама, я не могу больше пить<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -162,3 +163,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

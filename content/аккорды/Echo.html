@@ -1,9 +1,10 @@
-+++
-title = "Echo"
-handbook_unid = "f4ca38a9d0fa02f2c32568ae00437a2b"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Echo" %}
+{% set handbook_unid = "f4ca38a9d0fa02f2c32568ae00437a2b" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - Неизданные англоязычные песни - echo<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -175,3 +176,5 @@ o D---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

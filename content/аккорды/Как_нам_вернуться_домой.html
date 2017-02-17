@@ -1,9 +1,10 @@
-+++
-title = "Как нам вернуться домой"
-handbook_unid = "c4c550b9b169feacc325679d006aee3e"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Как нам вернуться домой" %}
+{% set handbook_unid = "c4c550b9b169feacc325679d006aee3e" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ЛЮБИМЫЕ ПЕСНИ РАМЗЕСА IV - как нам вернутся домой<br/>
 </span><span style="color:red"> <br/>
@@ -249,3 +250,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

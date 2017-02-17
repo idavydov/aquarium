@@ -1,9 +1,10 @@
-+++
-title = "Мой друг музыкант"
-handbook_unid = "a91da4472c44d3b8c325679d006af042"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Мой друг музыкант" %}
+{% set handbook_unid = "a91da4472c44d3b8c325679d006af042" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ЭЛЕКТРИЧЕСТВО - мой друг музыкант<br/>
 </span><span style="color:red"> <br/>
@@ -159,3 +160,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

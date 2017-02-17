@@ -1,9 +1,10 @@
-+++
-title = "Русская нирвана"
-handbook_unid = "ff5db728bdb70445c325679d006af07b"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Русская нирвана" %}
+{% set handbook_unid = "ff5db728bdb70445c325679d006af07b" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - КОСТРОМА MON AMOUR - русская нирвана<br/>
 </span><span style="color:red"> <br/>
@@ -160,3 +161,5 @@ o D---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

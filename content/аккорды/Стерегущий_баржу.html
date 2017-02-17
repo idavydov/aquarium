@@ -1,9 +1,10 @@
-+++
-title = "Стерегущий баржу"
-handbook_unid = "861fe5f95cc68636c325679d006af225"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Стерегущий баржу" %}
+{% set handbook_unid = "861fe5f95cc68636c325679d006af225" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - НАВИГАТОР - <span style="color:windowtext">стерегущий баржу<br/>
 </span></span><span style="color:red"> <br/>
 СТЕРЕГУЩИЙ БАРЖУ<br/>
@@ -220,3 +221,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

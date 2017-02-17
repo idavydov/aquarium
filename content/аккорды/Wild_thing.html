@@ -1,9 +1,10 @@
-+++
-title = "Wild thing"
-handbook_unid = "a6da7c34aed8944ec325679d006aedb1"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Wild thing" %}
+{% set handbook_unid = "a6da7c34aed8944ec325679d006aedb1" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - Неизданные англоязычные песни - wild thing<br/></span>
  <br/>
@@ -91,3 +92,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

@@ -1,9 +1,10 @@
-+++
-title = "Акуна Матата"
-handbook_unid = "9687a1bc1876a73bc32574da006e0442"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Акуна Матата" %}
+{% set handbook_unid = "9687a1bc1876a73bc32574da006e0442" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ЛОШАДЬ БЕЛАЯ - акуна матата<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -173,3 +174,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

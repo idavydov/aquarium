@@ -1,9 +1,10 @@
-+++
-title = "Город"
-handbook_unid = "850d311ff6c49adcc325679d006af120"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Город" %}
+{% set handbook_unid = "850d311ff6c49adcc325679d006af120" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ДЕСЯТЬ СТРЕЛ - город<br/>
 </span><span style="color:red"> <br/>
 ГОРОД<br/>
@@ -196,3 +197,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

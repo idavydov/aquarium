@@ -1,9 +1,10 @@
-+++
-title = "The banks of the bann"
-handbook_unid = "9e9e0a6ceedd7a2ac325679d006aec97"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "The banks of the bann" %}
+{% set handbook_unid = "9e9e0a6ceedd7a2ac325679d006aec97" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - Неизданные англоязычные песни - The Banks of the Bann<br/></span>
  <br/>
@@ -98,3 +99,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

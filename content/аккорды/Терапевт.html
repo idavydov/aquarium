@@ -1,9 +1,10 @@
-+++
-title = "Терапевт"
-handbook_unid = "e3b2233791b5df50c3256d2c00336098"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Терапевт" %}
+{% set handbook_unid = "e3b2233791b5df50c3256d2c00336098" %}
+
+{% block content %}
+{% raw %}
 <span style="color:red;text-transform:uppercase">Терапевт <br/>
 </span><i>Б. Гребенщиков<br/></i>
  <br/>
@@ -203,3 +204,5 @@ o A---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

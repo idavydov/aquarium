@@ -1,9 +1,10 @@
-+++
-title = "Блюз диких людей"
-handbook_unid = "318d53fdf92c15bdc325679d006aef25"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Блюз диких людей" %}
+{% set handbook_unid = "318d53fdf92c15bdc325679d006aef25" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - КОНЦЕРТНЫЕ ЗАПИСИ - блюз диких людей<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 блюз диких людей <br/>
@@ -146,3 +147,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

@@ -1,9 +1,10 @@
-+++
-title = "День первый"
-handbook_unid = "686c21f613c719d7c325679d006aef16"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "День первый" %}
+{% set handbook_unid = "686c21f613c719d7c325679d006aef16" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ПЕСКИ ПЕТЕРБУРГА - день первый<br/>
 </span><span style="color:red"> <br/>
@@ -103,3 +104,5 @@ o E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

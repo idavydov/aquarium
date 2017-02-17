@@ -1,9 +1,10 @@
-+++
-title = "Ласточка"
-handbook_unid = "bc79aa12df1a1757c325679d006af147"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Ласточка" %}
+{% set handbook_unid = "bc79aa12df1a1757c325679d006af147" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - РУССКИЙ АЛЬБОМ - ласточка<br/>
 </span><span style="color:red"> <br/>
@@ -120,3 +121,5 @@ o D---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

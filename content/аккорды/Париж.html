@@ -1,9 +1,10 @@
-+++
-title = "Париж"
-handbook_unid = "fdb6706f7b830e58c325679d006aef73"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Париж" %}
+{% set handbook_unid = "fdb6706f7b830e58c325679d006aef73" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ДОИСТОРИЧЕСКИЕ ПЕСНИ - ИСКУШЕНИЕ СВЯТОГО АКВАРИУМА - париж<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -115,3 +116,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

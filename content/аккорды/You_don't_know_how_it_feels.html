@@ -1,9 +1,10 @@
-+++
-title = "You don't know how it feels"
-handbook_unid = "95e1cd8135636987c325679d006aed45"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "You don't know how it feels" %}
+{% set handbook_unid = "95e1cd8135636987c325679d006aed45" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - Неизданные англоязычные песни - You Don't Know How It Feels<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 You Don't Know How It Feels</span><span style="color:red"> <br/></span>
@@ -111,3 +112,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

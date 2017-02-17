@@ -1,10 +1,11 @@
-+++
-title = "Рататуй"
-extra_title = "(инструментал)"
-handbook_unid = "0d68cde906540e88c325679d006af39c"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Рататуй" %}
+{% set extra_title = "(инструментал)" %}
+{% set handbook_unid = "0d68cde906540e88c325679d006af39c" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ИНСТРУМЕНТАЛЫ - рататуй<br/>
 </span><span style="color:red"> <br/>
@@ -62,3 +63,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

@@ -1,9 +1,10 @@
-+++
-title = "I`ll be on my way"
-handbook_unid = "cab918e015abd03cc325679d006aed90"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "I`ll be on my way" %}
+{% set handbook_unid = "cab918e015abd03cc325679d006aed90" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - Неизданные англоязычные песни - I'll Be On My Way<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -180,3 +181,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

@@ -1,9 +1,10 @@
-+++
-title = "Когда пройдёт боль"
-handbook_unid = "b95cae4b504724e1c325679d006aef9a"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Когда пройдёт боль" %}
+{% set handbook_unid = "b95cae4b504724e1c325679d006aef9a" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - НАША ЖИЗНЬ С ТОЧКИ ЗРЕНИЯ ДЕРЕВЬЕВ - когда пройдёт боль<br/>
 </span><span style="color:red"> <br/>
@@ -138,3 +139,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

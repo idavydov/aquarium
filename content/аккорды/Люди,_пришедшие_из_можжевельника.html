@@ -1,9 +1,10 @@
-+++
-title = "Люди, пришедшие из можжевельника"
-handbook_unid = "9128536f72a52b69c325679d006af20d"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Люди, пришедшие из можжевельника" %}
+{% set handbook_unid = "9128536f72a52b69c325679d006af20d" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ГИПЕРБОРЕЯ - люди, пришедшие из можжевельника<br/>
 </span><span style="color:red"> <br/>
@@ -195,3 +196,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

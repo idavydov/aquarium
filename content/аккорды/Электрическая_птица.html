@@ -1,9 +1,10 @@
-+++
-title = "Электрическая птица"
-handbook_unid = "f8648aa29310b31cc3256923004057f4"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Электрическая птица" %}
+{% set handbook_unid = "f8648aa29310b31cc3256923004057f4" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - СПЕЦИАЛЬНЫЕ ПРОЕКТЫ - ТЕРРАРИУМ - ПЯТИУГОЛЬНЫЙ ГРЕХ - электрическая птица<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -92,3 +93,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

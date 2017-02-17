@@ -1,9 +1,10 @@
-+++
-title = "Ещё один раз"
-handbook_unid = "75f835dc7df074a4c325753c0054027d"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Ещё один раз" %}
+{% set handbook_unid = "75f835dc7df074a4c325753c0054027d" %}
+
+{% block content %}
+{% raw %}
 <span style="color:red;text-transform:uppercase">Ещё один раз<br/>
 </span><i>Б. Гребенщиков<br/></i>
  <br/>
@@ -199,3 +200,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

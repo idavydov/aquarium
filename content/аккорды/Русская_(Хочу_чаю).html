@@ -1,9 +1,10 @@
-+++
-title = "Русская (Хочу чаю)"
-handbook_unid = "9205e2365cfe2223c325679d006af10e"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Русская (Хочу чаю)" %}
+{% set handbook_unid = "9205e2365cfe2223c325679d006af10e" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - НЕИЗДАННЫЕ ПЕСНИ - РУСКОЯЗЫЧНЫЕ ПЕСНИ - русская (хочу чаю)<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -110,3 +111,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

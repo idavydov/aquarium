@@ -1,9 +1,10 @@
-+++
-title = "Девушки танцуют одни"
-handbook_unid = "9398ac1cbbb80558c325679d006af063"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Девушки танцуют одни" %}
+{% set handbook_unid = "9398ac1cbbb80558c325679d006af063" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ПУШКИНСКАЯ, 10 - девушки танцуют одни<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -188,3 +189,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

@@ -1,9 +1,10 @@
-+++
-title = "Таможенный блюз"
-handbook_unid = "71258528d7cfea1bc325679d006af312"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Таможенный блюз" %}
+{% set handbook_unid = "71258528d7cfea1bc325679d006af312" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - НАВИГАТОР - таможенный блюз<br/>
 </span><span style="color:red"> <br/>
@@ -139,3 +140,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

@@ -1,9 +1,10 @@
-+++
-title = "Чёрный ворон"
-handbook_unid = "821658f18f449be6c325679d006af27f"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Чёрный ворон" %}
+{% set handbook_unid = "821658f18f449be6c325679d006af27f" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - МИТЬКОВСКИЕ ПЕСНИ - чёрный ворон<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 чёрный ворон<br/>
@@ -98,3 +99,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

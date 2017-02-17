@@ -1,9 +1,10 @@
-+++
-title = "Дитя рассвета"
-handbook_unid = "43085625f6f5385fc325679d006aeed1"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Дитя рассвета" %}
+{% set handbook_unid = "43085625f6f5385fc325679d006aeed1" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ИХТИОЛОГИЯ - дитя рассвета<br/>
 </span><span style="color:red"> <br/>
@@ -205,3 +206,5 @@ o D---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

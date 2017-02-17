@@ -1,9 +1,10 @@
-+++
-title = "Теорема Шара"
-handbook_unid = "5b301be867643e1cc32573cc007110a6"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Теорема Шара" %}
+{% set handbook_unid = "5b301be867643e1cc32573cc007110a6" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ПУШКИНСКАЯ, 10 - теорема шара<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -355,3 +356,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

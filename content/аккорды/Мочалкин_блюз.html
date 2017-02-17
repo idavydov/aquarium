@@ -1,9 +1,10 @@
-+++
-title = "Мочалкин блюз"
-handbook_unid = "053a0e333b003b31c325679d006af26d"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Мочалкин блюз" %}
+{% set handbook_unid = "053a0e333b003b31c325679d006af26d" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ▼ - мочалкин блюз<br/>
 </span><span style="color:red"> <br/>
 МОЧАЛКИН БЛЮЗ<br/>
@@ -136,3 +137,5 @@ o D---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

@@ -1,9 +1,10 @@
-+++
-title = "Незнакомка"
-handbook_unid = "2ff4f0e28915d62dc325679d006af327"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Незнакомка" %}
+{% set handbook_unid = "2ff4f0e28915d62dc325679d006af327" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ДОИСТОРИЧЕСКИЕ ПЕСНИ - С ТОЙ СТОРОНЫ ЗЕРКАЛЬНОГО СТЕКЛА - незнакомка<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -127,3 +128,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

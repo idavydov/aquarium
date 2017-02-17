@@ -1,9 +1,10 @@
-+++
-title = "Блюз простого человека"
-handbook_unid = "c74b2c31f0382141c325679d006aee74"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Блюз простого человека" %}
+{% set handbook_unid = "c74b2c31f0382141c325679d006aee74" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ЭЛЕКТРИЧЕСТВО - блюз простого человека<br/>
 </span><span style="color:red"> <br/>
 БЛЮЗ ПРОСТОГО ЧЕЛОВЕКА<br/>
@@ -150,3 +151,5 @@ o D---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

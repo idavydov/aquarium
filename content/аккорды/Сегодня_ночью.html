@@ -1,9 +1,10 @@
-+++
-title = "Сегодня ночью"
-handbook_unid = "3d0f4232a9f1dc9ac325679d006aedcf"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Сегодня ночью" %}
+{% set handbook_unid = "3d0f4232a9f1dc9ac325679d006aedcf" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ТАБУ - сегодня ночью<br/>
 </span><span style="color:red"> <br/>
 СЕГОДНЯ НОЧЬЮ КТО-ТО<br/>
@@ -145,3 +146,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

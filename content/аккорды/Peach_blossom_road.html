@@ -1,10 +1,11 @@
-+++
-title = "Peach blossom road"
-extra_title = "(инструментал)"
-handbook_unid = "55b84ab769b8bf25c325787c007151cf"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Peach blossom road" %}
+{% set extra_title = "(инструментал)" %}
+{% set handbook_unid = "55b84ab769b8bf25c325787c007151cf" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ИНСТРУМЕНТАЛЫ - Peach Blossom Road<br/>
 </span><span style="color:red"> <br/>
@@ -158,3 +159,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

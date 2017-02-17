@@ -1,9 +1,10 @@
-+++
-title = "Чубчик"
-handbook_unid = "72539324f0fe0091c325679d006af291"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Чубчик" %}
+{% set handbook_unid = "72539324f0fe0091c325679d006af291" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - МИТЬКОВСКИЕ ПЕСНИ - чубчик<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 чубчик<br/>
@@ -93,3 +94,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

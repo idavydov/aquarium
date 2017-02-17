@@ -1,9 +1,10 @@
-+++
-title = "Капитан Беллерофонт"
-handbook_unid = "d7d562583616b5e5432579170074b676"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Капитан Беллерофонт" %}
+{% set handbook_unid = "d7d562583616b5e5432579170074b676" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - АРХАНГЕЛЬСК - капитан беллерофонт<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -223,3 +224,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

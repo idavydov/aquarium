@@ -1,9 +1,10 @@
-+++
-title = "First we take Manhattan"
-handbook_unid = "22dd4930dd1daa90c3256ef8004096e8"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "First we take Manhattan" %}
+{% set handbook_unid = "22dd4930dd1daa90c3256ef8004096e8" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - Неизданные англоязычные песни - First we take Manhattan<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -140,3 +141,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

@@ -1,9 +1,10 @@
-+++
-title = "У меня шузня"
-handbook_unid = "5c03d81ae60a642bc325679d006af23a"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "У меня шузня" %}
+{% set handbook_unid = "5c03d81ae60a642bc325679d006af23a" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ДОИСТОРИЧЕСКИЕ ПЕСНИ - ИСКУШЕНИЕ СВЯТОГО АКВАРИУМА - у меня шузня<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -108,3 +109,5 @@ o E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

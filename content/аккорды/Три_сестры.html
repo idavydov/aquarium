@@ -1,9 +1,10 @@
-+++
-title = "Три сестры"
-handbook_unid = "8b8690e12999e66cc325679d006af285"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Три сестры" %}
+{% set handbook_unid = "8b8690e12999e66cc325679d006af285" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - НАВИГАТОР - три сестры<br/>
 </span><span style="color:red"> <br/>
@@ -196,3 +197,5 @@ o D---|---|---|---|---|<br/>
 <td style="border:none;padding:0cm 0cm 0cm 0cm" width="198"> <br/></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

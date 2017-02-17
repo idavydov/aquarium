@@ -1,9 +1,10 @@
-+++
-title = "Брат никотин"
-handbook_unid = "b5263bcbd0130542c32569e300311644"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Брат никотин" %}
+{% set handbook_unid = "b5263bcbd0130542c32569e300311644" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - СЕСТРА ХАОС - брат никотин<br/>
 </span><span style="color:red"> <br/>
@@ -150,3 +151,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

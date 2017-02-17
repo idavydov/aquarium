@@ -1,9 +1,10 @@
-+++
-title = "Дело мастера Бо"
-handbook_unid = "7267eb9455773c73c325679d006af0f3"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Дело мастера Бо" %}
+{% set handbook_unid = "7267eb9455773c73c325679d006af0f3" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ДЕНЬ СЕРЕБРА - дело мастера бо<br/>
 </span><span style="color:red"> <br/>
 ДЕЛО МАСТЕРА БО<br/>
@@ -365,3 +366,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

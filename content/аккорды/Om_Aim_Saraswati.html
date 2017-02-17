@@ -1,9 +1,10 @@
-+++
-title = "Om Aim Saraswati"
-handbook_unid = "3bfb22c75b66723fc32575a80070d421"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Om Aim Saraswati" %}
+{% set handbook_unid = "3bfb22c75b66723fc32575a80070d421" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - Неизданные англоязычные песни - Om Aim Saraswati<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -139,3 +140,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

@@ -1,9 +1,10 @@
-+++
-title = "Всё, что я хочу"
-handbook_unid = "0b211e76c76f01d9c325679d006aee68"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Всё, что я хочу" %}
+{% set handbook_unid = "0b211e76c76f01d9c325679d006aee68" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - СИНИЙ АЛЬБОМ - всё, что я хочу<br/>
 </span><span style="color:red"> <br/>
@@ -239,3 +240,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

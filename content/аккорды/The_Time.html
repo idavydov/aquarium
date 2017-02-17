@@ -1,9 +1,10 @@
-+++
-title = "The Time"
-handbook_unid = "45ec1d348ef25f95c325679d006aed72"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "The Time" %}
+{% set handbook_unid = "45ec1d348ef25f95c325679d006aed72" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - АНГЛОЯЗЫЧНЫЕ ПЕСНИ - RADIO SILENCE - the time<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 the Time <br/>
@@ -201,3 +202,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

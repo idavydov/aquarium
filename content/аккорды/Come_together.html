@@ -1,9 +1,10 @@
-+++
-title = "Come together"
-handbook_unid = "a6253b977c294a64c325679d006aecfa"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Come together" %}
+{% set handbook_unid = "a6253b977c294a64c325679d006aecfa" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - СОВМЕСТНЫЕ ПЕСНИ - come together<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 come together <br/>
@@ -149,3 +150,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

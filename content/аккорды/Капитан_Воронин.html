@@ -1,9 +1,10 @@
-+++
-title = "Капитан Воронин"
-handbook_unid = "0483093d2b42c9f4c325679d006aef94"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Капитан Воронин" %}
+{% set handbook_unid = "0483093d2b42c9f4c325679d006aef94" %}
+
+{% block content %}
+{% raw %}
 <span style="color:red;text-transform:uppercase">Капитан Воронин<br/>
 </span><i>Б. Гребенщиков<br/></i>
  <br/>
@@ -128,3 +129,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

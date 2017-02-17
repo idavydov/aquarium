@@ -1,9 +1,10 @@
-+++
-title = "Отец яблок"
-handbook_unid = "c37e372ac57835c7c325679d006af105"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Отец яблок" %}
+{% set handbook_unid = "c37e372ac57835c7c325679d006af105" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ЛЮБИМЫЕ ПЕСНИ РАМЗЕСА IV - отец яблок<br/>
 </span><span style="color:red"> <br/>
 ОТЕЦ ЯБЛОК<br/>
@@ -247,3 +248,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

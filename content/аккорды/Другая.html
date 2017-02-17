@@ -1,9 +1,10 @@
-+++
-title = "Другая"
-handbook_unid = "4492eb967d9ba98cc325679d006af0f6"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Другая" %}
+{% set handbook_unid = "4492eb967d9ba98cc325679d006af0f6" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ДОИСТОРИЧЕСКИЕ ПЕСНИ - ПРИТЧИ ГРАФА ДИФФУЗОРА - другая<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -109,3 +110,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

@@ -1,9 +1,10 @@
-+++
-title = "Аристократ"
-handbook_unid = "2cd7ef6413be3189c325679d006af0c0"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Аристократ" %}
+{% set handbook_unid = "2cd7ef6413be3189c325679d006af0c0" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ТАБУ - аристократ<br/>
 </span><span style="color:red"> <br/>
 АРИСТОКРАТ<br/>
@@ -132,3 +133,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

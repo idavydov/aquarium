@@ -1,9 +1,10 @@
-+++
-title = "Серебро Господа моего"
-handbook_unid = "dd70d4c3e142801cc325679d006af30f"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Серебро Господа моего" %}
+{% set handbook_unid = "dd70d4c3e142801cc325679d006af30f" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - РАВНОДЕНСТВИЕ - серебро господа моего<br/>
 </span><span style="color:red"> <br/>
 СЕРЕБРО ГОСПОДА МОЕГО<br/>
@@ -236,3 +237,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

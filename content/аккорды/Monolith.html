@@ -1,9 +1,10 @@
-+++
-title = "Monolith"
-handbook_unid = "33a012db621b2439c32570a3006cc8a1"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Monolith" %}
+{% set handbook_unid = "33a012db621b2439c32570a3006cc8a1" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - Неизданные англоязычные песни - monolith<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -118,3 +119,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

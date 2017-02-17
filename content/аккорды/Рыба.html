@@ -1,9 +1,10 @@
-+++
-title = "Рыба"
-handbook_unid = "13e91d73c6a36b2fc325679d006aef67"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Рыба" %}
+{% set handbook_unid = "13e91d73c6a36b2fc325679d006aef67" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ИХТИОЛОГИЯ - рыба<br/>
 </span><span style="color:red"> <br/>
@@ -202,3 +203,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

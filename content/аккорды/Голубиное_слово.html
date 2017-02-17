@@ -1,9 +1,10 @@
-+++
-title = "Голубиное слово"
-handbook_unid = "91b04494a5817eca43257cad00113ef8"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Голубиное слово" %}
+{% set handbook_unid = "91b04494a5817eca43257cad00113ef8" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ИНТЕРНЕТ-СИНГЛЫ - голубиное слово<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 голубиное слово <br/>
@@ -188,3 +189,5 @@ o A---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

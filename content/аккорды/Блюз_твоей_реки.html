@@ -1,9 +1,10 @@
-+++
-title = "Блюз твоей реки"
-handbook_unid = "724b525dc5dcf73dc3256a4800610ca5"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Блюз твоей реки" %}
+{% set handbook_unid = "724b525dc5dcf73dc3256a4800610ca5" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЧУЖИЕ ПЕСНИ - блюз твоей реки<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 блюз твоей реки <br/>
@@ -140,3 +141,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

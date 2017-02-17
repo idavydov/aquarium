@@ -1,9 +1,10 @@
-+++
-title = "Она не знает что это сны"
-handbook_unid = "43e95ce7f0d6596ec325679d006af2c4"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Она не знает что это сны" %}
+{% set handbook_unid = "43e95ce7f0d6596ec325679d006af2c4" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ДЕНЬ СЕРЕБРА - она не знает, что это сны<br/>
 </span><span style="color:red"> <br/>
@@ -347,3 +348,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

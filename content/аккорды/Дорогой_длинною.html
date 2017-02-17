@@ -1,9 +1,10 @@
-+++
-title = "Дорогой длинною"
-handbook_unid = "1e84707bec194938c325679d006aeef5"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Дорогой длинною" %}
+{% set handbook_unid = "1e84707bec194938c325679d006aeef5" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - НЕИЗДАННЫЕ ПЕСНИ - РУСКОЯЗЫЧНЫЕ ПЕСНИ - дорогой длинною<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 дорогой длинною <br/>
@@ -293,3 +294,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

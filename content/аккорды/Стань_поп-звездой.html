@@ -1,9 +1,10 @@
-+++
-title = "Стань поп-звездой"
-handbook_unid = "f21c979684005bb7c325679d006af28b"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Стань поп-звездой" %}
+{% set handbook_unid = "f21c979684005bb7c325679d006af28b" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ДОИСТОРИЧЕСКИЕ ПЕСНИ - ПРИТЧИ ГРАФА ДИФФУЗОРА - стань поп-звездой<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -170,3 +171,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

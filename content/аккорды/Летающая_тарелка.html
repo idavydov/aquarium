@@ -1,9 +1,10 @@
-+++
-title = "Летающая тарелка"
-handbook_unid = "ab6392a0aa0ee8cbc325679d006aee41"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Летающая тарелка" %}
+{% set handbook_unid = "ab6392a0aa0ee8cbc325679d006aee41" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ЭЛЕКТРИЧЕСТВО - летающая тарелка<br/>
 </span><span style="color:red"> <br/>
@@ -133,3 +134,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

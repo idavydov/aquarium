@@ -1,9 +1,10 @@
-+++
-title = "Искусство быть смирным"
-handbook_unid = "65e7f4fee53a628cc325679d006af2d6"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Искусство быть смирным" %}
+{% set handbook_unid = "65e7f4fee53a628cc325679d006af2d6" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - РАДИО АФРИКА - искусство быть смирным<br/>
 </span><span style="color:red"> <br/>
@@ -130,3 +131,5 @@ o D---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

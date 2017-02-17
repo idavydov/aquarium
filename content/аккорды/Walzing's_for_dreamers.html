@@ -1,9 +1,10 @@
-+++
-title = "Walzing`s for dreamers"
-handbook_unid = "86d1b5fe96065f31c325687c006c4ee5"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Walzing`s for dreamers" %}
+{% set handbook_unid = "86d1b5fe96065f31c325687c006c4ee5" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - Неизданные англоязычные песни - Walzing's For Dreamers<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -247,3 +248,5 @@ o D---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

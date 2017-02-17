@@ -1,9 +1,10 @@
-+++
-title = "Tell me what you see"
-handbook_unid = "33d79cbb96d5d9efc3256bb9004ade50"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Tell me what you see" %}
+{% set handbook_unid = "33d79cbb96d5d9efc3256bb9004ade50" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - Неизданные англоязычные песни - tell me what you see<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -158,3 +159,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

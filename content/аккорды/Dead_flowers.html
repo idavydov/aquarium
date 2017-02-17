@@ -1,9 +1,10 @@
-+++
-title = "Dead flowers"
-handbook_unid = "10ad596f6732368dc3256adf002b8946"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Dead flowers" %}
+{% set handbook_unid = "10ad596f6732368dc3256adf002b8946" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - Неизданные англоязычные песни - dead flowers<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -123,3 +124,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

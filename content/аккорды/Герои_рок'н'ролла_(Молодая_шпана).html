@@ -1,9 +1,10 @@
-+++
-title = "Герои рок'н'ролла (Молодая шпана)"
-handbook_unid = "0e0a00d67fec3e9ec325679d006af02d"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Герои рок'н'ролла (Молодая шпана)" %}
+{% set handbook_unid = "0e0a00d67fec3e9ec325679d006af02d" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - СИНИЙ АЛЬБОМ - герои рок’н’ролла (молодая шпана)<br/>
 </span><span style="color:red"> <br/>
@@ -232,3 +233,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

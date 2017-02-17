@@ -1,9 +1,10 @@
-+++
-title = "Новые дни"
-handbook_unid = "866c3400b94bf68cc325679d006af1b6"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Новые дни" %}
+{% set handbook_unid = "866c3400b94bf68cc325679d006af1b6" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - НЕИЗДАННЫЕ ПЕСНИ - РУСКОЯЗЫЧНЫЕ ПЕСНИ - новые дни<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 новые дни<br/>
@@ -185,3 +186,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

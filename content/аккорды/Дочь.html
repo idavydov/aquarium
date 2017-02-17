@@ -1,9 +1,10 @@
-+++
-title = "Дочь"
-handbook_unid = "f4e04f3aad854637c325679d006af17d"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Дочь" %}
+{% set handbook_unid = "f4e04f3aad854637c325679d006af17d" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ДОИСТОРИЧЕСКИЕ ПЕСНИ - ВСЕ БРАТЬЯ - СЁСТРЫ - дочь<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -83,3 +84,5 @@ o D---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

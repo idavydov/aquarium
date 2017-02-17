@@ -1,9 +1,10 @@
-+++
-title = "Ки-ки мордлы"
-handbook_unid = "0626e2c6004268c7c3256b6e00395f82"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Ки-ки мордлы" %}
+{% set handbook_unid = "0626e2c6004268c7c3256b6e00395f82" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - НЕИЗДАННЫЕ ПЕСНИ - РУСКОЯЗЫЧНЫЕ ПЕСНИ - ки-ки мордлы<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -151,3 +152,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

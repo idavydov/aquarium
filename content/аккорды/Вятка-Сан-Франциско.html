@@ -1,9 +1,10 @@
-+++
-title = "Вятка-Сан-Франциско"
-handbook_unid = "4cdc1826f2ff5293c325763a00561c1d"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Вятка-Сан-Франциско" %}
+{% set handbook_unid = "4cdc1826f2ff5293c325763a00561c1d" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ПУШКИНСКАЯ, 10 - вятка - сан-франциско<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -189,3 +190,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

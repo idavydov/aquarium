@@ -1,9 +1,10 @@
-+++
-title = "Северный цвет"
-handbook_unid = "1f1f5e1d652c80d143256b12003ccdf7"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Северный цвет" %}
+{% set handbook_unid = "1f1f5e1d652c80d143256b12003ccdf7" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - СЕСТРА ХАОС - северный цвет<br/>
 </span><span style="color:red"> <br/>
@@ -240,3 +241,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

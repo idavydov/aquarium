@@ -1,9 +1,10 @@
-+++
-title = "Ехал троллейбус по улице..."
-handbook_unid = "68d0e0da9d10489ec3256dcb006c348f"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Ехал троллейбус по улице..." %}
+{% set handbook_unid = "68d0e0da9d10489ec3256dcb006c348f" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - НЕИЗДАННЫЕ ПЕСНИ - РУСКОЯЗЫЧНЫЕ ПЕСНИ - ехал троллейбус по улице...<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -101,3 +102,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

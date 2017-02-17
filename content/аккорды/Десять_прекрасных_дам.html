@@ -1,9 +1,10 @@
-+++
-title = "Десять прекрасных дам"
-handbook_unid = "7ef6d7468029af0ac325679d006aee62"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Десять прекрасных дам" %}
+{% set handbook_unid = "7ef6d7468029af0ac325679d006aee62" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ИХТИОЛОГИЯ - десять прекрасных дам<br/>
 </span><span style="color:red"> <br/>
@@ -186,3 +187,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

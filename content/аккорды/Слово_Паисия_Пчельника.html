@@ -1,9 +1,10 @@
-+++
-title = "Слово Паисия Пчельника"
-handbook_unid = "95d69f32c27c6404c325750b0046d26a"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Слово Паисия Пчельника" %}
+{% set handbook_unid = "95d69f32c27c6404c325750b0046d26a" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ЛОШАДЬ БЕЛАЯ - слово паисия пчельника<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -345,3 +346,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

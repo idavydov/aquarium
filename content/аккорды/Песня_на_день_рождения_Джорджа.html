@@ -1,9 +1,10 @@
-+++
-title = "Песня на день рождения Джорджа"
-handbook_unid = "238372d64a480b01c32577900063e5be"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Песня на день рождения Джорджа" %}
+{% set handbook_unid = "238372d64a480b01c32577900063e5be" %}
+
+{% block content %}
+{% raw %}
 <a name="3"></a><span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ПУШКИНСКАЯ, 10 - песня на день рождения джорджа<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -216,3 +217,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

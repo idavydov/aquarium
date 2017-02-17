@@ -1,9 +1,10 @@
-+++
-title = "Диплом"
-handbook_unid = "67f151bc73550701c325679d006af0f0"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Диплом" %}
+{% set handbook_unid = "67f151bc73550701c325679d006af0f0" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ИХТИОЛОГИЯ - диплом<br/>
 </span><span style="color:red"> <br/>
@@ -164,3 +165,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

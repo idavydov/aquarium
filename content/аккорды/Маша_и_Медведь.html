@@ -1,9 +1,10 @@
-+++
-title = "Маша и Медведь"
-handbook_unid = "d90c4b6fe7e8832cc32567fa006a321b"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Маша и Медведь" %}
+{% set handbook_unid = "d90c4b6fe7e8832cc32567fa006a321b" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - Ψ - маша и медведь<br/>
 </span><span style="color:red"> <br/>
@@ -293,3 +294,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

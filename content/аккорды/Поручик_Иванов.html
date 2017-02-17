@@ -1,9 +1,10 @@
-+++
-title = "Поручик Иванов"
-handbook_unid = "2532793e25dd3c4ec325679d006aee8f"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Поручик Иванов" %}
+{% set handbook_unid = "2532793e25dd3c4ec325679d006aee8f" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ▼ - поручик иванов<br/>
 </span><span style="color:red"> <br/>
 ПОРУЧИК ИВАНОВ<br/>
@@ -200,3 +201,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

@@ -1,9 +1,10 @@
-+++
-title = "Дом заходящей луны"
-handbook_unid = "b43a1d0da54f7e34c3257305006e50ac"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Дом заходящей луны" %}
+{% set handbook_unid = "b43a1d0da54f7e34c3257305006e50ac" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - НЕИЗДАННЫЕ ПЕСНИ - РУСКОЯЗЫЧНЫЕ ПЕСНИ - дом заходящей луны<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -118,3 +119,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

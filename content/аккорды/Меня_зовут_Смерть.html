@@ -1,9 +1,10 @@
-+++
-title = "Меня зовут Смерть"
-handbook_unid = "51c76f75fd79fe9ac325679d006af1dd"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Меня зовут Смерть" %}
+{% set handbook_unid = "51c76f75fd79fe9ac325679d006af1dd" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - НАША ЖИЗНЬ С ТОЧКИ ЗРЕНИЯ ДЕРЕВЬЕВ - меня зовут смерть<br/>
 </span><span style="color:red"> <br/>
@@ -149,3 +150,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

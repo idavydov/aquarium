@@ -1,9 +1,10 @@
-+++
-title = "Козлы"
-handbook_unid = "a25b796b3c01bec3c325679d006af1bc"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Козлы" %}
+{% set handbook_unid = "a25b796b3c01bec3c325679d006af1bc" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ДЕТИ ДЕКАБРЯ - козлы<br/>
 </span><span style="color:red"> <br/>
 КОЗЛЫ<br/>
@@ -146,3 +147,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

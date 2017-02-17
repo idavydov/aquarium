@@ -1,9 +1,10 @@
-+++
-title = "Сероглазый король"
-handbook_unid = "c40a6afa1c508ddac325679d006af195"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Сероглазый король" %}
+{% set handbook_unid = "c40a6afa1c508ddac325679d006af195" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - НЕИЗДАННЫЕ ПЕСНИ - РУСКОЯЗЫЧНЫЕ ПЕСНИ - сероглазый король<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 сероглазый король<br/>
@@ -99,3 +100,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

@@ -1,9 +1,10 @@
-+++
-title = "Молодые львы"
-handbook_unid = "70c15ef30ceacc6fc325679d006aef76"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Молодые львы" %}
+{% set handbook_unid = "70c15ef30ceacc6fc325679d006aef76" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ФЕОДАЛИЗМ - молодые львы<br/>
 </span><span style="color:red"> <br/>
 МОЛОДЫЕ ЛЬВЫ<br/>
@@ -106,3 +107,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

@@ -1,9 +1,10 @@
-+++
-title = "Мой муравей"
-handbook_unid = "b3fab307d7935d93c325679d006af141"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Мой муравей" %}
+{% set handbook_unid = "b3fab307d7935d93c325679d006af141" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ▼ - мой муравей<br/>
 </span><span style="color:red"> <br/>
 МОЙ МУРАВЕЙ<br/>
@@ -113,3 +114,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

@@ -1,10 +1,11 @@
-+++
-title = "Легенда о падшей пионерке Насте"
-extra_title = "(инструментал)"
-handbook_unid = "a35cefcc3e91e376c325679d006af363"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Легенда о падшей пионерке Насте" %}
+{% set extra_title = "(инструментал)" %}
+{% set handbook_unid = "a35cefcc3e91e376c325679d006af363" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ИНСТРУМЕНТАЛЫ - легенда о падшей пионерке насте<br/>
 </span><span style="color:red"> <br/>
@@ -120,3 +121,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

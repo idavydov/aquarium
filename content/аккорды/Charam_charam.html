@@ -1,9 +1,10 @@
-+++
-title = "Charam charam"
-handbook_unid = "236b36ef854e21b6c325731f0033966d"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Charam charam" %}
+{% set handbook_unid = "236b36ef854e21b6c325731f0033966d" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - Неизданные русскоязычные песни - charam charam<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -175,3 +176,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

@@ -1,9 +1,10 @@
-+++
-title = "Девушка с веслом"
-handbook_unid = "c16447b33235b068c325750b0030d3a0"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Девушка с веслом" %}
+{% set handbook_unid = "c16447b33235b068c325750b0030d3a0" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ЛОШАДЬ БЕЛАЯ - девушка с веслом<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -165,3 +166,5 @@ o D---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

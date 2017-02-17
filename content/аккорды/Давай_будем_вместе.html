@@ -1,9 +1,10 @@
-+++
-title = "Давай будем вместе"
-handbook_unid = "b05b7a9f48f4e49fc325679d006aef85"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Давай будем вместе" %}
+{% set handbook_unid = "b05b7a9f48f4e49fc325679d006aef85" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - НЕИЗДАННЫЕ ПЕСНИ - РУСКОЯЗЫЧНЫЕ ПЕСНИ - давай будем вместе<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 давай будем вместе<br/>
@@ -131,3 +132,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

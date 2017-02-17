@@ -1,9 +1,10 @@
-+++
-title = "Серые камни на зелёной траве"
-handbook_unid = "e0893b2510a65f8cc325679d006aef8e"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Серые камни на зелёной траве" %}
+{% set handbook_unid = "e0893b2510a65f8cc325679d006aef8e" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - НАША ЖИЗНЬ С ТОЧКИ ЗРЕНИЯ ДЕРЕВЬЕВ - серые камни на зелёной траве<br/>
 </span><span style="color:red"> <br/>
@@ -196,3 +197,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

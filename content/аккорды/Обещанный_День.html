@@ -1,9 +1,10 @@
-+++
-title = "Обещанный День"
-handbook_unid = "08bf1776d86dc131c3257837006be22a"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Обещанный День" %}
+{% set handbook_unid = "08bf1776d86dc131c3257837006be22a" %}
+
+{% block content %}
+{% raw %}
 <span style="color:red;text-transform:uppercase">Обещанный день<br/>
 </span><i>Б.Гребенщиков<br/></i>
  <br/>
@@ -173,3 +174,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

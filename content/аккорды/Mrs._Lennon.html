@@ -1,9 +1,10 @@
-+++
-title = "Mrs. Lennon"
-handbook_unid = "f9406cfae90bb9aec325679d006aed4b"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Mrs. Lennon" %}
+{% set handbook_unid = "f9406cfae90bb9aec325679d006aed4b" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - Неизданные англоязычные песни - mrs. Lennon<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -108,3 +109,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

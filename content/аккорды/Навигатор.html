@@ -1,9 +1,10 @@
-+++
-title = "Навигатор"
-handbook_unid = "570fcadf248bdd0ec325679d006af162"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Навигатор" %}
+{% set handbook_unid = "570fcadf248bdd0ec325679d006af162" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - НАВИГАТОР - навигатор<br/>
 </span><span style="color:red"> <br/>
@@ -313,3 +314,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

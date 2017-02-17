@@ -1,9 +1,10 @@
-+++
-title = "Холодное пиво"
-handbook_unid = "1a2d630adce0fbfbc325679d006aee08"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Холодное пиво" %}
+{% set handbook_unid = "1a2d630adce0fbfbc325679d006aee08" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - КОНЦЕРТНЫЕ ЗАПИСИ - холодное пиво<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -152,3 +153,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

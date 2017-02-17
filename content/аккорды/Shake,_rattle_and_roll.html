@@ -1,9 +1,10 @@
-+++
-title = "Shake, rattle and roll"
-handbook_unid = "630778797d6a7c04c3256a45006e4579"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Shake, rattle and roll" %}
+{% set handbook_unid = "630778797d6a7c04c3256a45006e4579" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - Неизданные англоязычные песни - Shake, Rattle and Roll<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -71,3 +72,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

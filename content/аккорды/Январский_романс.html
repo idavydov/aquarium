@@ -1,9 +1,10 @@
-+++
-title = "Январский романс"
-handbook_unid = "b79513f8f6a73fb7c3256923003ec890"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Январский романс" %}
+{% set handbook_unid = "b79513f8f6a73fb7c3256923003ec890" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - СПЕЦИАЛЬНЫЕ ПРОЕКТЫ - ТЕРРАРИУМ - ПЯТИУГОЛЬНЫЙ ГРЕХ - январский романс<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -200,3 +201,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

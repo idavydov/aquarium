@@ -1,9 +1,10 @@
-+++
-title = "Блюз для Кита"
-handbook_unid = "479d85b00bee16f9c325679d006af207"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Блюз для Кита" %}
+{% set handbook_unid = "479d85b00bee16f9c325679d006af207" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - НЕИЗДАННЫЕ ПЕСНИ - РУСКОЯЗЫЧНЫЕ ПЕСНИ - блюз для кита<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -194,3 +195,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

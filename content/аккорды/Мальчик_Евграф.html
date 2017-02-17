@@ -1,9 +1,10 @@
-+++
-title = "Мальчик Евграф"
-handbook_unid = "d40ccf8dabc5391ac325679d006aeffd"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Мальчик Евграф" %}
+{% set handbook_unid = "d40ccf8dabc5391ac325679d006aeffd" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - РАДИО АФРИКА - мальчик евграф<br/>
 </span><span style="color:red"> <br/>
@@ -179,3 +180,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

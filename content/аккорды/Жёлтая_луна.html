@@ -1,9 +1,10 @@
-+++
-title = "Жёлтая луна"
-handbook_unid = "a5929e733273e8b1c3256cd4001fc47d"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Жёлтая луна" %}
+{% set handbook_unid = "a5929e733273e8b1c3256cd4001fc47d" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ПЕСНИ РЫБАКА - жёлтая луна<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -159,3 +160,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

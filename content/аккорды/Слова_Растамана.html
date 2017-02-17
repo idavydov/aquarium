@@ -1,9 +1,10 @@
-+++
-title = "Слова Растамана"
-handbook_unid = "9c65ab0b4765ae0dc3256e7e0043b1dc"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Слова Растамана" %}
+{% set handbook_unid = "9c65ab0b4765ae0dc3256e7e0043b1dc" %}
+
+{% block content %}
+{% raw %}
 <span style="color:red;text-transform:uppercase">слова растамана <br/>
 </span><i>Б.Гребенщиков<br/></i>
  <br/>
@@ -130,3 +131,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

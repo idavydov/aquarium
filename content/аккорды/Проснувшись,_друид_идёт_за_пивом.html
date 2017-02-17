@@ -1,10 +1,11 @@
-+++
-title = "Проснувшись, друид идёт за пивом"
-extra_title = "(инструментал)"
-handbook_unid = "4ab2c91c25ce37f2c325679d006af393"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Проснувшись, друид идёт за пивом" %}
+{% set extra_title = "(инструментал)" %}
+{% set handbook_unid = "4ab2c91c25ce37f2c325679d006af393" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ИНСТРУМЕНТАЛЫ - проснувшись, друид идёт за пивом<br/>
 </span><span style="color:red"> <br/>
 </span><span style="color:red;text-transform:uppercase">проснувшись, друид идёт за пивом<br/>
@@ -40,3 +41,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

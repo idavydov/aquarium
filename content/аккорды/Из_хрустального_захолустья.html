@@ -1,9 +1,10 @@
-+++
-title = "Из хрустального захолустья"
-handbook_unid = "7c7315e83ac116a5c325679d006af0b7"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Из хрустального захолустья" %}
+{% set handbook_unid = "7c7315e83ac116a5c325679d006af0b7" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - Аквариум + - из хрустального захолустья<br/>
 </span><span style="color:red"> <br/>
@@ -124,3 +125,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

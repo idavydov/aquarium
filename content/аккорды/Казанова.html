@@ -1,9 +1,10 @@
-+++
-title = "Казанова"
-handbook_unid = "2238ffd371d77faac325679d006aef2b"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Казанова" %}
+{% set handbook_unid = "2238ffd371d77faac325679d006aef2b" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - НЕИЗДАННЫЕ ПЕСНИ - РУСКОЯЗЫЧНЫЕ ПЕСНИ - казанова<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -134,3 +135,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

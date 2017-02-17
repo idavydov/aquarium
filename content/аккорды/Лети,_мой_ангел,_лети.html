@@ -1,9 +1,10 @@
-+++
-title = "Лети, мой ангел, лети"
-handbook_unid = "cb7d97c942541a01c325679d006aefca"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Лети, мой ангел, лети" %}
+{% set handbook_unid = "cb7d97c942541a01c325679d006aefca" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ИХТИОЛОГИЯ - лети, мой ангел, лети<br/>
 </span><span style="color:red"> <br/>
@@ -88,3 +89,5 @@ o D---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

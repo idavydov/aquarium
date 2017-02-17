@@ -1,9 +1,10 @@
-+++
-title = "Великий дворник"
-handbook_unid = "d6f26e91f9446eb6c325679d006aee32"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Великий дворник" %}
+{% set handbook_unid = "d6f26e91f9446eb6c325679d006aee32" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - РАВНОДЕНСТВИЕ - великий дворник<br/>
 </span><span style="color:red"> <br/>
@@ -226,3 +227,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

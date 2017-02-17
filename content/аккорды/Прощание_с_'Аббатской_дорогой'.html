@@ -1,9 +1,10 @@
-+++
-title = "Прощание с \"Аббатской дорогой\""
-handbook_unid = "6eb6dac7972d368dc325679d006af252"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Прощание с \"Аббатской дорогой\"" %}
+{% set handbook_unid = "6eb6dac7972d368dc325679d006af252" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ДОИСТОРИЧЕСКИЕ ПЕСНИ - ПРИТЧИ ГРАФА ДИФФУЗОРА - прощание с «аббатской дорогой»<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -185,3 +186,5 @@ o E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

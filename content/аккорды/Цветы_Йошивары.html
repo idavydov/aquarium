@@ -1,9 +1,10 @@
-+++
-title = "Цветы Йошивары"
-handbook_unid = "9204460a0a440ba9c32567a7006f4470"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Цветы Йошивары" %}
+{% set handbook_unid = "9204460a0a440ba9c32567a7006f4470" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - Ψ - цветы йошивары<br/>
 </span><span style="color:red"> <br/>
 </span><span style="color:red;text-transform:uppercase">Цветы Йошивары<br/>
@@ -121,3 +122,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

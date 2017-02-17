@@ -1,9 +1,10 @@
-+++
-title = "Радио Шао-Линь"
-handbook_unid = "209bd64c4f9b1ca2c325679d006af294"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Радио Шао-Линь" %}
+{% set handbook_unid = "209bd64c4f9b1ca2c325679d006af294" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - РАДИО АФРИКА - радио шао-линь<br/>
 </span><span style="color:red"> <br/>
@@ -58,3 +59,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

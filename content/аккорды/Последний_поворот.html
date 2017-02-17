@@ -1,9 +1,10 @@
-+++
-title = "Последний поворот"
-handbook_unid = "2c088e9b2c845c90c325679d006af018"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Последний поворот" %}
+{% set handbook_unid = "2c088e9b2c845c90c325679d006af018" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - НАВИГАТОР - последний поворот<br/>
 </span><span style="color:red"> <br/>
@@ -132,3 +133,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

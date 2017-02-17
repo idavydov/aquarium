@@ -1,9 +1,10 @@
-+++
-title = "If you needed someone"
-handbook_unid = "57efc702d89d3297c325679d006aed30"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "If you needed someone" %}
+{% set handbook_unid = "57efc702d89d3297c325679d006aed30" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - Неизданные англоязычные песни - if i needed a someone<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -152,3 +153,5 @@ x A---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

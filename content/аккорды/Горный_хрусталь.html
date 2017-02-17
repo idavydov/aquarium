@@ -1,9 +1,10 @@
-+++
-title = "Горный хрусталь"
-handbook_unid = "bf638a873a87a935c325679d006af2d3"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Горный хрусталь" %}
+{% set handbook_unid = "bf638a873a87a935c325679d006af2d3" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ПЕСНИ ИЗ АНТОЛОГИЙ И СБОРНИКОВ - КУНСТКАМЕРА - горный хрусталь<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -385,3 +386,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

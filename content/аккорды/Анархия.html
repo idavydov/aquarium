@@ -1,9 +1,10 @@
-+++
-title = "Анархия"
-handbook_unid = "8ee6a4af468eaa1bc32568a2005e8fca"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Анархия" %}
+{% set handbook_unid = "8ee6a4af468eaa1bc32568a2005e8fca" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - НЕИЗДАННЫЕ ПЕСНИ - РУСКОЯЗЫЧНЫЕ ПЕСНИ - анархия<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -131,3 +132,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

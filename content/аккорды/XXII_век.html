@@ -1,9 +1,10 @@
-+++
-title = "XXII век"
-handbook_unid = "15ed4bb1b51d3dfcc3256df4006cc708"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "XXII век" %}
+{% set handbook_unid = "15ed4bb1b51d3dfcc3256df4006cc708" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ДРУГИЕ ВЕРСИИ ПЕСЕН - XXII век (www.aquarium.ru)<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -177,3 +178,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

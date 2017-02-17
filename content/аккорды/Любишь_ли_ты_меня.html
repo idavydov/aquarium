@@ -1,9 +1,10 @@
-+++
-title = "Любишь ли ты меня?"
-handbook_unid = "464918a66f7e6ffcc325679d006aefeb"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Любишь ли ты меня?" %}
+{% set handbook_unid = "464918a66f7e6ffcc325679d006aefeb" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - НЕИЗДАННЫЕ ПЕСНИ - РУСКОЯЗЫЧНЫЕ ПЕСНИ - любишь ли ты меня?<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -174,3 +175,5 @@ o D---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

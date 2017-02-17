@@ -1,9 +1,10 @@
-+++
-title = "Небо цвета дождя"
-handbook_unid = "5bf7a7b459f61ee2c3257908003acb79"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Небо цвета дождя" %}
+{% set handbook_unid = "5bf7a7b459f61ee2c3257908003acb79" %}
+
+{% block content %}
+{% raw %}
 <span style="color:red;text-transform:uppercase">небо цвета дождя<br/>
 </span><i>Б. Гребенщиков<br/></i>
  <br/>
@@ -201,3 +202,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

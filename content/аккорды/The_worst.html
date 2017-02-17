@@ -1,9 +1,10 @@
-+++
-title = "The worst"
-handbook_unid = "a4b166824ebdcbb5c325679d006aecac"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "The worst" %}
+{% set handbook_unid = "a4b166824ebdcbb5c325679d006aecac" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - Неизданные англоязычные песни - The worst<br/></span>
  <br/>
@@ -113,3 +114,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

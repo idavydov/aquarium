@@ -1,9 +1,10 @@
-+++
-title = "Пепел"
-handbook_unid = "eac24dcfdd1c06fbc325679d006af2cd"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Пепел" %}
+{% set handbook_unid = "eac24dcfdd1c06fbc325679d006af2cd" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ТАБУ - пепел<br/>
 </span><span style="color:red"> <br/>
@@ -116,3 +117,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

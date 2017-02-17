@@ -1,10 +1,11 @@
-+++
-title = "Подводная"
-extra_title = "(инструментал)"
-handbook_unid = "86e8c3d3d45b0975c325679d006af38d"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Подводная" %}
+{% set extra_title = "(инструментал)" %}
+{% set handbook_unid = "86e8c3d3d45b0975c325679d006af38d" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ДЕТИ ДЕКАБРЯ - подводная<br/>
 </span><span style="color:red"> <br/>
 </span><span style="color:red;text-transform:uppercase">подводная<br/>
@@ -48,3 +49,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

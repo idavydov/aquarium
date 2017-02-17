@@ -1,9 +1,10 @@
-+++
-title = "You belong to me"
-handbook_unid = "4de041fd356aa98ac3256d9a00736255"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "You belong to me" %}
+{% set handbook_unid = "4de041fd356aa98ac3256d9a00736255" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - Неизданные англоязычные песни - you belong to me<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -193,3 +194,5 @@ o D---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

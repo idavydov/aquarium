@@ -1,9 +1,10 @@
-+++
-title = "Golden, Golden"
-handbook_unid = "f0d3f6bb1dcc0ba0c325679d006aed75"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Golden, Golden" %}
+{% set handbook_unid = "f0d3f6bb1dcc0ba0c325679d006aed75" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - Неизданные англоязычные песни - Golden, golden<br/></span>
  <br/>
@@ -112,3 +113,5 @@ o D---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

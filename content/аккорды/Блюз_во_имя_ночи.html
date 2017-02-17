@@ -1,9 +1,10 @@
-+++
-title = "Блюз во имя ночи"
-handbook_unid = "07925c868e0bae65c325679d006af1a7"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Блюз во имя ночи" %}
+{% set handbook_unid = "07925c868e0bae65c325679d006af1a7" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ДОИСТОРИЧЕСКИЕ ПЕСНИ - С ТОЙ СТОРОНЫ ЗЕРКАЛЬНОГО СТЕКЛА - блюз во имя ночи<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 блюз во имя ночи <br/>
@@ -208,3 +209,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

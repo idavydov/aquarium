@@ -1,9 +1,10 @@
-+++
-title = "Река Оккервиль"
-handbook_unid = "f6a1de6b53e68df4c325679d006af159"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Река Оккервиль" %}
+{% set handbook_unid = "f6a1de6b53e68df4c325679d006af159" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ДОИСТОРИЧЕСКИЕ ПЕСНИ - ИСКУШЕНИЕ СВЯТОГО АКВАРИУМА - река оккервиль<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -65,3 +66,5 @@ E--------------<br/>
 Река Оккервиль<br/>
 Река Оккервиль<br/>
 Река Оккервиль...<br/>
+{% endraw %}
+{% endblock %}

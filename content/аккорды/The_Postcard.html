@@ -1,9 +1,10 @@
-+++
-title = "The Postcard"
-handbook_unid = "c05db7e6a95623aec325679d006aed9f"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "The Postcard" %}
+{% set handbook_unid = "c05db7e6a95623aec325679d006aed9f" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - АНГЛОЯЗЫЧНЫЕ ПЕСНИ - RADIO SILENCE - the postcard<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 the postcard <br/>
@@ -171,3 +172,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

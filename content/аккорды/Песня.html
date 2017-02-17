@@ -1,9 +1,10 @@
-+++
-title = "Песня"
-handbook_unid = "d8b930626241f604c325679d006aeff1"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Песня" %}
+{% set handbook_unid = "d8b930626241f604c325679d006aeff1" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ДОИСТОРИЧЕСКИЕ ПЕСНИ - С ТОЙ СТОРОНЫ ЗЕРКАЛЬНОГО СТЕКЛА - песня<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -51,3 +52,5 @@ H-3--4-5--6---5--4----3-2--1--0-<br/>
 G-------------------------------<br/>
 D-------------------------------<br/>
  Танцует за стеклом твоей любви...<br/>
+{% endraw %}
+{% endblock %}

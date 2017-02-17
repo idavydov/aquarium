@@ -1,9 +1,10 @@
-+++
-title = "Barndo"
-handbook_unid = "b217734cb58c00acc325679d006aece2"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Barndo" %}
+{% set handbook_unid = "b217734cb58c00acc325679d006aece2" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - СПЕЦИАЛЬНЫЕ ПРОЕКТЫ - РУССКО-АБИССИНСКИЙ ОРКЕСТР - BARDO - barndo<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 Barndo<br/>
@@ -84,3 +85,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

@@ -1,9 +1,10 @@
-+++
-title = "Play with fire"
-handbook_unid = "05f3c0544a8e1521c3256d9b0037364b"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Play with fire" %}
+{% set handbook_unid = "05f3c0544a8e1521c3256d9b0037364b" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - Неизданные англоязычные песни - play with fire<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -117,3 +118,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

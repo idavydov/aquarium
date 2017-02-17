@@ -1,9 +1,10 @@
-+++
-title = "Tutti-Frutti"
-handbook_unid = "52835163f008f9edc325679d006aeda5"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Tutti-Frutti" %}
+{% set handbook_unid = "52835163f008f9edc325679d006aeda5" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - КОНЦЕРТНЫЕ ЗАПИСИ - tutti-frutti<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -67,3 +68,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

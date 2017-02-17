@@ -1,9 +1,10 @@
-+++
-title = "Королевское утро"
-handbook_unid = "1df29791a2f9fc1ac325679d006aef31"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Королевское утро" %}
+{% set handbook_unid = "1df29791a2f9fc1ac325679d006aef31" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ЛЮБИМЫЕ ПЕСНИ РАМЗЕСА IV - королевское утро<br/>
 </span><span style="color:red"> <br/>
 КОРОЛЕВСКОЕ УТРО<br/>
@@ -193,3 +194,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

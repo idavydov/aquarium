@@ -1,9 +1,10 @@
-+++
-title = "Mellow yellow"
-handbook_unid = "78d5755b8bd53d71c325679d006aed2d"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Mellow yellow" %}
+{% set handbook_unid = "78d5755b8bd53d71c325679d006aed2d" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - Неизданные англоязычные песни - mellow yellow<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -127,3 +128,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

@@ -1,9 +1,10 @@
-+++
-title = "Они назовут это блюз"
-handbook_unid = "716e0ec839d7213fc325679d006af0d2"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Они назовут это блюз" %}
+{% set handbook_unid = "716e0ec839d7213fc325679d006af0d2" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ФЕОДАЛИЗМ - они назовут это блюз<br/>
 </span><span style="color:red"> <br/>
 ОНИ НАЗОВУТ ЭТО БЛЮЗ<br/>
@@ -145,3 +146,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

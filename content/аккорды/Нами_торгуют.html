@@ -1,9 +1,10 @@
-+++
-title = "Нами торгуют"
-handbook_unid = "d5163aa13f6784d8c325679d006af069"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Нами торгуют" %}
+{% set handbook_unid = "d5163aa13f6784d8c325679d006af069" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - НАША ЖИЗНЬ С ТОЧКИ ЗРЕНИЯ ДЕРЕВЬЕВ - нами торгуют<br/>
 </span><span style="color:red"> <br/>
@@ -90,3 +91,5 @@ o D---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

@@ -1,9 +1,10 @@
-+++
-title = "Пока не начался джаз"
-handbook_unid = "b9f424bd5364d933c325679d006aee1a"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Пока не начался джаз" %}
+{% set handbook_unid = "b9f424bd5364d933c325679d006aee1a" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ДЕНЬ СЕРЕБРА - пока не начался джаз<br/>
 </span><span style="color:red"> <br/>
 ПОКА НЕ НАЧАЛСЯ ДЖАЗ<br/>
@@ -226,3 +227,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

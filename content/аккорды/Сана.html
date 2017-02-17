@@ -1,9 +1,10 @@
-+++
-title = "Сана"
-handbook_unid = "0a79dd1b16c28cb0c325679d006af2e5"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Сана" %}
+{% set handbook_unid = "0a79dd1b16c28cb0c325679d006af2e5" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ДОИСТОРИЧЕСКИЕ ПЕСНИ - ПРИТЧИ ГРАФА ДИФФУЗОРА - сана<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -186,3 +187,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

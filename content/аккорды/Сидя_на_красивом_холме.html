@@ -1,9 +1,10 @@
-+++
-title = "Сидя на красивом холме"
-handbook_unid = "34a6b09e555a6211c325679d006af18c"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Сидя на красивом холме" %}
+{% set handbook_unid = "34a6b09e555a6211c325679d006af18c" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ДЕНЬ СЕРЕБРА - сидя на красивом холме<br/>
 </span><span style="color:red"> <br/>
 СИДЯ НА КРАСИВОМ ХОЛМЕ<br/>
@@ -281,3 +282,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

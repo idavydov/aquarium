@@ -1,9 +1,10 @@
-+++
-title = "Синее небо, белые облака"
-handbook_unid = "030a8bad00e1a48b43257c2c00244801"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Синее небо, белые облака" %}
+{% set handbook_unid = "030a8bad00e1a48b43257c2c00244801" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - Аквариум + - синее небо, белые облака<br/>
 </span><span style="color:red"> <br/>
@@ -143,3 +144,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

@@ -1,9 +1,10 @@
-+++
-title = "Корнелий Шнапс"
-handbook_unid = "e6e7e6dfcc9b0fd4c325679d006aefc4"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Корнелий Шнапс" %}
+{% set handbook_unid = "e6e7e6dfcc9b0fd4c325679d006aefc4" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ▼ - корнелий шнапс<br/>
 </span><span style="color:red"> <br/>
 КОРНЕЛИЙ ШНАПС<br/>
@@ -76,3 +77,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

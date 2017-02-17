@@ -1,9 +1,10 @@
-+++
-title = "Остров Сент-Джорджа"
-handbook_unid = "b00ffd923c022de2c325679d006af24c"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Остров Сент-Джорджа" %}
+{% set handbook_unid = "b00ffd923c022de2c325679d006af24c" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ДОИСТОРИЧЕСКИЕ ПЕСНИ - ПРИТЧИ ГРАФА ДИФФУЗОРА - остров сент-джорджа<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -109,3 +110,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

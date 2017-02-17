@@ -1,9 +1,10 @@
-+++
-title = "Брод"
-handbook_unid = "65b390119708a318c3256a15004eb517"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Брод" %}
+{% set handbook_unid = "65b390119708a318c3256a15004eb517" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - СЕСТРА ХАОС - брод<br/>
 </span><span style="color:red"> <br/>
@@ -200,3 +201,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

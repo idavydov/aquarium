@@ -1,9 +1,10 @@
-+++
-title = "Пустые места"
-handbook_unid = "1032fd89af9dc030c325679d006af0e7"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Пустые места" %}
+{% set handbook_unid = "1032fd89af9dc030c325679d006af0e7" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ТАБУ - пустые места <br/>
 </span><span style="color:red"> <br/>
 ПУСТЫЕ МЕСТА<br/>
@@ -131,3 +132,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

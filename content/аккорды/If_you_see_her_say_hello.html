@@ -1,9 +1,10 @@
-+++
-title = "If you see her say hello"
-handbook_unid = "4d139100c19f32ebc32570a3004424ae"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "If you see her say hello" %}
+{% set handbook_unid = "4d139100c19f32ebc32570a3004424ae" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - Неизданные англоязычные песни - If You See Her Say Hello<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 If You See Her Say Hello</span><i><br/>
@@ -141,3 +142,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

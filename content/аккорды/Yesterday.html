@@ -1,9 +1,10 @@
-+++
-title = "Yesterday"
-handbook_unid = "651d8a9d6a144f6ac3256b3d006f9358"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Yesterday" %}
+{% set handbook_unid = "651d8a9d6a144f6ac3256b3d006f9358" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - Неизданные англоязычные песни - yesterday<br/></span>
  <br/>
@@ -157,3 +158,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

@@ -1,9 +1,10 @@
-+++
-title = "Пока несут сакэ"
-handbook_unid = "2bebeac437d28818c32567fa006a53fb"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Пока несут сакэ" %}
+{% set handbook_unid = "2bebeac437d28818c32567fa006a53fb" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - Ψ - пока несут сакэ<br/>
 </span><span style="color:red"> <br/>
 </span><span style="color:red;text-transform:uppercase">Пока несут сакэ<br/>
@@ -313,3 +314,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

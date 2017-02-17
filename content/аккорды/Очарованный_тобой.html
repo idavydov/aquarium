@@ -1,9 +1,10 @@
-+++
-title = "Очарованный тобой"
-handbook_unid = "a534deb746bb0170c325679d006af111"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Очарованный тобой" %}
+{% set handbook_unid = "a534deb746bb0170c325679d006af111" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - РАВНОДЕНСТВИЕ - очарованный тобой<br/>
 </span><span style="color:red"> <br/>
@@ -216,3 +217,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

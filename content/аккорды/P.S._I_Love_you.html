@@ -1,9 +1,10 @@
-+++
-title = "P.S. I Love you"
-handbook_unid = "72b6bc284a532ef8c3256b68006b5be0"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "P.S. I Love you" %}
+{% set handbook_unid = "72b6bc284a532ef8c3256b68006b5be0" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - Неизданные англоязычные песни - P.S. I Love You<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -120,3 +121,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

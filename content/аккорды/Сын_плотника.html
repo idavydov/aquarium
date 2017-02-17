@@ -1,9 +1,10 @@
-+++
-title = "Сын плотника"
-handbook_unid = "3bcbfcd9d7ff8ce2c32567a7007041fc"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Сын плотника" %}
+{% set handbook_unid = "3bcbfcd9d7ff8ce2c32567a7007041fc" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - Ψ - сын плотника<br/>
 </span><span style="color:red"> <br/>
 </span><span style="color:red;text-transform:uppercase">Сын плотника<br/>
@@ -109,3 +110,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

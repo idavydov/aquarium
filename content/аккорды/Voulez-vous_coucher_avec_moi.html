@@ -1,9 +1,10 @@
-+++
-title = "Voulez-vous coucher avec moi?"
-handbook_unid = "3c40a637fc3f0f00c32570b70033c129"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Voulez-vous coucher avec moi?" %}
+{% set handbook_unid = "3c40a637fc3f0f00c32570b70033c129" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - БЕСПЕЧНЫЙ РУССКИЙ БРОДЯГА - voulez-vous coucher avec moi?<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -143,3 +144,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

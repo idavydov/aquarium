@@ -1,9 +1,10 @@
-+++
-title = "Боги"
-handbook_unid = "15ad4bd1f720ede6c325679d006aefd6"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Боги" %}
+{% set handbook_unid = "15ad4bd1f720ede6c325679d006aefd6" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ДОИСТОРИЧЕСКИЕ ПЕСНИ - ПРИТЧИ ГРАФА ДИФФУЗОРА - боги<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -204,3 +205,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

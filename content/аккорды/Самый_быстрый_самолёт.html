@@ -1,9 +1,10 @@
-+++
-title = "Самый быстрый самолёт"
-handbook_unid = "56b55ffff86fa013c325679d006af0a5"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Самый быстрый самолёт" %}
+{% set handbook_unid = "56b55ffff86fa013c325679d006af0a5" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - НАВИГАТОР - самый быстрый самолёт<br/>
 </span><span style="color:red"> <br/>
@@ -130,3 +131,5 @@ o E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

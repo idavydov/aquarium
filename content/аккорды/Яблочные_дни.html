@@ -1,9 +1,10 @@
-+++
-title = "Яблочные дни"
-handbook_unid = "c2badbffff922201c325679d006af0fc"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Яблочные дни" %}
+{% set handbook_unid = "c2badbffff922201c325679d006af0fc" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ДЕСЯТЬ СТРЕЛ - яблочные дни<br/>
 </span><span style="color:red"> <br/>
@@ -145,3 +146,5 @@ o D---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

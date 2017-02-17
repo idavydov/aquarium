@@ -1,9 +1,10 @@
-+++
-title = "О смысле всего сущего"
-handbook_unid = "b7034d17639aa8f7c325714f0041e9bc"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "О смысле всего сущего" %}
+{% set handbook_unid = "b7034d17639aa8f7c325714f0041e9bc" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - БЕСПЕЧНЫЙ РУССКИЙ БРОДЯГА - о смысле всего сущего<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -306,3 +307,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

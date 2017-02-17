@@ -1,9 +1,10 @@
-+++
-title = "Иван-чай"
-handbook_unid = "db09442fbdec6de5c325679d006af129"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Иван-чай" %}
+{% set handbook_unid = "db09442fbdec6de5c325679d006af129" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - РАВНОДЕНСТВИЕ - иван-чай<br/>
 </span><span style="color:red"> <br/>
 ИВАН-ЧАЙ<br/>
@@ -233,3 +234,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

@@ -1,9 +1,10 @@
-+++
-title = "Iерофант"
-handbook_unid = "5e13baf363ab7dbec325679d006af165"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Iерофант" %}
+{% set handbook_unid = "5e13baf363ab7dbec325679d006af165" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ЛЮБИМЫЕ ПЕСНИ РАМЗЕСА IV - Iерофант<br/>
 </span><span style="color:red"> <br/>
@@ -133,3 +134,5 @@ o D---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

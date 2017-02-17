@@ -1,9 +1,10 @@
-+++
-title = "Eloise"
-handbook_unid = "5646af1507eb1935c325679d006aed06"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Eloise" %}
+{% set handbook_unid = "5646af1507eb1935c325679d006aed06" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - АНГЛОЯЗЫЧНЫЕ ПЕСНИ - RADIO LONDON - eloise<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 Eloise <br/>
@@ -126,3 +127,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

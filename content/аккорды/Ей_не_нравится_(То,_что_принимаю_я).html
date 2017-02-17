@@ -1,9 +1,10 @@
-+++
-title = "Ей не нравится (То, что принимаю я)"
-handbook_unid = "3c8423ed7d45b7d1c325679d006af0ed"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Ей не нравится (То, что принимаю я)" %}
+{% set handbook_unid = "3c8423ed7d45b7d1c325679d006af0ed" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ПЕСКИ ПЕТЕРБУРГА - ей не нравится (то, что принимаю я)<br/>
 </span><span style="color:red"> <br/>
@@ -194,3 +195,5 @@ o E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

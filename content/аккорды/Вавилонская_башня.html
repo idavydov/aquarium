@@ -1,9 +1,10 @@
-+++
-title = "Вавилонская башня"
-handbook_unid = "a61335b174e41557c325679d006aee23"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Вавилонская башня" %}
+{% set handbook_unid = "a61335b174e41557c325679d006aee23" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ГИПЕРБОРЕЯ - МАГИСТРАЛЬ - вавилонская башня<br/>
 </span><span style="color:red"> <br/>
@@ -124,3 +125,5 @@ o E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

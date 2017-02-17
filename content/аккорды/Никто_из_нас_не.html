@@ -1,9 +1,10 @@
-+++
-title = "Никто из нас не"
-handbook_unid = "85c90685591bde63c325679d006af2d0"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Никто из нас не" %}
+{% set handbook_unid = "85c90685591bde63c325679d006af2d0" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ТАБУ - никто из нас не<br/>
 </span><span style="color:red"> <br/>
@@ -125,3 +126,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

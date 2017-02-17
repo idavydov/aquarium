@@ -1,9 +1,10 @@
-+++
-title = "All I have to do is dream"
-handbook_unid = "b3a1e86a4d213d73c32570a30045f85d"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "All I have to do is dream" %}
+{% set handbook_unid = "b3a1e86a4d213d73c32570a30045f85d" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - Неизданные англоязычные песни - All I Have To Do Is Dream<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 All I Have To Do Is Dream<br/>
@@ -172,3 +173,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

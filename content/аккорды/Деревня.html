@@ -1,9 +1,10 @@
-+++
-title = "Деревня"
-handbook_unid = "de71a29c28b12523c325679d006af324"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Деревня" %}
+{% set handbook_unid = "de71a29c28b12523c325679d006af324" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ДЕТИ ДЕКАБРЯ - деревня<br/>
 </span><span style="color:red"> <br/>
@@ -243,3 +244,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

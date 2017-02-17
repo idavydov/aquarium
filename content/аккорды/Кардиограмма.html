@@ -1,9 +1,10 @@
-+++
-title = "Кардиограмма"
-handbook_unid = "714a200fd43437f8c3256a77004a95a3"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Кардиограмма" %}
+{% set handbook_unid = "714a200fd43437f8c3256a77004a95a3" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - СЕСТРА ХАОС - кардиограмма<br/>
 </span><span style="color:red"> <br/>
@@ -194,3 +195,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

@@ -1,9 +1,10 @@
-+++
-title = "Гимн Анахорету"
-handbook_unid = "b49da9a2cfa9aacbc325714f004456ce"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Гимн Анахорету" %}
+{% set handbook_unid = "b49da9a2cfa9aacbc325714f004456ce" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - БЕСПЕЧНЫЙ РУССКИЙ БРОДЯГА - гимн анахорету<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -102,3 +103,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

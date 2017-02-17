@@ -1,9 +1,10 @@
-+++
-title = "Хвала Шри-Кришне"
-handbook_unid = "afbd708081cc2863c325679d006aefee"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Хвала Шри-Кришне" %}
+{% set handbook_unid = "afbd708081cc2863c325679d006aefee" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ДОИСТОРИЧЕСКИЕ ПЕСНИ - ПРИТЧИ ГРАФА ДИФФУЗОРА - хвала шри-кришне<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -135,3 +136,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

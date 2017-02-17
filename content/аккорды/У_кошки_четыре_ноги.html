@@ -1,9 +1,10 @@
-+++
-title = "У кошки четыре ноги"
-handbook_unid = "ab49023d804b1529c325679d006af234"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "У кошки четыре ноги" %}
+{% set handbook_unid = "ab49023d804b1529c325679d006af234" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - МИТЬКОВСКИЕ ПЕСНИ - у кошки четыре ноги<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 у кошки четыре ноги<br/>
@@ -107,3 +108,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

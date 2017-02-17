@@ -1,9 +1,10 @@
-+++
-title = "Удивительный мастер Лукьянов"
-handbook_unid = "85fe853458f61c95c325679d006aef52"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Удивительный мастер Лукьянов" %}
+{% set handbook_unid = "85fe853458f61c95c325679d006aef52" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - НАВИГАТОР - удивительный мастер лукьянов<br/>
 </span><span style="color:red"> <br/>
@@ -260,3 +261,5 @@ o D---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

@@ -1,9 +1,10 @@
-+++
-title = "Фавн"
-handbook_unid = "d8e218b33daa766d43257a1b007a79e3"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Фавн" %}
+{% set handbook_unid = "d8e218b33daa766d43257a1b007a79e3" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - Интернет-синглы - фавн<br/></span>
  <br/>
@@ -468,3 +469,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

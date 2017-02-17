@@ -1,9 +1,10 @@
-+++
-title = "Красота (Это страшная сила)"
-handbook_unid = "3c9f31de9ebb0e58c3256ef7003f2b3b"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Красота (Это страшная сила)" %}
+{% set handbook_unid = "3c9f31de9ebb0e58c3256ef7003f2b3b" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ZOOM ZOOM ZOOM - красота (это страшная сила)<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -199,3 +200,5 @@ o D---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

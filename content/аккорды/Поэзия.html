@@ -1,9 +1,10 @@
-+++
-title = "Поэзия"
-handbook_unid = "a83b19d313584cf2c325679d006af25e"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Поэзия" %}
+{% set handbook_unid = "a83b19d313584cf2c325679d006af25e" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ▼ - поэзия<br/>
 </span><span style="color:red"> <br/>
@@ -37,3 +38,5 @@ D--------0--3--------------4--------1----<br/>
 A-------------------------1-----3--------<br/>
 E----------------------------------------<br/>
 :еинелпутсВ<br/>
+{% endraw %}
+{% endblock %}

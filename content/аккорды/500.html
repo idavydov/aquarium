@@ -1,9 +1,10 @@
-+++
-title = "500"
-handbook_unid = "18eeefad1dafd119c3256a0600320f95"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "500" %}
+{% set handbook_unid = "18eeefad1dafd119c3256a0600320f95" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - СЕСТРА ХАОС - 500<br/>
 </span><span style="color:red"> <br/>
@@ -249,3 +250,5 @@ o D---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

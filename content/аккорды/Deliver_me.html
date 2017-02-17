@@ -1,9 +1,10 @@
-+++
-title = "Deliver me"
-handbook_unid = "792c53b8912ed95fc325679d006aeca6"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Deliver me" %}
+{% set handbook_unid = "792c53b8912ed95fc325679d006aeca6" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - Неизданные англоязычные песни - deliver me<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -104,3 +105,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

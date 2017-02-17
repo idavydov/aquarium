@@ -1,9 +1,10 @@
-+++
-title = "Господин одинокий журавль"
-handbook_unid = "a264ba5fe18e60d9c325679d006af1e0"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Господин одинокий журавль" %}
+{% set handbook_unid = "a264ba5fe18e60d9c325679d006af1e0" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ДЕНЬ СЕРЕБРА - господин одинокий журавль<br/>
 </span><span style="color:red"> <br/>
 </span><span style="color:red;text-transform:uppercase">Господин одинокий журавль<br/>
@@ -227,3 +228,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

@@ -1,9 +1,10 @@
-+++
-title = "Платан"
-handbook_unid = "f43e165132cc398fc325679d006aef13"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Платан" %}
+{% set handbook_unid = "f43e165132cc398fc325679d006aef13" %}
+
+{% block content %}
+{% raw %}
 <span style="color:red">ПЛАТАН (studio version)<br/>
 </span><i>Б. Гребенщиков<br/></i>
  <br/>
@@ -136,3 +137,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

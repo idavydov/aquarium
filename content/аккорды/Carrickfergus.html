@@ -1,9 +1,10 @@
-+++
-title = "Carrickfergus"
-handbook_unid = "33fff192af0c03b4c325679d006aed2a"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Carrickfergus" %}
+{% set handbook_unid = "33fff192af0c03b4c325679d006aed2a" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - Неизданные англоязычные песни - Carrickfergus<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -103,3 +104,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

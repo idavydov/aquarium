@@ -1,9 +1,10 @@
-+++
-title = "Тень твоего крыла"
-handbook_unid = "8935464371f6270bc325679d006aef7f"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Тень твоего крыла" %}
+{% set handbook_unid = "8935464371f6270bc325679d006aef7f" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - НЕИЗДАННЫЕ ПЕСНИ - РУСКОЯЗЫЧНЫЕ ПЕСНИ - тень твоего крыла<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -155,3 +156,5 @@ o D---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

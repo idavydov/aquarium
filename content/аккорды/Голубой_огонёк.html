@@ -1,9 +1,10 @@
-+++
-title = "Голубой огонёк"
-handbook_unid = "ada4365929fce6b1c325679d006af27c"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Голубой огонёк" %}
+{% set handbook_unid = "ada4365929fce6b1c325679d006af27c" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - НАВИГАТОР - голубой огонёк<br/>
 </span><span style="color:red"> <br/>
@@ -148,3 +149,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

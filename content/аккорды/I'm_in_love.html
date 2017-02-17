@@ -1,9 +1,10 @@
-+++
-title = "I`m in love"
-handbook_unid = "084cfc377883f61ec32570a300487d35"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "I`m in love" %}
+{% set handbook_unid = "084cfc377883f61ec32570a300487d35" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - Неизданные англоязычные песни - i`m in love<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -139,3 +140,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

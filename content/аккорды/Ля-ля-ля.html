@@ -1,9 +1,10 @@
-+++
-title = "Ля-ля-ля"
-handbook_unid = "456c694ef565738ec3256da4006b541a"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Ля-ля-ля" %}
+{% set handbook_unid = "456c694ef565738ec3256da4006b541a" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ДОИСТОРИЧЕСКИЕ ПЕСНИ - ИСКУШЕНИЕ СВЯТОГО АКВАРИУМА - ля-ля-ля<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 Ля-ля-ля <br/>
@@ -48,3 +49,5 @@ G------------------<br/>
 Ля-ля-ля-ля-ля-ля...<br/>
 Ля-ля-ля-ля-ля-ля...<br/>
 Ля-ля-ля-ля-ля-ля...<br/>
+{% endraw %}
+{% endblock %}

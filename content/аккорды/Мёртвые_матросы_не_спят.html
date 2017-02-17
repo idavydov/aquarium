@@ -1,9 +1,10 @@
-+++
-title = "Мёртвые матросы не спят"
-handbook_unid = "ec2a8430321b8966c3256ef7003d92b1"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Мёртвые матросы не спят" %}
+{% set handbook_unid = "ec2a8430321b8966c3256ef7003d92b1" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ZOOM ZOOM ZOOM - мёртвые матросы не спят<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 Мёртвые матросы не спят<br/>
@@ -178,3 +179,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

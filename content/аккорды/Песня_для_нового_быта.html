@@ -1,9 +1,10 @@
-+++
-title = "Песня для нового быта"
-handbook_unid = "a7054602116e175fc325679d006af1e3"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Песня для нового быта" %}
+{% set handbook_unid = "a7054602116e175fc325679d006af1e3" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - АКУСТИКА - песня для нового быта<br/>
 </span><span style="color:red"> <br/>
@@ -322,3 +323,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

@@ -1,9 +1,10 @@
-+++
-title = "Если я уйду"
-handbook_unid = "8a988091e3808cd5c325679d006aeeef"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Если я уйду" %}
+{% set handbook_unid = "8a988091e3808cd5c325679d006aeeef" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - НЕИЗДАННЫЕ ПЕСНИ - РУСКОЯЗЫЧНЫЕ ПЕСНИ - если я уйду<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -136,3 +137,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

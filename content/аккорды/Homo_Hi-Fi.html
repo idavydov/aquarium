@@ -1,9 +1,10 @@
-+++
-title = "Homo Hi-Fi"
-handbook_unid = "626206bd5e338ccac325679d006af0bd"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Homo Hi-Fi" %}
+{% set handbook_unid = "626206bd5e338ccac325679d006af0bd" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - Неизданные русскоязычные песни - homo hi-fi<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -149,3 +150,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

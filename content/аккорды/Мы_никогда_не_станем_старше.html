@@ -1,9 +1,10 @@
-+++
-title = "Мы никогда не станем старше"
-handbook_unid = "375d92b65f752859c325679d006af2e8"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Мы никогда не станем старше" %}
+{% set handbook_unid = "375d92b65f752859c325679d006af2e8" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - КОНЦЕРТНЫЕ ЗАПИСИ - мы никогда не станем старше<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 мы никогда не станем старше <br/>
@@ -184,3 +185,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

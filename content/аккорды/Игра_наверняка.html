@@ -1,9 +1,10 @@
-+++
-title = "Игра наверняка"
-handbook_unid = "c9498fe9aeb0273dc325679d006af060"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Игра наверняка" %}
+{% set handbook_unid = "c9498fe9aeb0273dc325679d006af060" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ТАБУ - игра наверняка<br/>
 </span><span style="color:red"> <br/>
@@ -193,3 +194,5 @@ o D---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

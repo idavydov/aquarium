@@ -1,9 +1,10 @@
-+++
-title = "Ты в чём виновата?"
-handbook_unid = "0710274fd8d6d81bc3256b6d004ac86d"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Ты в чём виновата?" %}
+{% set handbook_unid = "0710274fd8d6d81bc3256b6d004ac86d" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ПЕСНИ БУЛАТА ОКУДЖАВЫ - ты в чём виновата?<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -114,3 +115,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

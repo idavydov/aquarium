@@ -1,9 +1,10 @@
-+++
-title = "Talk with me"
-handbook_unid = "99f408e2abb12c1fc32569e6002d65d1"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Talk with me" %}
+{% set handbook_unid = "99f408e2abb12c1fc32569e6002d65d1" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ЛЮБИМЫЕ ПЕСНИ РАМЗЕСА IV - talk with me<br/>
 </span><span style="color:red"> <br/>
 </span><span style="color:red;text-transform:uppercase">Talk with me<br/>
@@ -281,3 +282,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

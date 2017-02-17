@@ -1,9 +1,10 @@
-+++
-title = "Анютины глазки и божьи коровки"
-handbook_unid = "bae67b09c11a929cc32574da0069bf0d"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Анютины глазки и божьи коровки" %}
+{% set handbook_unid = "bae67b09c11a929cc32574da0069bf0d" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ЛОШАДЬ БЕЛАЯ - анютины глазки и божьи коровки<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -145,3 +146,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

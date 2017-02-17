@@ -1,9 +1,10 @@
-+++
-title = "My baby left me"
-handbook_unid = "7c593bb8ac4ca513c325679d006aec94"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "My baby left me" %}
+{% set handbook_unid = "7c593bb8ac4ca513c325679d006aec94" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - Неизданные англоязычные песни - my baby left me<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -113,3 +114,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

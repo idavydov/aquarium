@@ -1,9 +1,10 @@
-+++
-title = "Ещё один упавший вниз"
-handbook_unid = "5ed74e6c91f94858c325679d006aef49"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Ещё один упавший вниз" %}
+{% set handbook_unid = "5ed74e6c91f94858c325679d006aef49" %}
+
+{% block content %}
+{% raw %}
 <a name="_Toc153452780"></a><a href="/"><span style="font-size:8.0pt;text-transform:uppercase">Главная</span></a><span style="font-size:8.0pt;text-transform:uppercase">
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - РАДИО АФРИКА - ещё один упавший вниз<br/>
 </span><span style="color:red"> <br/>
@@ -203,3 +204,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

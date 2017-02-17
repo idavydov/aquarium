@@ -1,10 +1,11 @@
-+++
-title = "Интерлюдия"
-extra_title = "(инструментал)"
-handbook_unid = "89e70ec73667da50c325714f0049c56e"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Интерлюдия" %}
+{% set extra_title = "(инструментал)" %}
+{% set handbook_unid = "89e70ec73667da50c325714f0049c56e" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - БЕСПЕЧНЫЙ РУССКИЙ БРОДЯГА - итерлюдия<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -171,3 +172,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

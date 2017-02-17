@@ -1,9 +1,10 @@
-+++
-title = "На её стороне"
-handbook_unid = "dd6b08daea6ee528c325679d006aeec2"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "На её стороне" %}
+{% set handbook_unid = "dd6b08daea6ee528c325679d006aeec2" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ЛИЛИТ - на её стороне<br/>
 </span><span style="color:red"> <br/>
@@ -146,3 +147,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

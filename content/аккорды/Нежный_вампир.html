@@ -1,9 +1,10 @@
-+++
-title = "Нежный вампир"
-handbook_unid = "cedbc99782f999dfc325679d006af264"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Нежный вампир" %}
+{% set handbook_unid = "cedbc99782f999dfc325679d006af264" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - СОВМЕСТНЫЕ ПЕСНИ - нежный вампир<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 Нежный вампир <br/>
@@ -221,3 +222,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

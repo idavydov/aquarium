@@ -1,9 +1,10 @@
-+++
-title = "Электричество"
-handbook_unid = "449fcbc76f3ad30cc325679d006af05a"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Электричество" %}
+{% set handbook_unid = "449fcbc76f3ad30cc325679d006af05a" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ДЕНЬ СЕРЕБРА - электричество<br/>
 </span><span style="color:red"> <br/>
@@ -242,3 +243,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

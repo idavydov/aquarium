@@ -1,9 +1,10 @@
-+++
-title = "Л.Ю."
-handbook_unid = "52cd96ba07048e1ac325679d006aefd3"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Л.Ю." %}
+{% set handbook_unid = "52cd96ba07048e1ac325679d006aefd3" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ДОИСТОРИЧЕСКИЕ ПЕСНИ - С ТОЙ СТОРОНЫ ЗЕРКАЛЬНОГО СТЕКЛА - л.ю.<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 л.Ю. <br/>
@@ -123,3 +124,5 @@ o D---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

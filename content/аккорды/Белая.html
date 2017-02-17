@@ -1,9 +1,10 @@
-+++
-title = "Белая"
-handbook_unid = "008515c4f458188bc3256ef7003d54a5"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Белая" %}
+{% set handbook_unid = "008515c4f458188bc3256ef7003d54a5" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ZOOM ZOOM ZOOM - белая<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 Белая<br/>
@@ -218,3 +219,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

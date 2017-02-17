@@ -1,9 +1,10 @@
-+++
-title = "Инцидент в Настасьино"
-handbook_unid = "147f025da92da6a4c325679d006aeec5"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Инцидент в Настасьино" %}
+{% set handbook_unid = "147f025da92da6a4c325679d006aeec5" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - СНЕЖНЫЙ ЛЕВ - инцидент в настасьино<br/>
 </span><span style="color:red"> <br/>
 ИНЦИДЕНТ В НАСТАСЬИНО<br/>
@@ -210,3 +211,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

@@ -1,9 +1,10 @@
-+++
-title = "Georgia for a good time..."
-handbook_unid = "3124eb74671dd4fec325679d006aed09"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Georgia for a good time..." %}
+{% set handbook_unid = "3124eb74671dd4fec325679d006aed09" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - Неизданные англоязычные песни - Georgia for a good time...<br/></span>
  <br/>
@@ -75,3 +76,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

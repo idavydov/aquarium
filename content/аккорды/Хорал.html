@@ -1,9 +1,10 @@
-+++
-title = "Хорал"
-handbook_unid = "1fec253c7df928a6c325679d006af288"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Хорал" %}
+{% set handbook_unid = "1fec253c7df928a6c325679d006af288" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ▼ - хорал<br/>
 </span><span style="color:red"> <br/>
 ХОРАЛ<br/>
@@ -41,3 +42,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

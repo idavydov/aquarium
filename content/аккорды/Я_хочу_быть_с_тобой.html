@@ -1,9 +1,10 @@
-+++
-title = "Я хочу быть с тобой"
-handbook_unid = "a2ed208d38a70b3ac325679d006af30c"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Я хочу быть с тобой" %}
+{% set handbook_unid = "a2ed208d38a70b3ac325679d006af30c" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЧУЖИЕ ПЕСНИ - я хочу быть с тобой<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -107,3 +108,5 @@ o D---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

@@ -1,10 +1,11 @@
-+++
-title = "Генерал"
-extra_title = "(В.Цой)"
-handbook_unid = "2d0326cf88985ba6c32569d9003e8b15"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Генерал" %}
+{% set extra_title = "(В.Цой)" %}
+{% set handbook_unid = "2d0326cf88985ba6c32569d9003e8b15" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЧУЖИЕ ПЕСНИ - генерал (в.цой)<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -152,3 +153,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

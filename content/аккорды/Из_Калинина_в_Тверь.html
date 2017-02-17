@@ -1,9 +1,10 @@
-+++
-title = "Из Калинина в Тверь"
-handbook_unid = "2e776e6ab6424a37c325679d006af303"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Из Калинина в Тверь" %}
+{% set handbook_unid = "2e776e6ab6424a37c325679d006af303" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ЛИЛИТ - <span style="color:windowtext">из калинина в тверь<br/>
 </span></span><span style="color:red"> <br/>
 ИЗ КАЛИНИНА В ТВЕРЬ<br/>
@@ -186,3 +187,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

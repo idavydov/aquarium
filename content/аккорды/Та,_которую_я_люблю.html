@@ -1,9 +1,10 @@
-+++
-title = "Та, которую я люблю"
-handbook_unid = "fda635f5afc8f570c325679d006af1a4"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Та, которую я люблю" %}
+{% set handbook_unid = "fda635f5afc8f570c325679d006af1a4" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - СНЕЖНЫЙ ЛЕВ - та, которую я люблю<br/>
 </span><span style="color:red"> <br/>
@@ -226,3 +227,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

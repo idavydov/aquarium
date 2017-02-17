@@ -1,9 +1,10 @@
-+++
-title = "Лейся, песня, на просторе"
-handbook_unid = "9dcdb29dbde94f52c325679d006aefdf"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Лейся, песня, на просторе" %}
+{% set handbook_unid = "9dcdb29dbde94f52c325679d006aefdf" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - МИТЬКОВСКИЕ ПЕСНИ - лейся, песня на просторе<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -119,3 +120,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

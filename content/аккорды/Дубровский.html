@@ -1,9 +1,10 @@
-+++
-title = "Дубровский"
-handbook_unid = "8e8afbe87a10590dc325679d006aef79"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Дубровский" %}
+{% set handbook_unid = "8e8afbe87a10590dc325679d006aef79" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - СНЕЖНЫЙ ЛЕВ - дубровский<br/>
 </span><span style="color:red"> <br/>
@@ -166,3 +167,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

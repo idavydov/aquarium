@@ -1,9 +1,10 @@
-+++
-title = "Песня о несостоявшемся отъезде"
-handbook_unid = "d42365e8ea3427e8c325679d006af174"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Песня о несостоявшемся отъезде" %}
+{% set handbook_unid = "d42365e8ea3427e8c325679d006af174" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ПЕСНИ ИЗ АНТОЛОГИЙ И СБОРНИКОВ - КУНСТКАМЕРА - песня о несостоявшемся отъезде<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -143,3 +144,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

@@ -1,9 +1,10 @@
-+++
-title = "No woman no cry"
-handbook_unid = "df51637ab26ecacdc325679d006aed51"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "No woman no cry" %}
+{% set handbook_unid = "df51637ab26ecacdc325679d006aed51" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - Неизданные англоязычные песни - no woman no cry<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -119,3 +120,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

@@ -1,9 +1,10 @@
-+++
-title = "Юрьев день"
-handbook_unid = "cae077cf638f766fc325679d006af321"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Юрьев день" %}
+{% set handbook_unid = "cae077cf638f766fc325679d006af321" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ПЕСКИ ПЕТЕРБУРГА - юрьев день<br/>
 </span><span style="color:red"> <br/>
@@ -191,3 +192,5 @@ o D---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

@@ -1,9 +1,10 @@
-+++
-title = "Человек из Кемерова"
-handbook_unid = "cfaad42e5d328ca1c3256cd4001f976e"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Человек из Кемерова" %}
+{% set handbook_unid = "cfaad42e5d328ca1c3256cd4001f976e" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ПЕСНИ РЫБАКА - человек из кемерова<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -154,3 +155,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

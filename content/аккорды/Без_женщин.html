@@ -1,9 +1,10 @@
-+++
-title = "Без женщин"
-handbook_unid = "c0c7d81bc261ade4c325679d006aef61"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Без женщин" %}
+{% set handbook_unid = "c0c7d81bc261ade4c325679d006aef61" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ПЕСНИ АЛЕКСАНДРА ВЕРТИНСКОГО - без женщин<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -175,3 +176,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

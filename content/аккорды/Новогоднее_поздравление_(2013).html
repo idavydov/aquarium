@@ -1,9 +1,10 @@
-+++
-title = "Новогоднее поздравление (2013)"
-handbook_unid = "9512251f298bc1d043257ae3006acb33"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Новогоднее поздравление (2013)" %}
+{% set handbook_unid = "9512251f298bc1d043257ae3006acb33" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - интернет-синглы - новогоднее поздравление (2013)<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -150,3 +151,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

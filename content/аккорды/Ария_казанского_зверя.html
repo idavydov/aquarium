@@ -1,9 +1,10 @@
-+++
-title = "Ария казанского зверя"
-handbook_unid = "47868b6e69237a86c325679d006aef58"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Ария казанского зверя" %}
+{% set handbook_unid = "47868b6e69237a86c325679d006aef58" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ГИПЕРБОРЕЯ - ария казанского зверя<br/>
 </span><span style="color:red"> <br/>
@@ -254,3 +255,5 @@ o A---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

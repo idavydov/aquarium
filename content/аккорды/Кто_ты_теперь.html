@@ -1,9 +1,10 @@
-+++
-title = "Кто ты теперь?"
-handbook_unid = "e953bf52944e717bc325679d006af32d"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Кто ты теперь?" %}
+{% set handbook_unid = "e953bf52944e717bc325679d006af32d" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ЭЛЕКТРИЧЕСТВО - кто ты теперь?<br/>
 </span><span style="color:red"> <br/>
@@ -286,3 +287,5 @@ o D---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

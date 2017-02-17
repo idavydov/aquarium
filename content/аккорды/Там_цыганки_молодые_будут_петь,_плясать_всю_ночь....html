@@ -1,9 +1,10 @@
-+++
-title = "Там цыганки молодые будут петь, плясать всю ночь..."
-handbook_unid = "fd550cd29b0ee01bc325679d006af1ce"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Там цыганки молодые будут петь, плясать всю ночь..." %}
+{% set handbook_unid = "fd550cd29b0ee01bc325679d006af1ce" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - НЕИЗДАННЫЕ ПЕСНИ - РУСКОЯЗЫЧНЫЕ ПЕСНИ - там цыганки молодые будут петь, плясать всю ночь...<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -84,3 +85,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

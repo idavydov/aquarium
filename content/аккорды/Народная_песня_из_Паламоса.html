@@ -1,9 +1,10 @@
-+++
-title = "Народная песня из Паламоса"
-handbook_unid = "f31cf8ab583b9788c3256ef7003d7273"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Народная песня из Паламоса" %}
+{% set handbook_unid = "f31cf8ab583b9788c3256ef7003d7273" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ZOOM ZOOM ZOOM - народная песня из паламоса<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -240,3 +241,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

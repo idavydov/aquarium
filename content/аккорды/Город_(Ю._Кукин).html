@@ -1,10 +1,11 @@
-+++
-title = "Город"
-extra_title = "(Ю.Кукин)"
-handbook_unid = "8124ff2b4f3fdfd543257c6100771bdc"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Город" %}
+{% set extra_title = "(Ю.Кукин)" %}
+{% set handbook_unid = "8124ff2b4f3fdfd543257c6100771bdc" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - НЕИЗДАННЫЕ ПЕСНИ - РУСКОЯЗЫЧНЫЕ ПЕСНИ - город (Ю. Кукин)<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 город <br/>
@@ -116,3 +117,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

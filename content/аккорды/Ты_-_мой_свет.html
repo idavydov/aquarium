@@ -1,9 +1,10 @@
-+++
-title = "Ты - мой свет"
-handbook_unid = "22721acb22b0d6e7c325679d006af204"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Ты - мой свет" %}
+{% set handbook_unid = "22721acb22b0d6e7c325679d006af204" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ДОИСТОРИЧЕСКИЕ ПЕСНИ - С ТОЙ СТОРОНЫ ЗЕРКАЛЬНОГО СТЕКЛА - ты - мой свет<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -332,3 +333,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

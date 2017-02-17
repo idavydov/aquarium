@@ -1,9 +1,10 @@
-+++
-title = "Я - Шизо"
-handbook_unid = "8fe38f9f41d451d9c325679d006af2b5"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Я - Шизо" %}
+{% set handbook_unid = "8fe38f9f41d451d9c325679d006af2b5" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ДОИСТОРИЧЕСКИЕ ПЕСНИ - ИСКУШЕНИЕ СВЯТОГО АКВАРИУМА - я - шизо<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 Я - Шизо <br/>
@@ -168,3 +169,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

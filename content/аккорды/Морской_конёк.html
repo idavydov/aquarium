@@ -1,9 +1,10 @@
-+++
-title = "Морской конёк"
-handbook_unid = "88dee4656e682aa5c3256d25003020fe"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Морской конёк" %}
+{% set handbook_unid = "88dee4656e682aa5c3256d25003020fe" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ПЕСНИ РЫБАКА - морской конёк<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 Морской конёк<br/>
@@ -144,3 +145,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

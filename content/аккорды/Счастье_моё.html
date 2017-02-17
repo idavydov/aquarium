@@ -1,9 +1,10 @@
-+++
-title = "Счастье моё"
-handbook_unid = "5e74213d899e2656c325679d006af1c2"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Счастье моё" %}
+{% set handbook_unid = "5e74213d899e2656c325679d006af1c2" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - МИТЬКОВСКИЕ ПЕСНИ - счастье моё<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -205,3 +206,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

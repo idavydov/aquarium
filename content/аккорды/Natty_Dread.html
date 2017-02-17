@@ -1,9 +1,10 @@
-+++
-title = "Natty Dread"
-handbook_unid = "c92f4e59b73f04e4c325679d006aed4e"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Natty Dread" %}
+{% set handbook_unid = "c92f4e59b73f04e4c325679d006aed4e" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - Неизданные англоязычные песни - natty dread<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -60,3 +61,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

@@ -1,9 +1,10 @@
-+++
-title = "Words of love"
-handbook_unid = "98ff3e3f09318c91c325679d006aeca9"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Words of love" %}
+{% set handbook_unid = "98ff3e3f09318c91c325679d006aeca9" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - Неизданные англоязычные песни - words of love<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -58,3 +59,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

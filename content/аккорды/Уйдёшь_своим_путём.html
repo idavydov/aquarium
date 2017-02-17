@@ -1,9 +1,10 @@
-+++
-title = "Уйдёшь своим путём"
-handbook_unid = "4912791fd1248828c325679d006aefa6"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Уйдёшь своим путём" %}
+{% set handbook_unid = "4912791fd1248828c325679d006aefa6" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ИХТИОЛОГИЯ - уйдёшь своим путём<br/>
 </span><span style="color:red"> <br/>
@@ -149,3 +150,5 @@ o D---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

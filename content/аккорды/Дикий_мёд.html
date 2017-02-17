@@ -1,9 +1,10 @@
-+++
-title = "Дикий мёд"
-handbook_unid = "50203d419a9c42b1c325679d006af240"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Дикий мёд" %}
+{% set handbook_unid = "50203d419a9c42b1c325679d006af240" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - НЕИЗДАННЫЕ ПЕСНИ - РУСКОЯЗЫЧНЫЕ ПЕСНИ - дикий мёд<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 дикий мёд<br/>
@@ -164,3 +165,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

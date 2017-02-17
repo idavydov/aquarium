@@ -1,9 +1,10 @@
-+++
-title = "Сторож Сергеев"
-handbook_unid = "6233aab1eb219cbdc325679d006aef0d"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Сторож Сергеев" %}
+{% set handbook_unid = "6233aab1eb219cbdc325679d006aef0d" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - РАДИО АФРИКА - сторож сергеев (</span><span style="font-size:8.0pt">studio version</span><span style="font-size:8.0pt;text-transform:uppercase">)<br/>
 </span><span style="color:red"> <br/>
@@ -126,3 +127,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

@@ -1,9 +1,10 @@
-+++
-title = "Сокол"
-handbook_unid = "85c64a3bfebf5b91c32573de0021eca3"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Сокол" %}
+{% set handbook_unid = "85c64a3bfebf5b91c32573de0021eca3" %}
+
+{% block content %}
+{% raw %}
 <span style="color:red;text-transform:uppercase">сокол<br/>
 </span><i>Б. Гребенщиков<br/></i>
  <br/>
@@ -145,3 +146,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

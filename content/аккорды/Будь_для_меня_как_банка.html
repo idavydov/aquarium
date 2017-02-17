@@ -1,9 +1,10 @@
-+++
-title = "Будь для меня как банка"
-handbook_unid = "d6a7f6eb38daaf8ac325679d006af2d9"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Будь для меня как банка" %}
+{% set handbook_unid = "d6a7f6eb38daaf8ac325679d006af2d9" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ПЕСКИ ПЕТЕРБУРГА - будь для меня как банка<br/>
 </span><span style="color:red"> <br/>
@@ -194,3 +195,5 @@ o D---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

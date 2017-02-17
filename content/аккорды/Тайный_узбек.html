@@ -1,9 +1,10 @@
-+++
-title = "Тайный узбек"
-handbook_unid = "7b0c18d0808a2d80c32577ae003ee73b"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Тайный узбек" %}
+{% set handbook_unid = "7b0c18d0808a2d80c32577ae003ee73b" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - АРХАНГЕЛЬСК - тайный узбек<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 Тайный узбек<br/>
@@ -189,3 +190,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

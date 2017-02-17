@@ -1,9 +1,10 @@
-+++
-title = "Мокрый вальс"
-handbook_unid = "b1c1a4930895949ac325699500589302"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Мокрый вальс" %}
+{% set handbook_unid = "b1c1a4930895949ac325699500589302" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - НЕИЗДАННЫЕ ПЕСНИ - РУСКОЯЗЫЧНЫЕ ПЕСНИ - мокрый вальс<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -203,3 +204,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

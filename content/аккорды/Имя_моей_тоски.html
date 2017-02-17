@@ -1,9 +1,10 @@
-+++
-title = "Имя моей тоски"
-handbook_unid = "a67a718ce2f01e90c32567fa006a4c73"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Имя моей тоски" %}
+{% set handbook_unid = "a67a718ce2f01e90c32567fa006a4c73" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - Ψ - имя моей тоски<br/>
 </span><span style="color:red"> <br/>
@@ -153,3 +154,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

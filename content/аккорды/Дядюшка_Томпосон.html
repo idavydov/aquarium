@@ -1,9 +1,10 @@
-+++
-title = "Дядюшка Томпосон"
-handbook_unid = "3000a3891c4939bac325679d006af228"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Дядюшка Томпосон" %}
+{% set handbook_unid = "3000a3891c4939bac325679d006af228" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ПЕСКИ ПЕТЕРБУРГА - дядюшка томпсон<br/>
 </span><span style="color:red"> <br/>
@@ -76,3 +77,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

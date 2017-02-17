@@ -1,9 +1,10 @@
-+++
-title = "Пионерская, 38"
-handbook_unid = "4f7a41e0c6374a3bc3256bab001c71b8"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Пионерская, 38" %}
+{% set handbook_unid = "4f7a41e0c6374a3bc3256bab001c71b8" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - СИНИЙ АЛЬБОМ - пионерская, 38<br/>
 </span><span style="color:red"> <br/>
 </span><span style="color:red;text-transform:uppercase">Пионерская, 38<br/>
@@ -170,3 +171,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

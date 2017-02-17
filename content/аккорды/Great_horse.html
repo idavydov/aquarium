@@ -1,9 +1,10 @@
-+++
-title = "Great horse"
-handbook_unid = "5214b597ad354eafc32570a3006a3fb0"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Great horse" %}
+{% set handbook_unid = "5214b597ad354eafc32570a3006a3fb0" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - Неизданные англоязычные песни - great horse<br/></span>
  <br/>
@@ -150,3 +151,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

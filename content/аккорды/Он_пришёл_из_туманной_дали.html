@@ -1,9 +1,10 @@
-+++
-title = "Он пришёл из туманной дали"
-handbook_unid = "8ab0998fcb9825b5c325679d006af0d8"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Он пришёл из туманной дали" %}
+{% set handbook_unid = "8ab0998fcb9825b5c325679d006af0d8" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ДОИСТОРИЧЕСКИЕ ПЕСНИ - ИСКУШЕНИЕ СВЯТОГО АКВАРИУМА - он пришёл из туманной дали<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -189,3 +190,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

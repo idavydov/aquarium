@@ -1,9 +1,10 @@
-+++
-title = "Дарья Дарья"
-handbook_unid = "69ac96efedcfd89cc325679d006aeeb9"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Дарья Дарья" %}
+{% set handbook_unid = "69ac96efedcfd89cc325679d006aeeb9" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ЛИЛИТ - дарья дарья<br/>
 </span><span style="color:red"> <br/>
@@ -177,3 +178,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

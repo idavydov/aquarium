@@ -1,9 +1,10 @@
-+++
-title = "Рождественская ночь"
-handbook_unid = "dbd4a455b4c33262c32577b8005321c7"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Рождественская ночь" %}
+{% set handbook_unid = "dbd4a455b4c33262c32577b8005321c7" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ИНТЕРНЕТ-СИНГЛЫ - рождественская ночь<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -132,3 +133,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

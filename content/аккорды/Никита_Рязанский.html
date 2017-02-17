@@ -1,9 +1,10 @@
-+++
-title = "Никита Рязанский"
-handbook_unid = "f4df0b4b6ce8f507c325679d006af0ae"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Никита Рязанский" %}
+{% set handbook_unid = "f4df0b4b6ce8f507c325679d006af0ae" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - РУССКИЙ АЛЬБОМ - никита рязанский<br/>
 </span><span style="color:red"> <br/>
 НИКИТА РЯЗАНСКИЙ<br/>
@@ -164,3 +165,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

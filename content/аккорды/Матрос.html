@@ -1,9 +1,10 @@
-+++
-title = "Матрос"
-handbook_unid = "a0b18ba98da8087cc325679d006af0ab"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Матрос" %}
+{% set handbook_unid = "a0b18ba98da8087cc325679d006af0ab" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ▼ - матрос<br/>
 </span><span style="color:red"> <br/>
 МАТРОС<br/>
@@ -98,3 +99,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

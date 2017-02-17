@@ -1,9 +1,10 @@
-+++
-title = "Миленький ты мой"
-handbook_unid = "9e9f9c818dc1c17ec325679d006af01b"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Миленький ты мой" %}
+{% set handbook_unid = "9e9f9c818dc1c17ec325679d006af01b" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - МИТЬКОВСКИЕ ПЕСНИ - миленький ты мой<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -96,3 +97,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

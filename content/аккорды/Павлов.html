@@ -1,9 +1,10 @@
-+++
-title = "Павлов"
-handbook_unid = "4a60768d757aa01ec325679d006af1f2"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Павлов" %}
+{% set handbook_unid = "4a60768d757aa01ec325679d006af1f2" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ГИПЕРБОРЕЯ - МАГИСТРАЛЬ - павлов<br/>
 </span><span style="color:red"> <br/>
@@ -156,3 +157,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

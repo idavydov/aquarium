@@ -1,9 +1,10 @@
-+++
-title = "Генерал Скобелев"
-handbook_unid = "0433f1373b29de5ec325679d006af030"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Генерал Скобелев" %}
+{% set handbook_unid = "0433f1373b29de5ec325679d006af030" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - НАША ЖИЗНЬ С ТОЧКИ ЗРЕНИЯ ДЕРЕВЬЕВ - генерал скобелев<br/>
 </span><span style="color:red"> <br/>
@@ -134,3 +135,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

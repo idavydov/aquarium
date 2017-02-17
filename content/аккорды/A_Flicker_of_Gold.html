@@ -1,9 +1,10 @@
-+++
-title = "A Flicker of Gold"
-handbook_unid = "e41e92324a097bfdc3256a4800244711"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "A Flicker of Gold" %}
+{% set handbook_unid = "e41e92324a097bfdc3256a4800244711" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - СОВМЕСТНЫЕ ПЕСНИ - a flicker of gold<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 A flicker of gold <br/>
@@ -362,3 +363,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

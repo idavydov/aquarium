@@ -1,9 +1,10 @@
-+++
-title = "Трудовая пчела"
-handbook_unid = "eeb2b88eba18c8b7c325679d006af2b2"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Трудовая пчела" %}
+{% set handbook_unid = "eeb2b88eba18c8b7c325679d006af2b2" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - НАША ЖИЗНЬ С ТОЧКИ ЗРЕНИЯ ДЕРЕВЬЕВ - трудовая пчела<br/>
 </span><span style="color:red"> <br/>
@@ -138,3 +139,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

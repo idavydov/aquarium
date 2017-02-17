@@ -1,9 +1,10 @@
-+++
-title = "Мой ум сдох"
-handbook_unid = "d2ca43c76190d5cdc325679d006af04e"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Мой ум сдох" %}
+{% set handbook_unid = "d2ca43c76190d5cdc325679d006af04e" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ДОИСТОРИЧЕСКИЕ ПЕСНИ - ИСКУШЕНИЕ СВЯТОГО АКВАРИУМА - мой ум сдох<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 мой ум сдох<br/>
@@ -132,3 +133,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

@@ -1,9 +1,10 @@
-+++
-title = "Роскошь"
-handbook_unid = "556dd52a6481efe6c325679d006af15c"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Роскошь" %}
+{% set handbook_unid = "556dd52a6481efe6c325679d006af15c" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - НЕИЗДАННЫЕ ПЕСНИ - РУСКОЯЗЫЧНЫЕ ПЕСНИ - роскошь<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -173,3 +174,5 @@ o D---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

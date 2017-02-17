@@ -1,9 +1,10 @@
-+++
-title = "Тяжёлый танцор"
-handbook_unid = "fb1e1687bececb8dc325679d006af21c"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Тяжёлый танцор" %}
+{% set handbook_unid = "fb1e1687bececb8dc325679d006af21c" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - КОНЦЕРТНЫЕ ЗАПИСИ - тяжёлый танцор<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 Тяжёлый танцор <br/>
@@ -152,3 +153,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

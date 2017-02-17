@@ -1,9 +1,10 @@
-+++
-title = "Пески Петербурга"
-handbook_unid = "ec5b9df8c7bc10dbc325679d006af1fe"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Пески Петербурга" %}
+{% set handbook_unid = "ec5b9df8c7bc10dbc325679d006af1fe" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ИХТИОЛОГИЯ - пески петербурга<br/>
 </span><span style="color:red"> <br/>
@@ -149,3 +150,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

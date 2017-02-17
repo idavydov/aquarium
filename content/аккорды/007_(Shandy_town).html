@@ -1,9 +1,10 @@
-+++
-title = "007 (Shandy town)"
-handbook_unid = "e66665752cd3782bc3256b3d00704ab5"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "007 (Shandy town)" %}
+{% set handbook_unid = "e66665752cd3782bc3256b3d00704ab5" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - НЕИЗДАННЫЕ ПЕСНИ - АНГЛОЯЗЫЧНЫЕ ПЕСНИ - 007 (shanty town)<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 007 (shanty town)<br/>
@@ -72,3 +73,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

@@ -1,9 +1,10 @@
-+++
-title = "Here comes the sun"
-handbook_unid = "d831bed115bbfc57c325679d006aed15"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Here comes the sun" %}
+{% set handbook_unid = "d831bed115bbfc57c325679d006aed15" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - СОВМЕСТНЫЕ ПЕСНИ - here comes the sun<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 here comes the sun <br/>
@@ -231,3 +232,5 @@ o E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

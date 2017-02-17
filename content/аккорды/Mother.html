@@ -1,9 +1,10 @@
-+++
-title = "Mother"
-handbook_unid = "0ce42eb68464a059c325679d006aed9c"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Mother" %}
+{% set handbook_unid = "0ce42eb68464a059c325679d006aed9c" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - АНГЛОЯЗЫЧНЫЕ ПЕСНИ - RADIO SILENCE - mother<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
 mother <br/>
@@ -122,3 +123,5 @@ x E---|---|---|---|---|<br/>
 </td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

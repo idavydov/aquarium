@@ -1,9 +1,10 @@
-+++
-title = "Be here now"
-handbook_unid = "8e9ab28dd4078154c325679d006aec88"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Be here now" %}
+{% set handbook_unid = "8e9ab28dd4078154c325679d006aec88" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - Неизданные англоязычные песни - be here now<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -109,3 +110,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

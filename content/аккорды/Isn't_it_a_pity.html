@@ -1,9 +1,10 @@
-+++
-title = "Isn`t it a pity"
-handbook_unid = "e9b4c15767dc4471c325679d006aecd9"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Isn`t it a pity" %}
+{% set handbook_unid = "e9b4c15767dc4471c325679d006aecd9" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - Неизданные англоязычные песни - isn`t it a pity<br/>
 </span><span style="color:red;text-transform:uppercase"> <br/>
@@ -70,3 +71,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

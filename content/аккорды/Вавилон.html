@@ -1,9 +1,10 @@
-+++
-title = "Вавилон"
-handbook_unid = "5eb2aa86806d1a84c325679d006aee1d"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Вавилон" %}
+{% set handbook_unid = "5eb2aa86806d1a84c325679d006aee1d" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ЭЛЕКТРИЧЕСТВО - вавилон<br/>
 </span><span style="color:red"> <br/>
 ВАВИЛОН<br/>
@@ -106,3 +107,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

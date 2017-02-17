@@ -1,9 +1,10 @@
-+++
-title = "Реквием"
-extra_title = "(инструментал)"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Реквием" %}
+{% set extra_title = "(инструментал)" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a> - ИНСТРУМЕНТАЛЫ - реквием<br/>
 </span><span style="color:red"> <br/>
 </span><span style="color:red;text-transform:uppercase">реквием<br/>
@@ -211,3 +212,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}

@@ -1,9 +1,10 @@
-+++
-title = "Ангел"
-handbook_unid = "915e97cc8de5673ac325679d006af318"
-date = "2017-02-16"
+{% extends "chords.html" %}
 
-+++
+{% set title = "Ангел" %}
+{% set handbook_unid = "915e97cc8de5673ac325679d006af318" %}
+
+{% block content %}
+{% raw %}
 <span style="font-size:8.0pt;text-transform:uppercase"><a href="/">Главная</a>
 - ЕСТЕСТВЕННЫЕ АЛЬБОМЫ АКВАРИУМА И БГ - ФЕОДАЛИЗМ - ангел<br/>
 </span><span style="color:red"> <br/>
@@ -113,3 +114,5 @@ x E---|---|---|---|---|<br/>
 </span></b></td>
 </tr>
 </table>
+{% endraw %}
+{% endblock %}
