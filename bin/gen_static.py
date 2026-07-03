@@ -4,10 +4,6 @@ import glob
 import os.path
 import codecs
 import json
-try:
-    from urllib.parse import quote
-except ImportError:
-    from urllib import quote
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape, meta
 
@@ -32,7 +28,7 @@ for fn in sorted(glob.glob(indir + 'аккорды/*.html')):
         extra_title = ''
 
     path = bn.rsplit('.', 1)[0]
-    canonical_url = canonical_base + quote(path, safe='/')
+    canonical_url = canonical_base + path
     out = codecs.open(os.path.join(outdir, path),
         'w', 'utf8')
     out.write(tmpl.render(canonical_url=canonical_url))
