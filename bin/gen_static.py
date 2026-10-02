@@ -4,6 +4,7 @@ import glob
 import os.path
 import codecs
 import json
+import argparse
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape, meta
 
@@ -16,9 +17,17 @@ outdir = 'public/'
 indir = 'content/'
 canonical_base = 'https://aquarium.rifma.ch/'
 
+parser = argparse.ArgumentParser(description='Render the static chord archive.')
+parser.add_argument('--html', action='store_true',
+                    help='Write .html files for extensionless Cloudflare Pages routes.')
+args = parser.parse_args()
+chord_outdir = os.path.join(outdir, 'аккорды')
+if not os.path.isdir(chord_outdir):
+    os.makedirs(chord_outdir)
+
 chords = []
 for fn in sorted(glob.glob(indir + 'аккорды/*.html')):
-    bn = fn.lstrip(indir)
+    bn = os.path.relpath(fn, indir)
 
     tmpl = env.get_template(bn)
     title = tmpl.module.title
@@ -29,7 +38,8 @@ for fn in sorted(glob.glob(indir + 'аккорды/*.html')):
 
     path = bn.rsplit('.', 1)[0]
     canonical_url = canonical_base + path
-    out = codecs.open(os.path.join(outdir, path),
+    filename = path + '.html' if args.html else path
+    out = codecs.open(os.path.join(outdir, filename),
         'w', 'utf8')
     out.write(tmpl.render(canonical_url=canonical_url))
     out.close()
