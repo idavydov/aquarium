@@ -14,4 +14,5 @@ fi
 rsync -av --delete --recursive --exclude '*~' static/ public
 mkdir -p public/аккорды
 bin/gen_static.py
+bin/gen_sitemap.py
 rsync -avz --delete --recursive -e ssh --rsync-path="$rsync_path" public/ "$deploy_target"
