@@ -9,7 +9,7 @@ This repository contains a static chord archive for Аквариум/BG. Source 
 - `bin/gen_static.py`: renders `content/` through `templates/` into `public/`.
 - `rsync -av --delete --recursive --exclude '*~' static/ public`: refreshes static assets in `public/`.
 - `bin/install.sh user@host:/remote/path/`: full publish script; it syncs static files, renders pages, then deploys `public/` over SSH. Use `DEPLOY_RSYNC_PATH='sudo rsync'` when the remote path needs sudo.
-- `bin/checkurls.sh log`: checks logged `aquarium.myths.ru` URLs with `curl` and reports non-200 responses.
+- `bin/checkurls.sh log`: checks logged `aquarium.firma.ch` URLs with `curl` and reports non-200 responses.
 
 There is no package manifest or dedicated dev server. For local inspection, build `public/` and serve it from that directory, for example `python -m SimpleHTTPServer 8000`.
 
