@@ -74,6 +74,41 @@ def relative_font(tag):
                   tag, flags=re.I)
 
 
+def theme_colors(style):
+    """Keep faded ink theme-relative; discard inherited background patches."""
+    greys = {'black': 0, 'gray': 128, 'grey': 128, 'darkgray': 169,
+             'darkgrey': 169, 'silver': 192, 'lightgray': 211,
+             'lightgrey': 211, 'white': 255}
+
+    def adapt(match):
+        color = match[2].strip().lower()
+        background = bool(re.search(r'background(?:-color)?\s*:', match[1], re.I))
+        if background:
+            return ';' if match[1].startswith(';') else ''
+        if color == 'windowtext':
+            return match[1] + 'var(--text)'
+        if color == 'blue':
+            return match[1] + 'var(--link)'
+        grey = greys.get(color)
+        if re.fullmatch(r'#[0-9a-f]{6}', color):
+            rgb = [int(color[i:i + 2], 16) for i in (1, 3, 5)]
+            if len(set(rgb)) == 1:
+                grey = rgb[0]
+            elif color in ('#d1f6ff', '#e7faff'):
+                # Pale blue ink belonged to the old blue fade-in background.
+                # Keep its brightness as neutral faded ink on the page surface.
+                grey = sum(channel * weight for channel, weight in zip(rgb, (.2126, .7152, .0722)))
+            else:
+                return match[1] + 'var(--archive-' + color[1:] + ', ' + match[2] + ')'
+        if grey is not None:
+            return match[1] + 'color-mix(in srgb, var(--archive-ink) %g%%, var(--surface))' % (
+                round((255 - grey) * 100 / 255, 3))
+        return match[0]
+
+    return re.sub(r'((?:^|;)\s*(?:color|background(?:-color)?)\s*:\s*)([^;]+)',
+                  adapt, style, flags=re.I).strip('; ')
+
+
 def clean_start_tag(tag, attrs, self_closing=False):
     """Normalize archived markup; keep content and presentation-bearing styles."""
     kept = []
@@ -83,6 +118,8 @@ def clean_start_tag(tag, attrs, self_closing=False):
         if value is None:
             kept.append(name)
         else:
+            if name == 'style':
+                value = theme_colors(value)
             kept.append('%s="%s"' % (name, escape(value, quote=True)))
     markup = '<' + tag + (' ' + ' '.join(kept) if kept else '')
     return relative_font(markup + ('/>' if self_closing else '>'))
@@ -374,6 +411,10 @@ def song_context(content):
 
 def song_layout(content, title=None):
     _, content = split_context(content)
+    # White underscore runs are invisible padding from the original editor.
+    # Retain the source characters, but do not let them indent the intro.
+    content = re.sub(r'<span\s+style="color:white(?:;[^"]*)?">(_+)</span>',
+                     r'<span style="color:white;font-size:0">\1</span>', content, flags=re.I)
     parser = SongLayout(title)
     parser.feed(content)
     parser.close()

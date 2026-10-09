@@ -224,6 +224,26 @@ class SongLayoutTests(unittest.TestCase):
         self.assertEqual(clean_start_tag('span', [('style', 'color:red;font-size:8pt')]),
                          '<span style="color:red;font-size:0.8em">')
 
+    def test_archived_fade_keeps_ink_without_grey_background_patches(self):
+        output = clean_start_tag('span', [('style', 'color:#333333;background:#E6E6E6')])
+        self.assertIn('var(--archive-ink) 80%', output)
+        self.assertNotIn('background', output)
+        self.assertNotIn('color:#333333', output)
+        silver = clean_start_tag('span', [('style', 'color:silver')])
+        self.assertIn('var(--archive-ink) 24.706%', silver)
+        white = clean_start_tag('span', [('style', 'color:white')])
+        self.assertIn('var(--archive-ink) 0%', white)
+        background_first = clean_start_tag('span', [('style', 'background-color:gray;color:#333333;font-style:italic')])
+        self.assertNotIn('background', background_first)
+        self.assertIn('var(--archive-ink) 80%', background_first)
+        self.assertIn('font-style:italic', background_first)
+
+    def test_pale_blue_fade_keeps_brightness_without_background(self):
+        output = clean_start_tag('span', [('style', 'color:#D1F6FF;background:#DDF3FF')])
+        self.assertIn('color:color-mix(in srgb, var(--archive-ink)', output)
+        self.assertNotIn('background', output)
+        self.assertNotIn('--archive-d1f6ff', output)
+
     def test_electric_dog_preserves_every_musical_line(self):
         source = (Path(__file__).resolve().parent.parent / 'content/аккорды/Электрический_пёс.html').read_text()
         raw = source.split('{% raw %}', 1)[1].split('{% endraw %}', 1)[0]
