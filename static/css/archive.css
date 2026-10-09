@@ -32,7 +32,7 @@ button:disabled { opacity: .5; cursor: default; }
 .site-header { margin-bottom: 12px; }
 h1 { margin: 0; font-size: clamp(1.4rem, 4vw, 2rem); line-height: 1.3; overflow-wrap: anywhere; }
 .all-songs { display: inline-flex; align-items: center; min-height: 44px; margin-bottom: 8px; }
-.song-search { margin-bottom: 20px; }
+.song-search { max-width: 32rem; margin-bottom: 20px; }
 .search-controls { position: relative; }
 .search-controls input { width: 100%; min-width: 0; min-height: 44px; padding: 10px 48px 10px 12px; border: 1px solid var(--line); border-radius: 5px; background: var(--surface); color: var(--text); }
 .search-controls input::-webkit-search-cancel-button { display: none; }

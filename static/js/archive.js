@@ -32,6 +32,12 @@
 
   if (form) {
     const input = document.getElementById('search-query');
+    const desktopSearch = window.matchMedia('(min-width: 720px)');
+    const updateSearchHint = () => {
+      input.placeholder = desktopSearch.matches ? 'Найти песню… (/)' : 'Найти песню…';
+    };
+    desktopSearch.addEventListener('change', updateSearchHint);
+    updateSearchHint();
     const clear = document.getElementById('clear-search');
     const empty = document.getElementById('search-empty');
     const items = Array.from(document.querySelectorAll('#song-list li')).map(element => ({
@@ -70,6 +76,16 @@
   }
 
   document.querySelectorAll('a[href="/"], [data-search-link]').forEach(link => decorateLink(link, query));
+  document.addEventListener('keydown', event => {
+    if (event.key !== '/' || event.defaultPrevented || event.altKey || event.ctrlKey || event.metaKey
+        || event.target.closest('input, textarea, select, [contenteditable]:not([contenteditable="false"])')) return;
+    const input = document.getElementById('search-query');
+    const link = document.querySelector('[data-search-link]');
+    if (!input && !link) return;
+    event.preventDefault();
+    if (input) { input.focus(); input.select(); }
+    else location.assign(link.href);
+  });
   const fontControls = document.getElementById('font-controls');
   if (fontControls) {
     let fontSize = 16;
