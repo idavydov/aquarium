@@ -1,0 +1,276 @@
+"""Build responsive song markup while preserving musical spacing."""
+from html import escape, unescape
+from html.parser import HTMLParser
+import re
+
+from markupsafe import Markup
+
+
+CHORD = re.compile(r'[A-H][#b♯♭]?(?:(?:maj|min|dim|aug|sus|add|m|M)\d*)*\d*(?:\([^)]*\))?(?:/[A-Ha-h][#b♯♭]?)?')
+
+
+def apostrophes(text):
+    """Normalize Latin apostrophes without changing Russian quotes or URLs."""
+    return re.sub(r"(?<=[A-Za-z])[`´‘’ʼ]|[`´‘’ʼ](?=[A-Za-z])", "'", text)
+
+
+def tab_string(text):
+    match = re.search(r'(?:^|\s)([EHGDABe])[-|][-|0-9hHpPbBrRsStTxX/\\~^().]{2,}', text)
+    return match[1] if match else None
+
+
+def musical_line(text):
+    text = text.strip()
+    # Hammer-ons, pull-offs and slides are part of a string line too. Testing
+    # just its first few characters incorrectly split E-4h5 from H/G below it.
+    if re.search(r'(?:^|\s)[EHGDABe][-|][-|0-9hHpPbBrRsStTxX/\\~^().]{2,}', text):
+        return True
+    tokens = text.split()
+    note = lambda token: CHORD.fullmatch(token) or re.fullmatch(r'(?:\d+:[IVX\d]+|fl\d+)', token)
+    return any(note(token) for token in tokens) and all(note(token) or re.fullmatch(
+        r'[|:./–—-]+', token) for token in tokens)
+
+
+def relative_font(tag):
+    # Original content uses a 10pt base. Keep its relative sizes while allowing
+    # the reader's text-size control to scale diagrams and lyrics together.
+    return re.sub(r'(font-size\s*:)\s*([\d.]+)pt',
+                  lambda match: '%s%gem' % (match[1], float(match[2]) / 10),
+                  tag, flags=re.I)
+
+
+def clean_start_tag(tag, attrs, self_closing=False):
+    """Normalize archived markup; keep content and presentation-bearing styles."""
+    kept = []
+    for name, value in attrs:
+        if tag == 'table' and name in ('border', 'cellpadding', 'cellspacing') and value == '0':
+            continue
+        if value is None:
+            kept.append(name)
+        else:
+            kept.append('%s="%s"' % (name, escape(value, quote=True)))
+    markup = '<' + tag + (' ' + ' '.join(kept) if kept else '')
+    return relative_font(markup + ('/>' if self_closing else '>'))
+
+
+class SongLines(HTMLParser):
+    """Split at explicit line breaks, balancing inline markup at each boundary."""
+    def __init__(self, title=None):
+        super().__init__(convert_charrefs=False)
+        self.title = title
+        self.lines = []
+        self.tokens = []
+        self.text = []
+        self.open_tags = []
+
+    def flush(self):
+        markup = ''.join(self.tokens) + ''.join('</%s>' % tag for tag, _ in reversed(self.open_tags))
+        self.lines.append((markup, unescape(''.join(self.text))))
+        self.tokens = [markup for _, markup in self.open_tags]
+        self.text = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag == 'br':
+            self.flush()
+            return
+        markup = clean_start_tag(tag, attrs)
+        self.tokens.append(markup)
+        if tag not in ('img', 'hr', 'input', 'meta', 'link'):
+            self.open_tags.append((tag, markup))
+        if tag == 'img':
+            self.text.append('[image]')
+
+    def handle_startendtag(self, tag, attrs):
+        if tag == 'br':
+            self.flush()
+        else:
+            self.tokens.append(clean_start_tag(tag, attrs, self_closing=True))
+            if tag == 'img':
+                self.text.append('[image]')
+
+    def handle_endtag(self, tag):
+        if any(name == tag for name, _ in self.open_tags):
+            while self.open_tags:
+                name, _ = self.open_tags.pop()
+                self.tokens.append('</%s>' % name)
+                if name == tag:
+                    break
+        if tag in ('h1', 'h2', 'h3'):
+            self.flush()
+
+    def handle_data(self, data):
+        data = apostrophes(data)
+        self.tokens.append(data)
+        self.text.append(data)
+
+    def handle_entityref(self, name):
+        self.tokens.append('&%s;' % name)
+        self.text.append('&%s;' % name)
+
+    def handle_charref(self, name):
+        self.tokens.append('&#%s;' % name)
+        self.text.append('&#%s;' % name)
+
+    def handle_comment(self, data):
+        self.tokens.append('<!--%s-->' % data)
+
+    def finish(self):
+        if ''.join(self.text).strip():
+            self.flush()
+        result = []
+        music = []
+        strings = []
+
+        # Every archived page starts with a presentation-only red title. Its
+        # spelling need not match the metadata (some old copies contain typos).
+        # Remove that header, never matching title phrases later in the lyrics.
+        if self.title:
+            first = next((i for i, (_, text) in enumerate(self.lines) if text.strip()), None)
+            if first is not None and re.search(r'color\s*:\s*(?:red|#ff0000)', self.lines[first][0], re.I):
+                markup, text = self.lines[first]
+                suffix = re.search(r'\([^()]+\)\s*$', text.strip())
+                keep_suffix = suffix and suffix[0].casefold() not in self.title.casefold()
+                self.lines = self.lines[first + 1:]
+                if keep_suffix:
+                    self.lines.insert(0, (escape(suffix[0]), suffix[0]))
+            while self.lines and not self.lines[0][1].strip():
+                self.lines.pop(0)
+
+        def emit_music():
+            if music:
+                result.append('<div class="song-passage music-block" tabindex="0" '
+                              'role="region" aria-label="Аккорды и табулатура">'
+                              + ''.join(music) + '</div>')
+                music.clear()
+                strings.clear()
+
+        for markup, text in self.lines:
+            line = '<div class="song-line">%s</div>' % markup
+            if musical_line(text):
+                string = tab_string(text)
+                if strings and (not string or len(strings) >= 6
+                                or string in strings and not (string in ('E', 'e') and strings[-1] == 'A')):
+                    emit_music()
+                music.append(line)
+                if string:
+                    strings.append(string)
+            elif text.strip() and music:
+                # Keep the lyric directly below its chord line aligned with it.
+                music.append(line)
+                emit_music()
+            else:
+                emit_music()
+                result.append('<div class="song-prose song-line">%s</div>' % markup)
+        emit_music()
+        return ''.join(result)
+
+
+class SongLayout(HTMLParser):
+    def __init__(self, title=None):
+        super().__init__(convert_charrefs=False)
+        self.title = title
+        self.parts = []
+        self.tokens = []
+        self.table_depth = 0
+
+    def flush(self, table=False):
+        content = ''.join(self.tokens)
+        self.tokens = []
+        if not content.strip():
+            return
+        if not table:
+            lines = SongLines(self.title)
+            self.title = None
+            lines.feed(content)
+            lines.close()
+            self.parts.append(lines.finish())
+            return
+        # Rearrange independent diagrams only; retain other table structures.
+        diagram = (len(re.findall(r'<table\b', content, re.I)) == 1
+                   and not re.search(r'\b(?:colspan|rowspan)\s*=', content, re.I)
+                   and re.search(r'[EHGDA][-|■]{3}', content))
+        if diagram:
+            content = re.sub(r'<table\b', '<table class="chord-diagrams"',
+                             content, count=1, flags=re.I)
+        self.parts.append('<div class="song-passage diagram-block" tabindex="0" role="region" '
+                          'aria-label="Схемы аккордов">%s</div>' % content)
+
+    def handle_starttag(self, tag, attrs):
+        if tag == 'table':
+            if not self.table_depth:
+                self.flush()
+            self.table_depth += 1
+        self.tokens.append(clean_start_tag(tag, attrs))
+
+    def handle_startendtag(self, tag, attrs):
+        self.tokens.append(clean_start_tag(tag, attrs, self_closing=True))
+
+    def handle_endtag(self, tag):
+        self.tokens.append('</%s>' % tag)
+        if tag == 'table':
+            self.table_depth -= 1
+            if not self.table_depth:
+                self.flush(table=True)
+
+    def handle_data(self, data):
+        self.tokens.append(apostrophes(data))
+
+    def handle_entityref(self, name):
+        self.tokens.append('&%s;' % name)
+
+    def handle_charref(self, name):
+        self.tokens.append('&#%s;' % name)
+
+    def handle_comment(self, data):
+        self.tokens.append('<!--%s-->' % data)
+
+
+def split_context(content):
+    # Breadcrumbs sometimes contain nested spans or an early </span>. Their
+    # first explicit line break is the reliable boundary in all source pages.
+    match = re.match(r'\s*(.*?<br\s*/?>)(?:\s*</(?:span|a)>)*', content, re.S | re.I)
+    context = ''
+    if match and re.search(r'<a\b[^>]*href=[\'"]/[\'"]', match[1]):
+        context = match[1]
+        content = content[match.end():]
+    return context, content
+
+
+class ContextText(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.parts = []
+
+    def handle_data(self, data):
+        self.parts.append(data)
+
+
+def sentence_case(text):
+    # Each breadcrumb item is one phrase, never title-case each word. Preserve
+    # Russian proper names and abbreviations found in the archive's headings.
+    text = text.strip()
+    if text.isupper():
+        text = text.lower()
+    text = re.sub(r'\bбг\b', 'БГ', text, flags=re.I)
+    text = re.sub(r'\bаквариум(?:а)?\b', lambda match: match[0].capitalize(), text, flags=re.I)
+    return text[:1].upper() + text[1:]
+
+
+def song_context(content):
+    context, _ = split_context(content)
+    parser = ContextText()
+    parser.feed(context)
+    parts = re.split(r'\s+-\s+', ''.join(parser.parts).strip())
+    # The last breadcrumb repeats the song heading directly below it.
+    trail = ' · '.join(escape(sentence_case(apostrophes(part))) for part in parts[1:-1] if part.strip())
+    return Markup('<a class="all-songs" href="/">← Все песни</a>'
+                  + (' · ' + trail if trail else ''))
+
+
+def song_layout(content, title=None):
+    _, content = split_context(content)
+    parser = SongLayout(title)
+    parser.feed(content)
+    parser.close()
+    parser.flush()
+    return Markup(''.join(parser.parts))
