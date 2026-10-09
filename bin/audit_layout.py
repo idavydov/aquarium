@@ -7,7 +7,7 @@ import json
 from pathlib import Path
 import re
 
-from song_layout import CHORD_LETTERS, musical_line, split_context, tab_string
+from song_layout import CHORD_LETTERS, apostrophes, musical_line, split_context, tab_string
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -121,6 +121,46 @@ def warnings(blocks):
     return result
 
 
+def alignment_warnings(source_rows, blocks):
+    """Find source sung/tab passages split across output scroll regions."""
+    source_rows = [apostrophes(row).strip() for row in source_rows]
+    regions = {}
+    cursor = 0
+    for block_index, block in enumerate(blocks, 1):
+        if block['kind'] == 'diagram-block':
+            continue
+        for row in block['rows']:
+            row = row.strip()
+            if not row:
+                continue
+            found = next((i for i in range(cursor, len(source_rows)) if source_rows[i] == row), None)
+            if found is not None:
+                regions[found] = block_index
+                cursor = found + 1
+
+    result = []
+    passage = []
+    # Examine source blank-line boundaries independently of rendered blocks.
+    # Instrumental labels and annotations are not sung text.
+    cue = re.compile(r'^(?:Вступление|Проигрыш|Заключение|Кода|Соло|Бас|Флейта|'
+                     r'Колокол|Гудок|Мандолина|Гитара\s*\d*)\s*:', re.I)
+    annotation = re.compile(r'Гребенщиков|Подбор:|Каподастр|быстро|раза|^\||^:|[■]', re.I)
+    for index, row in enumerate(source_rows + ['']):
+        if row and not row.startswith('[chord diagrams'):
+            passage.append(index)
+            continue
+        rows = [source_rows[i] for i in passage]
+        lyrics = [text for text in rows if not musical_line(text)
+                  and re.search(r'[a-zа-яё]', text, re.I) and not annotation.search(text)]
+        if lyrics and any(tab_string(text) for text in rows) and not any(cue.match(text) for text in rows):
+            owners = sorted({regions[i] for i in passage if i in regions})
+            if len(owners) > 1 or any(blocks[i - 1]['kind'] == 'prose' for i in owners):
+                result.append(dict(kind='split-sung-tab-passage', blocks=owners,
+                                   source_line=passage[0] + 1, text=[lyrics[0], lyrics[-1]]))
+        passage.clear()
+    return result
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output', type=Path, default=Path('/tmp/aquarium-layout-audit'))
@@ -138,7 +178,7 @@ def main():
         article = re.search(r'<article\b[^>]*>(.*?)</article>', generated, re.S)[1].strip()
         after = RenderedText()
         after.feed(article)
-        flags = warnings(after.blocks)
+        flags = warnings(after.blocks) + alignment_warnings(before.rows, after.blocks)
         record = dict(song=source.stem, flags=flags, blocks=after.blocks)
         records.append(record)
         text = ['SOURCE (blank lines and spacing preserved; tables summarized)', *before.rows,

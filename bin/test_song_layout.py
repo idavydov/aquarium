@@ -51,7 +51,8 @@ class SongLayoutTests(unittest.TestCase):
                      'D—0-------------------------', 'E-0—9-10---10-12-10h11-12',
                      'E-4h5-3-0----', 'E-5p3-0---', 'G-5/7-5---'):
             self.assertTrue(musical_line(text), text)
-        for text in ('И мы несём свою вахту', 'Here comes the sun', 'Каподастр на 3-м ладу', '....', '(1998)'):
+        for text in ('И мы несём свою вахту', 'Here comes the sun', 'Каподастр на 3-м ладу',
+                     '....', '(1998)', '2-12-85-06'):
             self.assertFalse(musical_line(text), text)
 
     def test_whole_chord_verse_scrolls_but_next_plain_verse_wraps(self):
@@ -68,18 +69,17 @@ class SongLayoutTests(unittest.TestCase):
         output = str(song_layout('Am<br/>Первый куплет<br/><br/>C<br/>Второй куплет<br/>'))
         self.assertEqual(output.count('class="song-passage verse-block"'), 2)
 
-    def test_tab_interrupts_verse_and_keeps_its_own_chord_heading(self):
+    def test_tab_inside_sung_passage_shares_the_verse_scroll_area(self):
         output = str(song_layout('C<br/>Куплет<br/> Am<br/>E-0---<br/>H-1---<br/>G-2---<br/>'
                                  'Dm<br/>Продолжение куплета<br/>'))
-        self.assertEqual(output.count('class="song-passage verse-block"'), 2)
+        self.assertEqual(output.count('class="song-passage verse-block"'), 1)
         parser = MusicBlocks()
         parser.feed(output)
-        self.assertEqual(len(parser.blocks), 1)
-        self.assertIn('Am', parser.blocks[0])
-        self.assertNotIn('Куплет', parser.blocks[0])
+        self.assertEqual(parser.blocks, [])
+        self.assertNotIn('song-prose', output)
 
     def test_unlabelled_tab_strings_share_groups_of_six(self):
-        output = str(song_layout('Dm Am E<br/>' + '-----1-0---<br/>' * 12 + 'Текст<br/>'))
+        output = str(song_layout('Dm Am E<br/>' + '-----1-0---<br/>' * 12 + '<br/>Текст<br/>'))
         parser = MusicBlocks()
         parser.feed(output)
         self.assertEqual(len(parser.blocks), 2)
@@ -140,14 +140,50 @@ class SongLayoutTests(unittest.TestCase):
                    for string in ['G-----9-7-', 'D----7----', 'A-7h9-----', 'E---------']]
         self.assertEqual(len(set(columns)), 1)
 
-    def test_city_unlabelled_tabs_are_not_part_of_lyric_verse(self):
+    def test_city_sung_tabs_and_lyrics_share_a_verse(self):
         source = (Path(__file__).resolve().parent.parent / 'content/аккорды/Город.html').read_text()
         raw = source.split('{% raw %}', 1)[1].split('{% endraw %}', 1)[0]
         output = str(song_layout(raw, 'Город'))
         parser = MusicBlocks()
         parser.feed(output)
-        self.assertTrue(any('-----1-0------------1-0-----------0-' in block for block in parser.blocks))
+        self.assertEqual(output.count('class="song-passage verse-block"'), 1)
+        verse = output.split('class="song-passage verse-block"', 1)[1].split('class="song-prose', 1)[0]
+        self.assertIn('-----1-0------------1-0-----------0-', verse)
+        self.assertIn('Под небом голубым', verse)
         self.assertNotIn('Под небом голубым', ''.join(parser.blocks))
+
+    def test_electric_dog_side_by_side_chords_stay_with_last_lyric(self):
+        from audit_layout import RenderedText
+        source = (Path(__file__).resolve().parent.parent / 'content/аккорды/Электрический_пёс.html').read_text()
+        raw = source.split('{% raw %}', 1)[1].split('{% endraw %}', 1)[0]
+        parser = RenderedText()
+        parser.feed(str(song_layout(raw, 'Электрический пёс')))
+        for first, last in [('Долгая память хуже, чем сифилис,',
+                             'С прицельным вниманьем глядит электрический пёс.'),
+                            ('У этой песни нет конца и начала,',
+                             'И я отвечу загадочно: «Ах, если б я знал это сам...»')]:
+            block = next(b for b in parser.blocks if any(first in row for row in b['rows']))
+            self.assertEqual(block['kind'], 'verse-block')
+            self.assertTrue(any(last in row for row in block['rows']))
+            self.assertTrue(any('Dm/c' in row and 'H----------' in row for row in block['rows']))
+        self.assertEqual(sum(b['kind'] == 'music-block' for b in parser.blocks), 3)
+
+    def test_instrumental_label_keeps_riffs_separate_from_following_text(self):
+        output = str(song_layout('Вступление:<br/>C Am<br/>E-4h5-3-0----<br/>'
+                                 'H------------<br/>G------------<br/>Гоп-стоп.<br/>'))
+        parser = MusicBlocks()
+        parser.feed(output)
+        self.assertEqual(len(parser.blocks), 1)
+        self.assertNotIn('Гоп-стоп', parser.blocks[0])
+
+    def test_instrument_annotations_are_not_sung_text(self):
+        for annotation in ('|быстро 3 раза|', ':еинелпутсВ', 'E-■-|---|---|---|---|'):
+            output = str(song_layout(annotation + '<br/>E-0---<br/>H-1---<br/>'
+                                     'G-2---<br/>E-0---<br/>H-1---<br/>G-2---<br/>'))
+            parser = MusicBlocks()
+            parser.feed(output)
+            self.assertEqual(len(parser.blocks), 2, annotation)
+            self.assertNotIn('verse-block', output, annotation)
 
     def test_two_trains_first_verse_includes_starred_chords(self):
         source = (Path(__file__).resolve().parent.parent / 'content/аккорды/Два_поезда.html').read_text()

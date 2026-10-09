@@ -12,6 +12,9 @@ CHORD_UNIT = r'[A-H][#b♯♭]?(?:(?:maj|min|dim|aug|sus|add|m|M)|\d|\+[a-h][#b�
 CHORD = re.compile(r'(?:%s)(?:[:=,]?(?:%s))*[,;]?' % (CHORD_UNIT, CHORD_UNIT))
 CHORD_LETTERS = str.maketrans('АВСЕНавсен', 'ABCEHabceh')
 TAB_DASHES = str.maketrans('–—−‑', '----')
+INSTRUMENTAL_CUE = re.compile(
+    r'^(?:Вступление|Проигрыш|Заключение|Кода|Соло|Бас|Флейта|Колокол|Гудок|'
+    r'Мандолина|Гитара\s*\d*)\s*:', re.I)
 
 
 def apostrophes(text):
@@ -26,7 +29,9 @@ def tab_string(text):
         return match[1]
     # Some archived six-string groups omit E/H/G/D/A/E after the first
     # group. Treat their strict dash/number notation as tabs too.
-    if re.fullmatch(r'[-|0-9][-|0-9hHpPbBrRsStTxX/\\~^().]{5,}', text.strip()) and text.count('-') >= 2:
+    if (re.fullmatch(r'[-|0-9][-|0-9hHpPbBrRsStTxX/\\~^().]{5,}', text.strip())
+            and text.count('-') >= 2
+            and (text.lstrip().startswith(('-', '|')) or text.count('-') >= 5)):
         return '?'
     return None
 
@@ -55,7 +60,8 @@ def musical_line(text):
         # Short, unlabelled sustained notes can sit above sung fragments.
         # They need alignment with the whole passage, not six-string slicing.
         return (re.fullmatch(r'[-|0-9][-|0-9hHpPbBrRsStTxX/\\~^().]{2,}', token)
-                and re.search(r'[-|~]', token) and re.search(r'\d', token))
+                and re.search(r'[-|~]', token) and re.search(r'\d', token)
+                and (token.startswith(('-', '|')) or re.search(r'[~^]', token)))
     return any(note(token) for token in tokens) and all(note(token) or re.fullmatch(
         r'[|:.,/–—_=…-]+', token) for token in tokens)
 
@@ -167,6 +173,26 @@ class SongLines(HTMLParser):
             while self.lines and not self.lines[0][1].strip():
                 self.lines.pop(0)
 
+        # Tabs in a sung passage are part of its score, including chords placed
+        # beside the strings. Splitting at those tabs detaches the last chord
+        # row from its lyric. Explicit instrumental sections keep their own
+        # riff groups; blank lines still separate verses.
+        sung_tabs = set()
+        passage = []
+        for index, (markup, text) in enumerate(self.lines + [('', '')]):
+            if text.strip():
+                passage.append(index)
+                continue
+            rows = [self.lines[i] for i in passage]
+            has_tabs = any(tab_string(row) for _, row in rows)
+            has_lyrics = any(not musical_line(row) and re.search(r'[a-zа-яё]', row, re.I)
+                             and not re.search(r'<i(?:\s|>)', html, re.I)
+                             and not re.search(r'Гребенщиков|Подбор:|Каподастр|^\s*[|:]|■', row, re.I)
+                             for html, row in rows)
+            if has_tabs and has_lyrics and not any(INSTRUMENTAL_CUE.match(row.strip()) for _, row in rows):
+                sung_tabs.update(passage)
+            passage.clear()
+
         def emit_music():
             if music:
                 result.append('<div class="song-passage music-block" tabindex="0" '
@@ -207,6 +233,9 @@ class SongLines(HTMLParser):
                 emit_music()
                 emit_verse()
                 result.append('<div class="song-prose song-line">%s</div>' % markup)
+            elif index in sung_tabs:
+                emit_music()
+                verse.append((markup, text))
             elif string:
                 if strings and (len(strings) >= 6
                                 or string != '?' and string in strings and not (string in ('E', 'e') and strings[-1] == 'A')):
