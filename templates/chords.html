@@ -1,19 +1,51 @@
 <!doctype html>
-<html>
+<html lang="ru">
   <head>
-    <meta content="text/html; charset=utf-8" http-equiv="Content-type"/>
-    <title>{{ title }} - аккорды, Аквариум и Борис Гребенщиков (БГ)</title>
-    <meta name="description" content="Аккорды к песне {{Title}}, Аквариум и Борис Гребенщиков">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ display_title or title }} - аккорды, Аквариум и Борис Гребенщиков (БГ)</title>
+    <meta name="description" content="Аккорды к песне {{ display_title or title }}, Аквариум и Борис Гребенщиков">
     <link rel="canonical" href="{{ canonical_url }}">
     <link rel="icon" href="/favicon.ico">
-
-    {% include 'tracking.html' %} 
+    <link rel="stylesheet" href="/css/archive.css?v={{ asset_version }}">
+    <script src="/js/archive.js?v={{ asset_version }}" defer></script>
+    {% include 'tracking.html' %}
   </head>
-  <body link="blue" style='font-family:"Courier New",monospace;font-size:10.0pt' vlink="purple">
-    {% block content %}{% endblock %}
-    {% if handbook_unid %}
-      <br/>
-      <a href="http://handbook.severov.net/handbook.nsf/1/{{ handbook_unid }}">{{ title }} в справочнике</a><br/>
-    {% endif %}
+  <body>
+    <div id="debug-view-controls" class="debug-view-controls" hidden>
+      <a id="debug-strip-toggle" href="?debug=1&amp;view=strips">Мобильная лента</a>
+    </div>
+    <main class="archive song-page">
+      {% set archived_content %}{% block content %}{% endblock %}{% endset %}
+      <header class="site-header">
+        <div class="archive-context">
+          <span class="archive-trail">{{ archived_content | song_context }}</span>
+          <a class="search-link" data-search-link href="/#search-query" aria-label="Найти песню" title="Найти песню"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg></a>
+        </div>
+        <div class="song-title-row">
+          <h1>{{ display_title or title }}</h1>
+          <div id="font-controls" class="font-controls" role="group" aria-label="Размер текста" hidden>
+            <span class="font-symbol" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m2 19 5-14 5 14M4 14h6M15 11c1-2 7-2 7 2v6m0-5h-4c-4 0-4 5 0 5 2 0 4-1 4-3"/></svg></span>
+            <button type="button" id="font-smaller" aria-label="Уменьшить текст"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12h20"/></svg></button>
+            <button type="button" id="font-larger" aria-label="Увеличить текст"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12h20M12 2v20"/></svg></button>
+          </div>
+        </div>
+      </header>
+      <article class="song-content" aria-label="Текст песни и аккорды">
+        {{ archived_content | song_layout(display_title or title) }}
+      </article>
+      {% if handbook_unid %}
+      <footer class="site-footer">
+        <a href="http://handbook.severov.net/handbook.nsf/1/{{ handbook_unid }}">{{ display_title or title }} в справочнике</a>
+      </footer>
+      {% endif %}
+      <nav id="debug-navigation" class="debug-navigation" aria-label="Проверка страниц" hidden>
+        <span>Debug · {{ song_number }}/{{ song_count }}</span>
+        {% if previous_song %}<a data-debug-prev href="{{ previous_song.url }}">← {{ previous_song.title }}</a>{% endif %}
+        {% if next_song %}<a data-debug-next href="{{ next_song.url }}">{{ next_song.title }} →</a>{% endif %}
+        <small>h / ←: предыдущая · l / →: следующая · j / ↓ / PgDn: вниз · k / ↑ / PgUp: вверх</small>
+        <a id="debug-exit" href="{{ canonical_url }}">Выключить debug</a>
+      </nav>
+    </main>
   </body>
 </html>

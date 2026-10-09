@@ -4,3 +4,4 @@
 *.swp
 separationend/
 public/
+__pycache__/

@@ -5,13 +5,21 @@ import os.path
 import codecs
 import json
 import argparse
+import hashlib
+from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape, meta
+from song_layout import apostrophes, song_context, song_layout
 
 env = Environment(
     loader=FileSystemLoader(('templates/', 'content/')),
     autoescape=select_autoescape(['html', 'xml'])
 )
+env.filters['song_layout'] = song_layout
+env.filters['song_context'] = song_context
+env.globals['asset_version'] = hashlib.sha256(
+    Path('static/css/archive.css').read_bytes() + Path('static/js/archive.js').read_bytes()
+).hexdigest()[:12]
 
 outdir = 'public/'
 indir = 'content/'
@@ -30,30 +38,34 @@ for fn in sorted(glob.glob(indir + 'аккорды/*.html')):
     bn = os.path.relpath(fn, indir)
 
     tmpl = env.get_template(bn)
-    title = tmpl.module.title
+    title = apostrophes(tmpl.module.title)
     try:
         extra_title = ' ' + tmpl.module.extra_title
     except AttributeError:
         extra_title = ''
 
     path = bn.rsplit('.', 1)[0]
-    canonical_url = canonical_base + path
-    filename = path + '.html' if args.html else path
-    out = codecs.open(os.path.join(outdir, filename),
-        'w', 'utf8')
-    out.write(tmpl.render(canonical_url=canonical_url))
-    out.close()
     chords.append({'title': title,
                    'extra_title': extra_title,
-                   'url': '/' + path})
+                   'url': '/' + path,
+                   'template': bn})
 
 chords = sorted(chords, key=lambda e: e['title'])
-half = (len(chords) + 1) // 2
+for index, chord in enumerate(chords):
+    path = chord['url'].lstrip('/')
+    filename = path + '.html' if args.html else path
+    with codecs.open(os.path.join(outdir, filename), 'w', 'utf8') as out:
+        out.write(env.get_template(chord['template']).render(
+            display_title=chord['title'],
+            canonical_url=canonical_base + path,
+            previous_song=chords[index - 1] if index else None,
+            next_song=chords[index + 1] if index + 1 < len(chords) else None,
+            song_number=index + 1, song_count=len(chords)))
 
 tmpl = env.get_template('index.html')
 
 out = codecs.open(os.path.join(outdir, 'index.html'),
         'w', 'utf8')
-out.write(tmpl.render(chords1=chords[:half], chords2=chords[half:],
+out.write(tmpl.render(chords=chords,
                       canonical_url=canonical_base))
 out.close()
