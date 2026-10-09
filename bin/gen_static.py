@@ -51,16 +51,13 @@ for fn in sorted(glob.glob(indir + 'аккорды/*.html')):
                    'template': bn})
 
 chords = sorted(chords, key=lambda e: e['title'])
-for index, chord in enumerate(chords):
+for chord in chords:
     path = chord['url'].lstrip('/')
     filename = path + '.html' if args.html else path
     with codecs.open(os.path.join(outdir, filename), 'w', 'utf8') as out:
         out.write(env.get_template(chord['template']).render(
             display_title=chord['title'],
-            canonical_url=canonical_base + path,
-            previous_song=chords[index - 1] if index else None,
-            next_song=chords[index + 1] if index + 1 < len(chords) else None,
-            song_number=index + 1, song_count=len(chords)))
+            canonical_url=canonical_base + path))
 
 tmpl = env.get_template('index.html')
 

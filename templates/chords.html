@@ -12,9 +12,6 @@
     {% include 'tracking.html' %}
   </head>
   <body>
-    <div id="debug-view-controls" class="debug-view-controls" hidden>
-      <a id="debug-strip-toggle" href="?debug=1&amp;view=strips">Мобильная лента</a>
-    </div>
     <main class="archive song-page">
       {% set archived_content %}{% block content %}{% endblock %}{% endset %}
       <header class="site-header">
@@ -39,13 +36,6 @@
         <a href="http://handbook.severov.net/handbook.nsf/1/{{ handbook_unid }}">{{ display_title or title }} в справочнике</a>
       </footer>
       {% endif %}
-      <nav id="debug-navigation" class="debug-navigation" aria-label="Проверка страниц" hidden>
-        <span>Debug · {{ song_number }}/{{ song_count }}</span>
-        {% if previous_song %}<a data-debug-prev href="{{ previous_song.url }}">← {{ previous_song.title }}</a>{% endif %}
-        {% if next_song %}<a data-debug-next href="{{ next_song.url }}">{{ next_song.title }} →</a>{% endif %}
-        <small>h / ←: предыдущая · l / →: следующая · j / ↓ / PgDn: вниз · k / ↑ / PgUp: вверх</small>
-        <a id="debug-exit" href="{{ canonical_url }}">Выключить debug</a>
-      </nav>
     </main>
   </body>
 </html>
