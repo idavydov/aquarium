@@ -36,17 +36,134 @@ def visible_lines(html):
 
 class SongLayoutTests(unittest.TestCase):
     def test_chords_and_tabs_are_recognized_but_prose_is_not(self):
-        for text in ('   C   Am', 'Dm Dm/c G', '5:II 5:III', '   H----------3-1',
+        for text in ('   C   Am', 'Dm Dm/c G', 'A* A* Hm', 'Em+f# Em+g A+7', 'Am С G',
+                     'Cm(III) G/f#(III)', 'A D D/с#',
+                     'A7sus4 Aadd13- G6add9+', 'B/5- B/5-/g', 'C/5+/d# Bm/5-/c#',
+                     'F+7add11+/d F+7/5-/c', 'G+7/h G+7/a', 'Em/f#+a H7(II)Em',
+                     'Dsus4:D G*F* CF G,', 'Am, Em D - 2p.',
+                     'Am,Em Am!!! C! A7_____________', 'Esus2… - 7p…',
+                     'A Dm ,C G', 'D D C C - 4 p.', 'G (III) F Em',
+                     '(Dm Gm6/b Gm6/a Dm/f Gsus2/e*) = Dm* - 6p.',
+                     'G(III):G7(III):G6(III): G7(III)*', '…G A7/c#', '_____ C(III) H B H',
+                     '-8~~ -11~', '-10~ E -13~', 'H -10~ -13~',
+                     '5:II 5:III', '   H----------3-1', '-----1-0------------1-0-----------0-',
+                     '2-------2-----------------------2-------2-------------',
+                     'D—0-------------------------', 'E-0—9-10---10-12-10h11-12',
                      'E-4h5-3-0----', 'E-5p3-0---', 'G-5/7-5---'):
             self.assertTrue(musical_line(text), text)
-        for text in ('И мы несём свою вахту', 'Here comes the sun', 'Каподастр на 3-м ладу', '....'):
+        for text in ('И мы несём свою вахту', 'Here comes the sun', 'Каподастр на 3-м ладу', '....', '(1998)'):
             self.assertFalse(musical_line(text), text)
 
-    def test_chord_pair_scrolls_without_enclosing_plain_verses(self):
-        output = str(song_layout('  C&nbsp; Am<br/>Первая строка<br/>Вторая строка<br/>'))
-        self.assertIn('music-block', output)
-        self.assertIn('song-prose song-line">Вторая строка', output)
-        self.assertEqual(visible_lines(output), ['C\u00a0 Am', 'Первая строка', 'Вторая строка'])
+    def test_whole_chord_verse_scrolls_but_next_plain_verse_wraps(self):
+        output = str(song_layout('  C&nbsp; Am<br/>Первая строка<br/>Вторая строка<br/>'
+                                 ' Dm G<br/>Третья строка<br/>&nbsp;<br/>Обычный куплет<br/>'))
+        self.assertEqual(output.count('class="song-passage verse-block"'), 1)
+        self.assertIn('song-line">Вторая строка', output)
+        self.assertNotIn('song-prose song-line">Вторая строка', output)
+        self.assertIn('song-prose song-line">Обычный куплет', output)
+        self.assertEqual(visible_lines(output), ['C\u00a0 Am', 'Первая строка', 'Вторая строка',
+                                                ' Dm G', 'Третья строка', '\u00a0', 'Обычный куплет'])
+
+    def test_separate_chord_verses_have_separate_scroll_areas(self):
+        output = str(song_layout('Am<br/>Первый куплет<br/><br/>C<br/>Второй куплет<br/>'))
+        self.assertEqual(output.count('class="song-passage verse-block"'), 2)
+
+    def test_tab_interrupts_verse_and_keeps_its_own_chord_heading(self):
+        output = str(song_layout('C<br/>Куплет<br/> Am<br/>E-0---<br/>H-1---<br/>G-2---<br/>'
+                                 'Dm<br/>Продолжение куплета<br/>'))
+        self.assertEqual(output.count('class="song-passage verse-block"'), 2)
+        parser = MusicBlocks()
+        parser.feed(output)
+        self.assertEqual(len(parser.blocks), 1)
+        self.assertIn('Am', parser.blocks[0])
+        self.assertNotIn('Куплет', parser.blocks[0])
+
+    def test_unlabelled_tab_strings_share_groups_of_six(self):
+        output = str(song_layout('Dm Am E<br/>' + '-----1-0---<br/>' * 12 + 'Текст<br/>'))
+        parser = MusicBlocks()
+        parser.feed(output)
+        self.assertEqual(len(parser.blocks), 2)
+        self.assertEqual(parser.blocks[0].count('-----1-0---'), 6)
+        self.assertEqual(parser.blocks[1].count('-----1-0---'), 6)
+        self.assertIn('song-prose song-line">Текст', output)
+
+    def test_unicode_dashes_do_not_split_tab_strings_or_change_text(self):
+        raw = 'G------2---<br/>D—0-------<br/>A----------<br/>E-0—0------<br/>'
+        output = str(song_layout(raw))
+        parser = MusicBlocks()
+        parser.feed(output)
+        self.assertEqual(len(parser.blocks), 1)
+        self.assertIn('D—0-------', parser.blocks[0])
+        self.assertIn('E-0—0------', parser.blocks[0])
+
+    def test_chord_annotation_inside_incomplete_riff_keeps_strings_together(self):
+        raw = 'D<br/>G-----9-7-<br/>Dadd9(X) E9-/d(IX) G6/d(VIII)<br/>'
+        raw += 'D----7----<br/>A-7h9-----<br/>E---------<br/>'
+        output = str(song_layout(raw))
+        parser = MusicBlocks()
+        parser.feed(output)
+        self.assertEqual(len(parser.blocks), 1)
+        self.assertIn('Dadd9(X)', parser.blocks[0])
+        self.assertEqual(visible_lines(output), visible_lines(raw))
+
+    def test_compound_chords_keep_whole_verse_in_one_region(self):
+        raw = 'F+7add11+/d C<br/>Первая строка<br/>F+7/5-/c Em<br/>Вторая строка<br/>'
+        output = str(song_layout(raw))
+        self.assertEqual(output.count('class="song-passage verse-block"'), 1)
+        self.assertNotIn('song-prose', output)
+        self.assertEqual(visible_lines(output), visible_lines(raw))
+
+    def test_sustained_notes_keep_sung_fragments_aligned(self):
+        raw = '-8~~ -11~<br/>-10~ E -13~<br/>А-мито-<br/>Ещё один, упавший вниз.<br/>-бо<br/>'
+        output = str(song_layout(raw))
+        self.assertEqual(output.count('class="song-passage verse-block"'), 1)
+        self.assertNotIn('song-prose', output)
+        self.assertEqual(visible_lines(output), visible_lines(raw))
+
+    def test_real_altered_chord_verses_do_not_escape_to_prose(self):
+        root = Path(__file__).resolve().parent.parent / 'content/аккорды'
+        for name in ['Боже,_храни_полярников', 'Волки_и_вороны', 'С_той_стороны_зеркального_стекла']:
+            source = (root / (name + '.html')).read_text()
+            raw = source.split('{% raw %}', 1)[1].split('{% endraw %}', 1)[0]
+            output = str(song_layout(raw, name))
+            self.assertGreaterEqual(output.count('class="song-passage verse-block"'), 2, name)
+
+    def test_mountain_crystal_ending_riff_remains_one_group(self):
+        source = (Path(__file__).resolve().parent.parent / 'content/аккорды/Горный_хрусталь.html').read_text()
+        raw = source.split('{% raw %}', 1)[1].split('{% endraw %}', 1)[0]
+        parser = MusicBlocks()
+        parser.feed(str(song_layout(raw, 'Горный хрусталь')))
+        last = parser.blocks[-1]
+        for string in ['G-----9-7-', 'D----7----', 'A-7h9-----', 'E---------']:
+            self.assertIn(string, last)
+        columns = [next(line.index(string) for line in last.splitlines() if string in line)
+                   for string in ['G-----9-7-', 'D----7----', 'A-7h9-----', 'E---------']]
+        self.assertEqual(len(set(columns)), 1)
+
+    def test_city_unlabelled_tabs_are_not_part_of_lyric_verse(self):
+        source = (Path(__file__).resolve().parent.parent / 'content/аккорды/Город.html').read_text()
+        raw = source.split('{% raw %}', 1)[1].split('{% endraw %}', 1)[0]
+        output = str(song_layout(raw, 'Город'))
+        parser = MusicBlocks()
+        parser.feed(output)
+        self.assertTrue(any('-----1-0------------1-0-----------0-' in block for block in parser.blocks))
+        self.assertNotIn('Под небом голубым', ''.join(parser.blocks))
+
+    def test_two_trains_first_verse_includes_starred_chords(self):
+        source = (Path(__file__).resolve().parent.parent / 'content/аккорды/Два_поезда.html').read_text()
+        raw = source.split('{% raw %}', 1)[1].split('{% endraw %}', 1)[0]
+        output = str(song_layout(raw, 'Два поезда'))
+        self.assertEqual(output.count('class="song-passage verse-block"'), 1)
+        self.assertIn('song-prose song-line">\nЕсли ты рододендрон', output)
+
+    def test_author_without_blank_separator_stays_outside_verse(self):
+        output = str(song_layout('<span style="color:red">Песня<br/></span>'
+                                 '<i>Б. Гребенщиков</i>&nbsp;<br/>C9<br/>Первый куплет<br/>', 'Песня'))
+        credit, verse = output.split('class="song-passage verse-block"', 1)
+        self.assertIn('song-prose song-line', credit)
+        self.assertIn('<i>Б. Гребенщиков</i>', credit)
+        self.assertNotIn('Б. Гребенщиков', verse)
+        self.assertIn('Первый куплет', verse)
 
     def test_inline_formatting_is_balanced_at_line_boundaries(self):
         output = str(song_layout('<i><span style="color:red">Em<br/>Текст<br/></span></i>'))

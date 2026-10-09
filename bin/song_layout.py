@@ -6,7 +6,12 @@ import re
 from markupsafe import Markup
 
 
-CHORD = re.compile(r'[A-H][#b♯♭]?(?:(?:maj|min|dim|aug|sus|add|m|M)\d*)*\d*(?:\([^)]*\))?(?:/[A-Ha-h][#b♯♭]?)?')
+# The source mixes modern extension notation, altered degrees (/5-), bass
+# notes (+g or /g), and changes written without spaces (Dsus4:D, H7(II)Em).
+CHORD_UNIT = r'[A-H][#b♯♭]?(?:(?:maj|min|dim|aug|sus|add|m|M)|\d|\+[a-h][#b♯♭]?|[+-]|/(?:\d+[+-]?|[A-Ha-h][#b♯♭]?)|\([^)]*\))*[*_!.…]*'
+CHORD = re.compile(r'(?:%s)(?:[:=,]?(?:%s))*[,;]?' % (CHORD_UNIT, CHORD_UNIT))
+CHORD_LETTERS = str.maketrans('АВСЕНавсен', 'ABCEHabceh')
+TAB_DASHES = str.maketrans('–—−‑', '----')
 
 
 def apostrophes(text):
@@ -15,20 +20,44 @@ def apostrophes(text):
 
 
 def tab_string(text):
+    text = text.translate(TAB_DASHES)
     match = re.search(r'(?:^|\s)([EHGDABe])[-|][-|0-9hHpPbBrRsStTxX/\\~^().]{2,}', text)
-    return match[1] if match else None
+    if match:
+        return match[1]
+    # Some archived six-string groups omit E/H/G/D/A/E after the first
+    # group. Treat their strict dash/number notation as tabs too.
+    if re.fullmatch(r'[-|0-9][-|0-9hHpPbBrRsStTxX/\\~^().]{5,}', text.strip()) and text.count('-') >= 2:
+        return '?'
+    return None
 
 
 def musical_line(text):
     text = text.strip()
     # Hammer-ons, pull-offs and slides are part of a string line too. Testing
     # just its first few characters incorrectly split E-4h5 from H/G below it.
-    if re.search(r'(?:^|\s)[EHGDABe][-|][-|0-9hHpPbBrRsStTxX/\\~^().]{2,}', text):
+    if tab_string(text):
         return True
+    text = re.sub(r'\b(\d+)\s+([pрr])([.…]*)', r'\1\2\3', text)
     tokens = text.split()
-    note = lambda token: CHORD.fullmatch(token) or re.fullmatch(r'(?:\d+:[IVX\d]+|fl\d+)', token)
+    # Latin-looking Cyrillic letters occur in chord rows in the old archive.
+    # Normalize for recognition only; keep the rendered source text intact.
+    def note(token):
+        chord = token.translate(CHORD_LETTERS).lstrip('_…,').rstrip(':')
+        # Parentheses also bracket entire progressions, separately from a
+        # chord's balanced fret-position suffix such as Am(V).
+        if chord.startswith('(') and chord.count('(') > chord.count(')'):
+            chord = chord[1:]
+        if chord.endswith(')') and chord.count(')') > chord.count('('):
+            chord = chord[:-1]
+        if CHORD.fullmatch(chord) or re.fullmatch(
+                r'(?:(?:\d+:[IVX\d]+|fl\d+)[.…]*|\d+[pрr][. …]*|\([IVX]+\))', token):
+            return True
+        # Short, unlabelled sustained notes can sit above sung fragments.
+        # They need alignment with the whole passage, not six-string slicing.
+        return (re.fullmatch(r'[-|0-9][-|0-9hHpPbBrRsStTxX/\\~^().]{2,}', token)
+                and re.search(r'[-|~]', token) and re.search(r'\d', token))
     return any(note(token) for token in tokens) and all(note(token) or re.fullmatch(
-        r'[|:./–—-]+', token) for token in tokens)
+        r'[|:.,/–—_=…-]+', token) for token in tokens)
 
 
 def relative_font(tag):
@@ -120,6 +149,8 @@ class SongLines(HTMLParser):
         result = []
         music = []
         strings = []
+        verse = []
+        leading_metadata = bool(self.title)
 
         # Every archived page starts with a presentation-only red title. Its
         # spelling need not match the metadata (some old copies contain typos).
@@ -144,24 +175,69 @@ class SongLines(HTMLParser):
                 music.clear()
                 strings.clear()
 
-        for markup, text in self.lines:
-            line = '<div class="song-line">%s</div>' % markup
-            if musical_line(text):
-                string = tab_string(text)
-                if strings and (not string or len(strings) >= 6
-                                or string in strings and not (string in ('E', 'e') and strings[-1] == 'A')):
-                    emit_music()
-                music.append(line)
-                if string:
-                    strings.append(string)
-            elif text.strip() and music:
-                # Keep the lyric directly below its chord line aligned with it.
-                music.append(line)
-                emit_music()
+        def emit_verse():
+            if not verse:
+                return
+            # Explicit blank lines delimit passages; do not infer verse breaks
+            # from punctuation or meaning. Only chord-bearing passages need
+            # shared horizontal scrolling. Ordinary prose remains wrappable.
+            chords = any(musical_line(text) for _, text in verse)
+            lines = ''.join('<div class="%ssong-line">%s</div>'
+                            % ('' if chords else 'song-prose ', markup)
+                            for markup, _ in verse)
+            if chords:
+                result.append('<div class="song-passage verse-block" tabindex="0" '
+                              'role="region" aria-label="Аккорды и текст куплета">'
+                              + lines + '</div>')
             else:
+                result.append(lines)
+            verse.clear()
+
+        for index, (markup, text) in enumerate(self.lines):
+            line = '<div class="song-line">%s</div>' % markup
+            string = tab_string(text)
+            if text.strip():
+                # Author/capo credits sometimes have no empty line before the
+                # first chord. Keep leading italic metadata out of that verse.
+                if leading_metadata and not musical_line(text) and re.search(r'<i(?:\s|>)', markup, re.I):
+                    result.append('<div class="song-prose song-line">%s</div>' % markup)
+                    continue
+                leading_metadata = False
+            if not text.strip():
                 emit_music()
+                emit_verse()
                 result.append('<div class="song-prose song-line">%s</div>' % markup)
+            elif string:
+                if strings and (len(strings) >= 6
+                                or string != '?' and string in strings and not (string in ('E', 'e') and strings[-1] == 'A')):
+                    emit_music()
+                # Chords immediately above a tab belong to that tab group,
+                # rather than pulling the introduction or verse into it.
+                prefix = []
+                while verse and musical_line(verse[-1][1]):
+                    prefix.insert(0, verse.pop()[0])
+                emit_verse()
+                music.extend('<div class="song-line">%s</div>' % chord for chord in prefix)
+                music.append(line)
+                strings.append(string)
+            else:
+                # Chord annotations may sit between strings of an unfinished
+                # riff. Keep them together only when the next string continues
+                # this group; repeated labels still begin independent riffs.
+                if strings and len(strings) < 6 and musical_line(text):
+                    next_string = None
+                    for _, following in self.lines[index + 1:]:
+                        next_string = tab_string(following)
+                        if next_string or not musical_line(following):
+                            break
+                    if next_string and (next_string == '?' or next_string not in strings
+                                        or next_string in ('E', 'e') and strings[-1] == 'A'):
+                        music.append(line)
+                        continue
+                emit_music()
+                verse.append((markup, text))
         emit_music()
+        emit_verse()
         return ''.join(result)
 
 
