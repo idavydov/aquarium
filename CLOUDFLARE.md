@@ -15,6 +15,19 @@ python3 bin/check_pages.py
 The build replaces the generated `public/` directory. The existing SSH publish
 script still generates extensionless files for the previous server.
 
+## Random review route
+
+`/r?r=r` serves a newly selected song on every request without redirecting.
+`/r` without the switch returns 404. The route is unlinked and omitted from
+robots.txt and the sitemap. Responses use `no-store` and `X-Robots-Tag: noindex,
+nofollow`; song HTML, canonical URLs and ordinary static routes stay intact.
+
+The build bundles `bin/random_worker.mjs` with the generated song paths into
+Pages advanced mode's `public/_worker.js`. `_routes.json` invokes it only on
+`/r`. The Python preview server supports the same route, including `--no-js`.
+
+Validate the handler after building with `node --test bin/test_random_worker.mjs`.
+
 ## Pages settings
 
 Create a Pages project connected to this GitHub repository:
