@@ -75,7 +75,8 @@
     }
   }
 
-  document.querySelectorAll('a[href="/"], [data-search-link]').forEach(link => decorateLink(link, query));
+  document.querySelectorAll('a[href="/"]').forEach(link => decorateLink(link, ''));
+  document.querySelectorAll('[data-search-link]').forEach(link => decorateLink(link, ''));
   document.addEventListener('keydown', event => {
     if (event.key !== '/' || event.defaultPrevented || event.altKey || event.ctrlKey || event.metaKey
         || event.target.closest('input, textarea, select, [contenteditable]:not([contenteditable="false"])')) return;
