@@ -6,6 +6,7 @@
     <meta name="description" content="Аквариум, БГ, Борис Гребенщиков, аккорды, aquariumchords, separationend.narod.ru">
     <meta name="author" content="Iakov Davydov">
     <link rel="canonical" href="{{ canonical_url }}">
+    <script src="/js/theme.js?v={{ asset_version }}"></script>
     <link rel="icon" href="/favicon.ico">
     <link rel="stylesheet" href="/css/archive.css?v={{ asset_version }}">
     <script src="/js/archive.js?v={{ asset_version }}" defer></script>
@@ -16,6 +17,7 @@
     <main class="archive index-page">
       <header class="site-header">
         <h1>Аквариум и БГ, аккорды</h1>
+        {% include 'theme_button.html' %}
       </header>
       <form id="song-search" class="song-search" role="search" hidden>
         <div class="search-controls">

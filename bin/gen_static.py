@@ -19,6 +19,7 @@ env.filters['song_layout'] = song_layout
 env.filters['song_context'] = song_context
 env.globals['asset_version'] = hashlib.sha256(
     Path('static/css/archive.css').read_bytes() + Path('static/js/archive.js').read_bytes()
+    + Path('static/js/theme.js').read_bytes()
 ).hexdigest()[:12]
 
 outdir = 'public/'
