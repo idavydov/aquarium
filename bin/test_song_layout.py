@@ -1,6 +1,7 @@
 """Focused regressions for the static mobile layout; no archive-wide browser sweep."""
 from html.parser import HTMLParser
 from pathlib import Path
+import re
 import unittest
 
 from song_layout import apostrophes, clean_start_tag, musical_line, relative_font, song_context, song_layout, split_context
@@ -175,6 +176,31 @@ class SongLayoutTests(unittest.TestCase):
         parser.feed(output)
         self.assertEqual(len(parser.blocks), 1)
         self.assertNotIn('Гоп-стоп', parser.blocks[0])
+
+    def test_day_of_joy_five_string_riffs_keep_their_own_chord_heading(self):
+        from audit_layout import RenderedText
+        source = (Path(__file__).resolve().parent.parent / 'content/аккорды/День_радости_(Русский_альбом).html').read_text()
+        raw = source.split('{% raw %}', 1)[1].split('{% endraw %}', 1)[0]
+        parser = RenderedText()
+        parser.feed(str(song_layout(raw, 'День радости')))
+        riffs = [b for b in parser.blocks if b['kind'] == 'music-block']
+        self.assertEqual(len(riffs), 6)
+        for riff in riffs:
+            strings = [row.strip()[0] for row in riff['rows'] if re.match(r'\s*[EHGDA]-', row)]
+            self.assertEqual(strings, ['E', 'H', 'G', 'D', 'A'])
+            self.assertFalse(re.match(r'\s*[EHGDA]-', riff['rows'][0]))
+
+    def test_day_of_joy_pushkinskaya_keeps_full_six_string_riffs(self):
+        from audit_layout import RenderedText
+        source = (Path(__file__).resolve().parent.parent / 'content/аккорды/День_радости_(Пушкинская,_10).html').read_text()
+        raw = source.split('{% raw %}', 1)[1].split('{% endraw %}', 1)[0]
+        parser = RenderedText()
+        parser.feed(str(song_layout(raw, 'День радости')))
+        riffs = [b for b in parser.blocks if b['kind'] == 'music-block']
+        self.assertEqual(len(riffs), 2)
+        for riff in riffs:
+            strings = [row.strip()[0] for row in riff['rows'] if re.match(r'\s*[EHGDA]-', row)]
+            self.assertEqual(strings, ['E', 'H', 'G', 'D', 'A', 'E'])
 
     def test_instrument_annotations_are_not_sung_text(self):
         for annotation in ('|быстро 3 раза|', ':еинелпутсВ', 'E-■-|---|---|---|---|'):

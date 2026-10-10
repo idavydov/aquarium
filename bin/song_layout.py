@@ -296,8 +296,11 @@ class SongLines(HTMLParser):
                         next_string = tab_string(following)
                         if next_string or not musical_line(following):
                             break
-                    if next_string and (next_string == '?' or next_string not in strings
-                                        or next_string in ('E', 'e') and strings[-1] == 'A'):
+                    # A chord heading before a repeated E starts a new riff,
+                    # including scores which omit the low sixth string. An E
+                    # immediately after A (without a heading) can still be the
+                    # sixth string of the current group.
+                    if next_string and (next_string == '?' or next_string not in strings):
                         music.append(line)
                         continue
                 emit_music()
